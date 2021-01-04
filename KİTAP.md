@@ -188,6 +188,10 @@ Association (Ağa kayıt olma): İstemciler kimlik doğrulama adımını geçtik
 WEP 
 Hem şifreleme protokolünün hem de kimlik doğrulama işleminin adıdır. Bu güvenlik protokolünde ilk başlarda kısıtlamalardan dolayı 64 bitlik WEP key kullanılıyordu. 64 bitin, 24 biti verinin şifrelenmesi ve çözülmesi için kullanılan initialization vector(kısaca IV olarak anılır) ve 40 biti ise anahtardan(key) oluşur. Anahtar diye bahsedilen aslında o kablosuz ağ için girilen parola bilgisidir. 40 bitlik bir yer ayrıldığı için parola olarak en fazla 10 alfanumerik karakter kullanılabilir. Bu 64 bit, RC4 denilen kriptografik bir algoritmayla işleme sokulur ve başka bir değer elde edilir. Son olarak oluşturulan değer ve asıl veri XOR mantıksal işlemine sokulur. Böylece WEP koruması sağlanarak şifreli veri oluşturulur. Daha sonradan bazı kısıtlamalar kaldırılmış ve 128 bit,152 bit, 256 bit destekleyen WEP sistemleri bazı üreticiler tarafından sağlanmıştır. Bunlar içinde IV değeri 24 bittir.
 
+
+
+![3](https://user-images.githubusercontent.com/66878884/103550708-5dd42580-4eba-11eb-846a-b9ce205e1f9c.jpg)
+
  
 
 WPA/WPA2 WEP üzerindeki ciddi güvenlik zafiyetleri dolayısıyla geçici bir çözüm olarak, 2003 yılında 802.11 veri güvenliğinde ve şifreleme metodundaki geliştirmelerle ortaya çıkmıştır. TKIP şifreleme metodunu kullanan WPA tanıtılmıştır. Bu sadece geçici bir çözümdür. 2004 yılında ise 802.11i yayınlanmıştır. Bu yeni standartta veri güvenliği için AES şifreleme algoritması ve CCMP şifreleme metodunun kullanıldığı WPA2 ortaya çıkmıştır. Kimlik doğrulama metodu için ise 802.1X(kurumsal) ve Preshared Key(PSK)(kişisel ve küçük ölçekli kullanım için) metotları geliştirilmiştir. WPA2’de parolanın doğrulanma aşaması 4’lü el sıkışmayla(4 way handshake) tamamlanır. WPA’da şifreleme metodu olarak TKIP kullanılmaktadır. AES-CCMP ve WEP’i de bazı durumlarda destekler. WEP’teki zafiyetlere karşı 3 güvenlik önlemi ile gelmiştir. ● Birincisi, anahtar ve IV, kriptografik algoritmaya tabi tutulmadan önce bir fonksiyona sokulur ve o şekilde gönderilir. WEP
@@ -218,15 +222,22 @@ MAC tabanlı erişim kontrolü Piyasada yaygın kullanılan erisim noktası(AP) 
 
 
  
- 
+![http](https://user-images.githubusercontent.com/66878884/103551114-ec48a700-4eba-11eb-829a-9240cd4521f6.jpg)
 
 
+
+![5](https://user-images.githubusercontent.com/66878884/103550719-60367f80-4eba-11eb-923b-6d5d9c2bfee8.jpg)
+
+
+![6](https://user-images.githubusercontent.com/66878884/103564254-405d8680-4ecf-11eb-8f10-7f6e5a75ccfe.jpg)
 
  
 
  
 Yukarıdaki çıktıda SSL sertifika uyumsuzluğundan Firefox’un verdiği uyarılar serisi sıraadn bir kullanıcıyı bile sayfadan kaçıracak türdendir. Dikkatsiz, her önüne gelen linke tıklayan, çıkan her popup okumadan yes’e basan kullanıcılar için bu risk azalsa da hala devam ediyor ama bilinçli kullanıcılar bu tip uyarılarda daha dikkatli olacaklardır. Peki bilinçli kullannıcıların gözünden kaçabilecek ve HTTPS’I güvensiz kılabilecek başka açıklıklar var mıdır? Bu sorunun kısa cevabı evet, uzun cevabına gelecek olursak…
 
+
+![7](https://user-images.githubusercontent.com/66878884/103564128-160bc900-4ecf-11eb-90ba-b9f6b4754ee8.jpg)
 
  
  
@@ -252,6 +263,12 @@ FTP ve Güvenlik Duvarları FTP Protokolü FTP, sık kullanılan protokoller(HTT
  FTP Çeşitleri FTP iki çeşittir: pasif ve aktif FTP. Her ikisininde farklı amaçlı kullanımları mevcuttur. Hangi FTP çeşidinin kullanılacağı ftp istemcisi tarafından belirlenir.
  Aktif FTP Bu FTP çeşidinde istemci aktif rol alır. Bilinenin aksine orjinal ftp aktif ftpdir fakat günümüz internet altyapısında çeşitli sorunlara yol açtığı için pasif ftp daha fazla tercih edilmektedir. Aktif ftp de çıkan sorunlar pasif ftpnin geliştirilmesini sağlamıştır. Adım adım Aktif FTP;
 
+
+
+
+![8](https://user-images.githubusercontent.com/66878884/103564130-173cf600-4ecf-11eb-91e0-333258f9636e.jpg)
+
+
  
 1)istemci FTP sunucuya Command portundan(21) bağlanır. 
 2)FTP sunucu gerekli karşılama mesajı ve kullanıcı adı sorgulamasını gönderir. -istemci gerekli erişim bilgilerini girer. -Sunucu erişimi bilgilerini kontrol ederek istemciye yanıt döner. Eğer erişim bilgileri doğru ise istemciye ftp komut satırı açılır. Burada istemci veri transferi yapmak istediğinde(ls komutunun çalıştırılması da veri transferi gerçekleştirir)3. adıma geçilir. -İstemci kendi tarafında 1024’den büyük bir port açar ve bunu PORT komutu ile FTP sunucuya bildirir. 
@@ -261,7 +278,13 @@ FTP ve Güvenlik Duvarları FTP Protokolü FTP, sık kullanılan protokoller(HTT
  
 
  
+ ![9](https://user-images.githubusercontent.com/66878884/103564131-17d58c80-4ecf-11eb-9671-960175bcd20e.jpg)
  
+ 
+ 
+
+
+
 
 
 
@@ -273,30 +296,35 @@ Bir Firewall’da HTTP bağlantısını açmak için sadece 80. portu açmanız 
  Yeni nesil Firewall’larda bu sıkıntı büyük ölçüde giderilmiş olsa da ara ara eksik yapılandırmalardan aynı hataların yaşandığını görüyoruz. Linux Iptables’da ftp problemini aşmak için mod ip_conntrack_ftp modülünün sisteme yüklenmesi gerekir. OpenBSD Packet Filter ise bu tip aykırı protokoller için en uygun yapı olan proxy mantığını kullanır. FTP için ftp-proxy, upnp için upnp proxy, sip için sip-proxy vs. Aktif FTP ve Güvenlik Duvarı FTP istemcinin önünde bir Firewall varsa istemci kendi tarafında port açsa bile bu porta izin Firewall tarafından verilmeyeceği için problem yaşanacaktır.
 
  
+![10](https://user-images.githubusercontent.com/66878884/103564134-1906b980-4ecf-11eb-9778-5716e3ccae04.jpg)
+
+
 
 
 
  
 
 TCP/IP Ağlarda Parçalanmış Paketler
-Parçalanmış Paketler Parçalanmış paketler(Fragmented Packets) konusu çoğu network ve güvenlik probleminin temelini teşkil etmektedir. Günümüzde tercih edilen NIDS/NIPS(Ağ tabanlı Saldırı Tespit ve Engelleme Sistemleri) sistemleri bu konuya bir çözüm getirse de hala eksik kalan, tam anlaşılmayan kısımlar vardır. Bu sebepledir ki günümüzde hala parçalanmış paketler aracılığıyla yapılan saldırılara karşı korunmasız olan popüler IPS yazılımları bulunmaktadır[1]. IP parçalamanın ne olduğu, hangi durumlarda nasıl gerçekleştiği, ikinci bölümde IP parçalamanın ne tip güvenlik zaafiyetlerine sebep olabileceği konuların üzerinde duracağız.
+Parçalanmış Paketler 
+Parçalanmış paketler(Fragmented Packets) konusu çoğu network ve güvenlik probleminin temelini teşkil etmektedir. Günümüzde tercih edilen NIDS/NIPS(Ağ tabanlı Saldırı Tespit ve Engelleme Sistemleri) sistemleri bu konuya bir çözüm getirse de hala eksik kalan, tam anlaşılmayan kısımlar vardır. Bu sebepledir ki günümüzde hala parçalanmış paketler aracılığıyla yapılan saldırılara karşı korunmasız olan popüler IPS yazılımları bulunmaktadır[1]. IP parçalamanın ne olduğu, hangi durumlarda nasıl gerçekleştiği, ikinci bölümde IP parçalamanın ne tip güvenlik zaafiyetlerine sebep olabileceği konuların üzerinde duracağız.
 
 
 
+![11](https://user-images.githubusercontent.com/66878884/103564136-199f5000-4ecf-11eb-807c-c4f0310091b8.jpg)
 
 
 
+![12](https://user-images.githubusercontent.com/66878884/103564139-1ad07d00-4ecf-11eb-86d6-2fe7dcb2518a.jpg)
 
- 
- 
 
- 
 
- 
- 
-
+![13](https://user-images.githubusercontent.com/66878884/103564141-1c01aa00-4ecf-11eb-8923-cef6957916f7.jpg)
 
  
+ ![14](https://user-images.githubusercontent.com/66878884/103564147-1d32d700-4ecf-11eb-892f-2b4e8781667b.jpg)
+
+
+
  
  
 Parçalanmış Paketler ve Saldırı Tespit Sistemleri 
@@ -306,9 +334,11 @@ Snort ve Parçalanmış Paketler Açık kaynak kodlu IDS/IPS yazılımı Snort p
 
  
  
- 
+ ![15](https://user-images.githubusercontent.com/66878884/103564153-1dcb6d80-4ecf-11eb-9677-f6743b2178d1.jpg)
 
- 
+
+ ![16](https://user-images.githubusercontent.com/66878884/103564157-1f953100-4ecf-11eb-8193-16860bb37e51.jpg)
+
 
 
 
@@ -344,6 +374,7 @@ yukarıda (-n için)verdiğimiz örnekte -n yerine -nn koyarsanız hem isim hemd
  -Zaman Damgası Gösterimi ( -t ) Eğer tcpdump'ın daha sade bir çıktı vermesini isteniyorsa ekrana bastığı satırların başındaki timestamp(zaman damgası, hangi paketin hangi zaman aralığında yakalandığını belirtir) kısmı iptal edilebilir. 
 Çıktılarda timestamp[zaman damgası]leri istenmiyorsa -t parametresi kullanılabilir.
  
+![17](https://user-images.githubusercontent.com/66878884/103564162-202dc780-4ecf-11eb-9068-8ebdb1065b3c.jpg)
 
 
 
@@ -355,6 +386,9 @@ Tcpdump'ın yakaladığı paketleri ekradan değilde sonradan incelemek üzere b
  -w ile kaydedilen paketler -r parametresi kullanılarak okunabilir.
  # tcpdump -r dosya_ismi 
 Not! -w ile herhangi bir dosyaya kaydederken filtreleme yapılabilir. Mesela sadece şu tip paketleri kaydet ya da timestampleri kaydetme gibi, aynı şekilde -r ile paketlerie okurken filtre belirtebiliriz. Bu filtrenin -w ile belirtilen filtre ile aynı olma zorunluluğu yoktur.
+
+![18](https://user-images.githubusercontent.com/66878884/103564166-20c65e00-4ecf-11eb-8e4d-6055ba0eed05.jpg)
+
 
  
 Yakalanacak Paket Sayısını Belirleme ( -c )
@@ -382,6 +416,7 @@ listening on eth0, link-type EN10MB (Ethernet), capture size 96 bytes
 
 Detaylı Loglama (-v) -v parametresi ile tcpump'dan biraz daha detaylı loglama yapmasını istenebilir. Mesela bu parametre ile tcpdump çıktılarını TTL ve ID değerleri ile birlikte edinebilir.
 
+![19](https://user-images.githubusercontent.com/66878884/103564169-215ef480-4ecf-11eb-9b2a-04b5794f1cad.jpg)
 
  
 Tcpdump kullanarak ethernet başlık bilgileri de yakalanabilir. Özellikle yerel ağlarda yapılan trafik analizlerinde MAC adresleri önemli bilgiler vermektedir.
@@ -411,20 +446,13 @@ dst ve src i aynı komuttada kullanabiliriz.
 # tcpdump src host 10.1.0.59 and dst host 10.1.0.1
 
 
- 
+ ![20](https://user-images.githubusercontent.com/66878884/103564170-21f78b00-4ecf-11eb-8fec-b6d026fe0ebd.jpg)
+
 
 
 
 TCP/IP
 Paket, protokol kavramlarının detaylı olaran anlaşılmasının en kolay yolu “Sniffer” olarak da adlandırılan ağ paket/protokol analiz programlarıyla pratik çalışmalar yapmaktır. Bu yazıda siber dünyada en sık kullanılan paket/protokol analiz programlarından Wireshark’ın komut satırı versiyonu kullanılarak ileri seviye paket, protokol analizi çalışmaları gerçekleştirilmiştir.
-
-
-
-
-
-
-
-
 
 
 
@@ -471,35 +499,57 @@ Arabirim Belirtme İstenilen arabirimi dinlemek için -i arabirim_ismi parametre
 
 
  
- 
- 
-            • Web sayfası/servislerinin isteklere geç cevap dönmesi 
+![21](https://user-images.githubusercontent.com/66878884/103564177-22902180-4ecf-11eb-92e9-398854eead1e.jpg)
+
+
+
+![22](https://user-images.githubusercontent.com/66878884/103564182-2328b800-4ecf-11eb-9f2a-7c8196ecfd2e.jpg)
+
+ • Web sayfası/servislerinin isteklere geç cevap dönmesi 
             • Ağ performansında yavaşlama 
             • İşletim sistemlerinde CPU/Ram performans problemi
              • Uyarı sistemlerinin çökmesi
- 
+
+
+![23](https://user-images.githubusercontent.com/66878884/103564187-2459e500-4ecf-11eb-8136-891b7eee65de.jpg)
+
  
 
 
 Synflood (D)DOS Saldırıları 
 1 SYN paketi 60 byte, 50Mb bağlantısı olan biri saniyede teorik olarak 1.000.000 kadar paket gönderebilir. Bu değer günümüzde kullanılan çoğu güvenlik cihazının kapasitesinden yüksektir.
+
+![24](https://user-images.githubusercontent.com/66878884/103564190-258b1200-4ecf-11eb-92e9-700a9d48be8e.jpg)
+
  
 Internet’i durdurma(DNS DOS)Saldırıları 
 İnternet’in çalışması için gerekli temel protokollerden biri DNS (isim çözme) protokolüdür. DNS ’in çalışmadığı bir internet, levhaları ve yönlendirmeleri olmayan bir yol gibidir. Yolu daha önceden bilmiyorsanız hedefinize ulaşmanız çok zordur. DNS protokolü ve dns sunucu yazılımlarında geçtiğimiz yıllarda çeşitli güvenlik açıklıkları çıktı. Bu açıklıkların bazıları doğrudan dns sunucu yazılımını çalışamaz hale getirme amaçlı DOS açıklıklarıdır. Özellikle internette en fazla kullanılan DNS sunucu yazılımı olan Bind’in bu açıdan geçmişi pek parlak değildir. DNS sunucular eğer dikkatli yapılandırılmadıysa gönderilecek rastgele milyonlarca dns isteğiyle zor durumda bırakılabilir. Bunun için internette çeşitli araçlar mevcuttur. DNS sunucunun loglama özelliği, eş zamanlı alabileceği dns istek sayısı, gereksiz rekursif sorgulamalara açık olması, gereksiz özelliklerinin açık olması (edns vs) vs hep DOS’a karşı sistemleri zor durumda bırakan sebeplerdir. DNS sunucularda çıkan DOS etkili zafiyetlere en etkili örnek olarak 2009 yılı Bind açıklığı gösterilebilir. Hatırlayacak olursak 2009 yılında Bind DNS yazılımında çıkan açıklık tek bir paketle Bind DNS çalıştıran sunucuların çalışmasını durdurabiliyor. DNS paketleri udp tabanlı olduğu için kaynak ip adresi de rahatlıkla gizlenebilir ve saldırganın belirlenmesi imkânsız hale gelir. Türkiye’de yaptığımız araştırmada sunucuların %70’nin bu açıklığa karşı korumasız durumda olduğu ortaya çıkmıştır. Kötü bir senaryo ile ciddi bir saldırgan Türkiye internet trafiğini beş dakika gibi kısa bir sürede büyük oranda işlevsiz kılabilir. Siber güvenlik üzerine çalışan ciddi bir kurumun eksikliği bu tip olaylarda daha net ortaya çıkmaktadır.
 Korunma Yolları ve Yöntemleri DOS saldırılarından korunmanın sihirbazvari bir yolu yoktur. Korunmanın en sağlam yöntemi korumaya çalıştığınız network yapısının iyi tasarlanması, iyi bilinmesi ve bu konuyla görevli çalışanların TCP/IP bilgisinin iyi derecede olmasıdır. Çoğu DOS saldırısı yukarıda sayılan bu maddelerin eksikliği sebebiyle başarılı olur.
  Router (Yönlendirici) Seviyesinde Koruma Sınır koruma düzeninde ilk eleman genellikle router’dır. Sisteminize gelengiden tüm paketler öncelikle router’dan geçer ve arkadaki sistemlere iletilir. Dolayısıyla saldırı anında ilk etkilenecek sistemler router’lar olur. Kullanılan router üzerinde yapılacak bazı ayalar bilinen DOS saldırılarını engellemede, ya da en azından saldırının şiddetini düşürmede yardımcı olacaktır. Yine saldırı anında eğer gönderilen paketlere ait karakteristik bir özellik belirlenebilirse router üzerinden yazılacak ACL (Erişim Kontrol Listesi) ile saldırılar kolaylıkla engellenebilir. Mesela saldırganın SYN flood yaptığını ve gönderdiği paketlerde src.port numarasının 1024 olduğunu düşünelim (Türkiye’de yapılan dos saldırılarının çoğunluğu sabit port numarasıyla yapılır). Router üzerinde kaynak port numarası 1024 olan paketleri engellersek saldırıdan en az kayıpla kurtulmuş oluruz. Bu arada kaynak portunu 1024 olarak seçen ama saldırı yapmayan kullanıcılardan gelen trafiklerde ilk aşamada bloklanacak ama normal kullanıcılardaki TCP/IP stacki hemen port numarasını değiştirerek aynı isteği tekrarlayacaktır.
  
+ ![25](https://user-images.githubusercontent.com/66878884/103564193-2623a880-4ecf-11eb-9fb8-1f3abb397015.jpg)
+
  
 Web Sunuculara Yönelik Koruma Web sunucular şirketlerin dışa bakan yüzü olduğu için genellikle saldırıyı alan sistemlerdir. Web sunuculara yönelik çeşitli saldırılar yapılabil fakat en etkili saldırı tipleri GET flood saldırılarıdır. Bu saldırı yönteminde saldırgan web sunucunun kapasitesini zorlayarak normal kullanıcıların siteye erişip işlem yapmasını engeller. Bu tip durumlarda güvenlik duvarlarında uygulanan rate limiting özelliği ya da web sunucular önüne koyulacak güçlü yük dengeleyici/dağıtıcı(load balancer)cihazlar ve ters proxy sistemleri oldukça iyi koruma sağlayacaktır. Güvenlik duvarı kullanarak http GET isteklerine limit koyulamaz. Zira http keepalive özelliği sayesinde tek bir TCP bağlantısı içerisinden yüzlerce http GET komutu gönderebilir. Burada paket içeriğine bakabilecek güvenlik duvarı/ips sistemleri kullanılmalıdır. Mesela Snort saldırı tespit/engelleme sistemi kullanılarak aşağıdaki kuralla 3 saniyede 50’den fazla http GET isteği gönderen ip adresleri bloklanabilmektedir.
 
 
- 
+ ![26](https://user-images.githubusercontent.com/66878884/103564198-27ed6c00-4ecf-11eb-8f5b-d843cb3649ee.jpg)
+
+![syn](https://user-images.githubusercontent.com/66878884/103568982-946c6900-4ed7-11eb-97c6-b5c087a0f1fe.jpg)
+
  
 Temel TCP bilgisi OSI katmanına göre 4. Katta yer alan TCP günümüz internet dünyasında en sık kullanılan protokoldür. Aynı katta yer alan komşu protokol UDP’e göre oldukça karışık bir yapıya sahiptir. HTTP, SMTP, POP3, HTTPS gibi protokoller altyapı olarak TCP kullanırlar.
  TCP Bağlantılarında Bayrak Kavramı (TCP Flags) TCP bağlantıları bayraklarla (flags) yürütülür. Bayraklar TCP bağlantılarında durum belirleme konumuna sahiptir. Yani bağlantının başlaması, veri transferi, onay mekanizması ve bağlantının sonlandırılması işlemleri tamamen bayraklar aracılığı ile gerçekleşir (SYN, ACK, FIN, PUSH, RST, URG bayrak çeşitleridir). UDP’de ise böyle bir mekanizma yoktur. UDP’de güvenilirliğin (paketlerin onay mekanizması) sağlanması üst katmanlarda çalışan uygulamalar yazılarak halledilebilir. DNS protokolü UDP aracılığı ile nasıl güvenilir iletişim kurulacağı konusunda detay bilgi verecektir. UNIX/Windows sistemlerde bağlantılara ait en detaylı bilgi netstat (Network statistics) komutu ile elde edilir. Netstat kullanarak TCP, UDP hatta UNIX domain socketlere ait tüm bilgileri edinebiliriz. 
 TCP’de bağlantıya ait oldukça fazla durum vardır. TCP bağlantılarında netstat aracılığı ile görülebilecek çeşitli durumlar: CLOSE_WAIT, CLOSED, ESTABLISHED, FIN_WAIT_1, FIN_WAIT_2, LAST_ACK, LISTEN, SYN_RECEIVED, SYN_SEND ve TIME_WAIT
 
  
+ ![27](https://user-images.githubusercontent.com/66878884/103564199-28860280-4ecf-11eb-92d5-ad59f1d71f03.jpg)
+
+![28](https://user-images.githubusercontent.com/66878884/103564202-29b72f80-4ecf-11eb-8f30-a9234c1247a4.jpg)
+
+![29](https://user-images.githubusercontent.com/66878884/103564209-2ae85c80-4ecf-11eb-937d-985beddcb501.jpg)
+
+
  
 
  
@@ -510,8 +560,10 @@ TCP’de bağlantıya ait oldukça fazla durum vardır. TCP bağlantılarında n
 HTTP’e Giriş 
 HTTP(Hypertext Transfer Protocol) OSI modelinde uygulama katmanında yer alan iletişim protokolüdür. Günümüzde zamanımızın çoğunu geçirdiğimiz sanal dünyada en sık kullanılan protokoldür.(%96 civarında) 
 HTTP Nasıl Çalışır? Http’nin istemci-sunucu mantığıyla çalışan basit bir yapısı vardır. Önce TCP bağlantısı açılır, kullanıcı istek(HTTP isteği) gönderir sunucu da buna uygun cevap döner ve TCP bağlantısı kapatılır. İstemci(kullanıcı) tarafından gönderilen istekler birbirinden bağımsızdır ve normalde her HTTP isteği için bir TCP bağlantısı gerekir. HTTP’nin basitliğinin yanında günümüz web sayfaları sadece http sunuculardan oluşmaz, çoğu sistemin bilgilerini tutmak için kullanılan veri tabanları da artık web sayfalarının vazgeçilmez bileşeni olmuştur.
+
  
-Yukarıdaki resim klasik bir web sayfasını temsil eder. Buna göre web sayfalarımız ister web sunucuyla aynı makinede olsun ister başka bir makinede olsun bir veritabanında bağımlıdır. Web ’in çalışma mantığı istek ve cevaplardan oluşur, istekler ve bunlara dönülecek cevaplar farklıdır. Bu konuda detay için HTTP RFC’si 2616 incelenebilir.
+![30](https://user-images.githubusercontent.com/66878884/103564212-2c198980-4ecf-11eb-96ea-c56b4400f56e.jpg)
+
 
  
 Kaba kuvvet DOS/DDOS Saldırıları Bu tip saldırılarda sunucu üzerinde ne çalıştığına bakılmaksızın eş zamanlı olarak binlerce istek gönderilir ve sunucunun kapasitesi zorlanır. Literatürde adı “GET Flood”, “POST Flood” olarak geçen bu saldırılar iki şekilde yapılabilir. Bir kişi ya da birden fazla kişinin anlaşarak belli bir hedefe eş zamanlı yüzlerce, binlerce istek gönderir ya da bu işi hazır kölelere(zombie) devredilerek etki gücü çok daha yüksek Dos saldırıları gerçekleştirilir. İlk yöntemde bir iki kişi ne yapabilir diye düşünülebilir fakat orta ölçekli çoğu şirketin web sayfası tek bir kişinin oluşturacağı eşzamanlı yüzlerce isteğe karşı uzun süre dayanamayacaktır. Güzel olan şu ki bu tip saldırıların gerçekleştirilmesi ne kadar kolaysa engellemesi de o kadar kolaydır (güvenlik duvarları/IPS’lerin rate limiting özelliği vs) İkinci yöntem yani Zombi orduları (BotNet’ler) aracılığıyla yapılan HTTP Flood saldırıları ise binlerce farklı kaynaktan gelen HTTP istekleriyle gerçekleştirilir. Gelen bağlantıların kaynağı dünyanın farklı yerlerinden farklı ip subnetlerinden gelebileceği için network seviyesinde bir koruma ya da rate limiting bir işe yaramayacaktır
@@ -525,6 +577,8 @@ DNS Hakkında Temel Bilgiler
 DNS Nedir? DNS(Domain Name System), temelde TCP/IP kullanılan ağ ortamlarında isimIP/IP-isim eşleşmesini sağlar ve e-posta trafiğinin sağlıklı çalışması için altyapı sunar. Günümüzde DNS’siz bir ağ düşünülemez denilebilir. Her yerel ağda –ve tüm internet ağında- hiyerarşik bir DNS yapısı vardır. Mesela bir e-postanın hangi adrese gideceğine DNS karar verir. Bir web sayfasına erişilmek istendiğinde o sayfanın nerede olduğuna, nerede tutulacağına yine DNS üzerinden karar verilir. Bir sistemin DNS sunucusunu ele geçirmek o sistemi ele geçirmek gibidir. 
 DNS Protokol Detayı DNS, UDP temelli basit bir protokoldür. DNS başlık bilgisi incelendiğinde istek ve bu isteğe dönecek çeşitli cevaplar (kodlar kullanılarak bu cevapların çeşitleri belirlenmektedir)
  
+ ![31](https://user-images.githubusercontent.com/66878884/103564215-2d4ab680-4ecf-11eb-8ed1-edfa4f4e994b.jpg)
+
  
 
 Genellikle son kullanıcı – DNS sunucu arasındaki sorgulamalar Recursive tipte olur.
@@ -537,7 +591,10 @@ NOT: DNS sunucu olarak ISC BIND kullanılıyorsa aşağıdaki tanımla recursive
 1. Nmap gibi bir port tarama/yazılım belirleme aracı 
 2. Dig, nslookup gibi klasik sorgulama araçları
  
- 
+ ![32](https://user-images.githubusercontent.com/66878884/103564216-2e7be380-4ecf-11eb-8019-e9465099c5f4.jpg)
+
+![33](https://user-images.githubusercontent.com/66878884/103564217-2f147a00-4ecf-11eb-8068-b733fcb5bae7.jpg)
+
  
  
 DNS’e Yönelik DoS ve DDoS Saldırıları
@@ -552,6 +609,12 @@ BIND 9 Dynamic Update DoS Zaafiyeti 28.07.2009 tarihinde ISC Bind yazılım geli
 DNS Flood DoS/DDoS Saldırıları Bu saldırı tipi genelde iki şekilde gerçekleştirilir:
  ● Hedef DNS sunucuya kapasitesinin üzerinde (bant genişliği olarak değil) DNS istekleri göndererek, normal isteklere cevap veremeyecek hale gelmesini sağlamak 
 ● Hedef DNS sunucu önündeki Firewall/IPS’in “session” limitlerini zorlayarak Firewall arkasındaki tüm sistemlerin erişilemez olmasını sağlamak Her iki yöntem için de ciddi oranlarda DNS sorgusu gönderilmesi gerekir. Internet üzerinden edinilecek poc(proof of concept) araçlar incelendiğinde çoğunun perl/python gibi script dilleriyle yazıldığı ve paket gönderme kapasitelerinin max 10.000-15.000 civarlarında olduğu görülecektir
+
+
+![34](https://user-images.githubusercontent.com/66878884/103564218-2fad1080-4ecf-11eb-8e51-8a288f17a8c5.jpg)
+
+![35](https://user-images.githubusercontent.com/66878884/103564223-30de3d80-4ecf-11eb-86e3-dac0c5609199.jpg)
+
 
  
  
@@ -589,6 +652,7 @@ Sızma Testlerinde Proje Yönetimi Gerçekleştirilecek sızma testlerinden en y
 ● Pentest sonuç raporundaki zafiyetleri kapatmak icin idari gücüm var mı?
 
  
+![36](https://user-images.githubusercontent.com/66878884/103564225-320f6a80-4ecf-11eb-8cf5-935b60674e38.jpg)
 
 
 
@@ -604,7 +668,8 @@ Müşteri İçin Pentest Proje Zaman Çizelgesi
 7. Gerekli durumda kapsam belirleme için firmayla ek toplantılar 8. Firmaya karar verme ve sızma testlerine başlama
 
 Sızma Testlerinde Kapsam Belirleme Çalışması Sızma testinde ana amaçlardan biri tüm zafiyetlerin degerlendirilerek sisteme sızılmaya çalışılmasıdır. Bu amaç doğrultusunda gerçekleştirilecek sızma testlerinde kapsam pentest çalışmasının en önemli adımını oluşturmaktadır. Sistem/ağ yöneticileri ile hackerların bakış açısı farklıdır ve sitem/ağ yöneticisi tarafından riskli görülmeyen bir sunucu/sistem hacker için sisteme sızmanın ilk adımı olabilir. Bu nedenle kapsam çalışmalarında mutlaka pentest yaptırılacak kişi/firma ile ortaklaşa hareket edilmelidir. Aşağıdaki resim kapsam konusunun önemimi çok iyi göstermektedir.
- 
+ ![37](https://user-images.githubusercontent.com/66878884/103564226-320f6a80-4ecf-11eb-89dc-1c1ed86223ba.jpg)
+
 Kapsam belirlemek için standart bir formül yoktur. Her firma ve ortam için farklı olabilmektedir. Genellikle sızma testleri aşağıdaki gibi alt bileşenlere ayrılmaktadır
 . ● Web uygulama sızma testleri
  ● Son kullanıcı ve sosyal mühendislik testleri 
@@ -636,6 +701,8 @@ Bunların başında ;
 
 BGA Sızma Test Metodolojisi Sızma testlerinde ISSAF tarafından geliştirilen metodoloji temel alınmıştır. Metodolojimiz üç ana bölümde dokuz alt bölümden oluşmaktadır.
  
+ ![38](https://user-images.githubusercontent.com/66878884/103564228-32a80100-4ecf-11eb-99c8-ac4bd3511e6e.jpg)
+
 
 1.1 [Bilgi Toplama] Amaç, hedef sistem hakkında olabildiğince detaylı bilgi toplamaktır. Bu bilgiler firma hakkında olabileceği gibi firma çalışanları hakkında da olabilir. Bunun için internet siteleri haber gruplari e-posta listeleri , gazete haberleri vb., hedef sisteme gönderilecek çeşitli paketlerin analizi yardımcı olacaktır.
 
@@ -689,6 +756,7 @@ Raporlama Sızma testlerinin en önemli bileşenlerinden biri raporlamadır. Tic
 
 
 
+![39](https://user-images.githubusercontent.com/66878884/103564231-33409780-4ecf-11eb-9d7b-c3d00976bab6.jpg)
 
 
 
@@ -710,87 +778,6 @@ Sızma Testleri Konusunda Uzmanlık Kazanma Pentest konusunda kendinizi gelişti
 
 
 
-
-
-TRY HACK ME(LINUX FUNDAMENTALS/NETWORKING FUNDAMENTALS/WEB HACKING FUN./CRYPTOGRAPHY/WINDOWS FUN./SHELLS AND PRIVILEGE ESCALATION/BASIC COMPUTER EXPLOITATION)
-
-LINUX FUNDAMENTALS
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
-   
-
-         
-
-
-
-
-
-
-
-Networking Fundamentals
- 
- 
- 
-
- 
- 
-
- 
- 
-
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
-
-
-
-
- 
- 
- 
- 
- 
-	
-
-
-
-
-
-
-
-
-
 Nmap
  
  
@@ -806,6 +793,8 @@ Nmap Çalışma Prensibi Nmap çok güçlü bir uygulama olmasına rağmen, yeni
 2. Nmap hedef makinayı “ping”ler. Ancak bu bilinen ICMP ping işlemi değildir. Nmap farklı bir ping işlemi kullanır. Bu işlem hakkında bilgi ilerleyen bölümlerde verilecektir. Eğer ping işlemini iptal edilmek isteniyorsa –P0 seçeneği kullanılmalıdır. 
 3. Eğer hedef makinanın IP adresi belirtildiyse, Nmap reverse DNS lookup yaparak IP – Hostname eşleşmesi yapar. Bu 1. Adımda gerçekleştirilen olayın tersidir. Bu işlem, ilk adımda DNS lookup yapılmasına rağmen gereksiz gözükebilir. Ancak IP-Hostname sonuçları ile Hostname-IP sonuçları farklı çıkabilir. 
  
+ ![40](https://user-images.githubusercontent.com/66878884/103564233-3471c480-4ecf-11eb-912c-00c4cd08ae94.jpg)
+
 
 Yetki Yükseltme Nmap seçeneklerinin hepsi ve işletim sistemi kontrollerini gerçekleştiren yapıları bypass etmek için özelleştirilmiş “raw” paketler, sadece yüksek yetkilere sahip kullanıcıların taramalarında bulunabilir. Unix,Linux için root, Windows için Administrator olmak gerekir.
  Sunucuları/İstemcileri Keşfetme Organizasyon içerisindeki hostları bulmak için çok önemli bir yöntemdir. Keşfetme işlemi için birçok seçenek kullanılabilir. En basit yolu bir ping scan gerçekleştirmektir : ( Ping Scan hakkında detaylı bilgi Tarama bölümünde mevcuttur. )
@@ -819,7 +808,10 @@ Host 192.168.2.1 appears to be up.
 Host 192.168.2.4 appears to be up. 
 Nmap done: 256 IP addresses (3 hosts up) scanned in 1.281 seconds 
 Ping scan belirtilen hedef veya hedeflerin 80. portuna ICMP echo request ve TCP ACK ( root veya Administrator değilse SYN ) paketleri gönderir. Hedef veya hedeflerden dönen tepkilere göre bilgiler çıkartılır. Hedef/hedefler Nmap ile aynı yerel ağda bulunuyorsa, Nmap hedef/hedeflerin MAC adreslerini ve ilgili üreticiye ait bilgileri (OUI ) sunar. Bunun sebebi, Nmap varsayılan olaran ARP taraması, -PR, yapar. Bu özelliği iptal etmek için- -send-ip seçeneği kullanılabilir. Ping scan portları taramaz yada başka tarama tekniklerini gerçekleştirmez. Ping scan network envanteri vb. işlemler için idealdir.
+
 Keşfetme işlemleri için bazı seçenekler aşağıda sunulmuştur :
+
+
  • -sL: List Scan – Hedefleri ve DNS isimlerinin bir listesini çıkarır.
  • -sn: Ping Scan - Port scan seçeneğini iptal eder. 
 • -Pn: Host discovery yapılmaz, bütün hostlar ayakta gözükür.
