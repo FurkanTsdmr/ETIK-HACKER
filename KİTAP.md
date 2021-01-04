@@ -179,6 +179,10 @@ Kablosuz Ağ Bağlanma Aşamaları Authentication(Kimlik doğrulama): Bir kullan
 ● Shared Key Authentication: Kimlik doğrulama için ortak olarak bilinen bir anahtar(parola) kullanılır. Önce istemci AP’ye bir bağlantı isteğinde bulunur. AP kullanıcıya challenge text gönderir. İstemci bilinen anahtar bilgisiyle bu metini şifreler ve AP’ye gönderir. AP şifreli metini alır ve üzerinde belirlenen asıl anahtarla bu metinin şifresini çözer. Eğer şifresi çözülmüş olan metin, kullanıcıya ilk olarak gönderilen challenge text ile aynıysa parola doğru demektir. Kullanıcıya kimlik doğrulama için kabul veya ret içeren bir cevap dönülür.
 Association (Ağa kayıt olma): İstemciler kimlik doğrulama adımını geçtikten sonra AP tarafından ağa kayıt edilmelidir(association). Bu işlem olmadan istemciden gelen/giden frameler AP tarafından yoksayılır. Bir istemci aynı anda sadece bir ağa kayıt olabilir ve kayıt işlemi sadece iletişim AP üzerinden gerçekleştiği Infrastructure modda gerçekleşir. İstemci association için bir istek gönderir, AP isteği değerlendirir ve olumlu yada olumsuz cevap döner. Eğer cevap olumluysa association cevabı içinde istemciyi daha sonra tanımak için atanan bir ID bulunur(Association ID(AID)).
 
+
+![2](https://user-images.githubusercontent.com/66878884/103550702-5ca2f880-4eba-11eb-9913-f4957223930c.jpg)
+
+
  
 
 WEP 
