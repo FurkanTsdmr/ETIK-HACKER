@@ -2596,7 +2596,3016 @@ Güvenlik konusu sizde bilirsiniz ki sürekli güncel tutulması gerekilen bir k
  
  
  
- 
+ AĞ TEMELLERİ DERS NOTU
+Bilgisayar Ağı Nedir?
+Sezgin ATAÇ
+1
+1Dokuz Eylül Üniversitesi Bergama Meslek Yüksekokulu
+AĞ BAĞLANTISI: Birbirine kablolu veya kablosuz olarak ve bir iletişim protokolü
+ile bağlanmış sunucu, yazıcı, kişisel bilgisayar, modem gibi birçok
+haberleşme donanımının ve çevre birimlerinin dosya paylaşımı,
+haberleşme, ortak uygulama programları ve veri bankalarını kullanma
+amacı ile oluşturdukları bağlantı sistemini ifade eder (5).
+AĞ DONANIMI: Ağ bağlantısına sahip tüm elektronik, elektromekanik ve
+mekanik aksamına denir (5).
+Mini Sözlük
+1. M.E.B. Eğitim Teknolojileri Genel Müdürlüğü (EğiTek) Açık Öğretim Lisesi Kitap ve Ders Notları Bilgi ve İletişim
+Teknolojileri 1 Ders Notu
+2. M.E.B. MEGEP BİLİŞİM TEKNOLOJİLERİ, AĞ TEMELLERİ DERS NOTU, ANKARA 2008
+3. Bayramoğlu H., Bilgisayar Donanımı Ders Notu, ITEC115 Bilgisayara Giriş / ITEC190 Hukuk Dersleri için Doğu Akdeniz
+Üniversitesi
+4. Bilgisayara Giriş, Bölüm 1, Bilişim Teknolojileri Temelleri 2011, Dijital Dünyada Yaşamak Ders Notu, Çizgi Tagem
+5. MYK (Mesleki Yeterlilik Kurumu), Ağ Teknolojileri Elemanı, Seviye 5, Ankara 2012
+Referanslar
+Bir bilgisayar Ağı (Computer Network), iki veya daha fazla bilgisayarın bir
+iletişim aracı üzerinden (kablolu veya kablosuz) tüm iletişim, yazılım ve
+donanım bileşenleri ile birlikte bağlanarak meydana getirilen sistem olarak
+tanımlanabilir. Bilgisayar ağı en az bir sunucu bilgisayar (server) ve bir istemci
+(client) bilgisayar (terminaller), modem veya ethernet (network) kartı, iletişim
+protokolü vb. iletişim araçlarını bünyesinde bulundurur. Böyle bir ağa bağlı
+kullanıcılar birçok yazılım ve donanımı paylaşabilirler (1).
+Bilgisayar ağları da bir veri ağıdır. Ağ sistemi ise iki kişisel bilgisayardan
+oluşabileceği gibi binlerce iş istasyonundan da oluşabilir.
+'Ağ' terimi konusunda dikkat edilecek bir nokta, genelde bağımsız makinelerin
+bağlantısından oluşan sistem olarak kullanılmasıdır. Bilgisayar ağında, dağıtık
+işleme kuraldır ve ağın kendisi bilgisayar gibi görülebilir. Özetlemek gerekirse,
+bilgisayar ağlarının karakteristikleri aşağıdaki gibidir:
+• Entegre sistemler
+• Evrensel bilgi erişimi
+• Hazır veya özel yapım yazılımlar
+• Hiyerarşik yönetim ve kaynak sahipliği
+• Çoklu-üretici ortamları (2).
+Ağ, birbirine iletişim aygıtları ve iletim ortamları aracılığıyla, çoğunlukla
+kablosuz olarak bağlı olan bilgisayarların ve aygıtların bir araya gelerek
+oluşturduğu yapıdır. Ağlar sayesinde bilgisayarlar donanım, yazılım, veri ve
+bilgi gibi kaynakları kolayca paylaşabilir (4).
+Network Tasarımındaki Amaçlar
+• Basitlik (Değiştirme/Taşıma)
+• Yönetim Maliyetini Azaltma
+• En iyi Broadcast control
+• Yüksek Güvenlik
+• Güvenirlik (Reliability)
+• Ölçeklenebilirlik (Scalability)
+• Kaliteli Yönetim (Managebility)
+Ölçeklenebilirlik (Scalability): Bir uygulama veya ürünün, değişik boyutlardaki
+kullanıcıların ihtiyaçlarını karşılayabilmesi.
+Güvenirlik (Reliability): Bir bağlantıdan sürekli alınması beklenen hız. Bu hız
+yüksekse hattın güvenilir olduğundan bahsedilebilir. Bir yönlendirme ölçüsü
+olarak kullanılır.
+Kaliteli Yönetim (Managebility): Network izleme ve yönetimi kolay olmalıdır.
+Adaptability: Network tasarlanırken geleceğin teknolojileri göz önüne alınarak
+tasalanmalıdır.
+A. Bilgisayar Ağı Nedir?
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açıköğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• Tütüncü E. Ağ Temelleri Dersi Notları
+• Hesapmakinesi.biz Sayı Çevirici (URL)
+D. Ek Kaynaklar
+B. Bilgisayar Ağı (Computer Network)
+C. Bilgisayar Ağ Sistemi ve Bileşenleri
+Şekil 1. Bilgisayar Ağı Bileşenleri.
+Şekil 4. Basit Bir Bilgisayar Ağı Gösterimi.
+Şekil 2. Bilgisayar Ağı (Network)
+1. Özdemir S. Veri İletişimi Data Communications. Giriş Ders Notu, Gazi Üniversitesi, 2013
+2. Not Oku, Veri ve Bilgi İlişkisi
+3. Yegül S. Veri (Data), Malûmat (Information), Bilgi (Knowledge) kelimeleri arasındaki farklar nelerdir?, 2011
+4. Yuvka A. ITEC115 Bilgisayara Giriş, ITEC190 Hukuk İçin Bilgisayar Ders Notu, Doğu Akdeniz Üniversitesi
+5. Bilgisayarların Keşfi 2010: Dijital Dünyada Yaşamak, Bölüm 10, Çizgi TAGEM
+Referanslar
+İletişim (communications) bilgi paylaşımıdır ve “yüz yüze” yüze ve “uzaktan”
+olmak üzere iki şekilde yapılır. Uzaktan yapılan iletişim “telecommunication”
+olarak adlandırılır ve telefon, telgraf, televizyon gibi uygulamaları içerir.
+• Veri (data) bilgiyi paylaşan taraflar arasında kurallarla belirlenmiş formda
+bilginin ifade edilmesidir.
+• Veri iletişimi (data communications) bilginin herhangi bir ortam (hava,
+kablo vb.) kullanılarak iki cihaz arasında transfer edilmesidir (1).
+Veri –Bilgi- Karar Süreci :
+ Şekil 1’ den de görülebileceği gibi, önce çeşitli kaynaklardan veriler
+toplanmakta, toplanan veriler, belirli bazı bilimsel işlemlerden geçirilerek bilgi
+biçiminde çıktıya dönüşmektedir. En sonunda da bilgi, karar sürecinin girdisini
+oluşturmaktadır. Başka bir deyişle, karar alırken veri değil, verilerin
+süreçleşmesi sonunda elde edilen bilgi kullanılmaktadır. Veri, bilgiye ulaşmak
+amacıyla yapılan gözlemlerin sonucudur. Bu anlamda da veri, bilginin
+hammaddesi olmaktadır. Verilerin yalnızca sayısal değerler olması gerekmez.
+Deneylerle elde edilen ya da gözlemlerin sonucu olan, sayısal olmayan
+değerler de veri olarak kullanılabilir. Örneğin; bir ses, simge, kod, renk, ışık ve
+benzerleri de duruma göre veri olarak nitelendirilebilir.
+ Diğer taraftan, her türlü veriyi sayıya dönüştürerek ifade etmek de
+mümkündür. Bunun en güzel örneği de illeri 06, 26, 55 gibi sayılarla ifade
+etmektir. Aynı şekilde, işletmecilik açısından, genellikle, bir işletmenin günlük
+işlemleriyle ilgili kayıtları veri olarak kabul edilebilir. Örneğin, müşteri bilgi
+formunu doldururken yazılanlar, çek veya faturaların ayrıntıları ve benzerleri
+tek tek birer anlamlı veri niteliğindedir. Bilgi ise, bir iş veya bir konu üzerinde
+bilinen genellemeler olarak tanımlanabilir. Bilgi, verilerin, belirli bir veri
+süreçleme yöntemiyle yararlı ve anlamlı duruma gelmeleridir. Bilgi sistemleri
+açısından veri, belli başlı iki aşamadan geçerek bilgiye dönüşür ve kullanıcıya
+ulaşır. Bu aşamalardan birincisi, verinin yaratılması (toplanması); ikincisi,
+verinin işlenmesidir. İşleme sonucu oluşan bilgi, iletişim süreciyle kullanıcıya
+iletilir. Verilerin toplanması ve bilgiye dönüştürülmesi, işletmelere planlama,
+uygulama ve denetim yapma olanağı sağlar (2).
+ Özetle; Veri (data), birbiri ile ilişkilendirilmemiş ham kayıtlardır.
+Enformasyon (malûmat, information), işlenmiş veya anlam kazanmış
+verilerdir. Bilgi (knowledge) ise, değer kazanmış enformasyondur ve
+enformasyonun amaca yönelik olarak bir araya getirilmesidir.
+ Veri’ye (data) şöyle bir örnek verilebilir: Ankara nüfusu 2013′te şudur.
+Malumat (Information): Ankara yıllara bağlı olarak nüfusunun artış hızı,
+kadı/erkek oranıdır. Tüm buna benzer veri (data) ve bilgilerden hareketle bir
+yorum yapmanız; mesela; Ankara’da doğurganlık oranının düştüğü; bu
+durumun evliliklerin alması ve inşaat sektöründeki etkilerini bir makalede
+tartışırsanız, bu bilgi (knowledge) olur (3).
+A. İletişim, Veri ve Bilgi
+Bilgi İşlem Süreci:
+ Bilgi işlem sürecinde de işlenen malzemeye veri, sürecin sonunda elde edilen ürüne
+de bilgi denir. Verinin bilgi haline dönüşebilmesi için, bilgi işlem sürecinin adımlarının
+birkaçından geçmesi yeterli olabilir. Bilgi bir karar vermekte anlam taşıyan, karar vericiye
+gerektiği zamanda ve gereken biçimde ulaştırılan ve doğru olan, işlenmiş veridir (4).
+Bilgi İşlem Süreci Adımları:
+• Kaydetme
+• Sınama
+• Sınıflandırma
+• Özetleme
+• Sıralama
+• Hesaplama
+• Çoğaltma
+• Saklama
+• Erişim
+• İletme
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. MEGEP Ağ Temelleri Modülü, 2008, Ankara (E-Kitap)
+• MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+• Academytech-CCNA-Türkçe Eğitim Notu.
+• Tan, S.O.Karabük Üniversitesi, KBT 115 Ağ Temelleri Ders Notları
+• Korkmaz S. Bilgisayar Ağ Sistemleri, Ağ Temelleri (Network). Kırklareli Üniversitesi
+D. Ek Kaynaklar
+B. Bilgisayar Ağın Ortak Kullanımı
+
+C. Bilgisayar Sistemi ve Bileşenleri
+Video 1. Bilgisayar Kasası Toplama - Hardware Install
+Şekil 4. Bilgisayar Sistemi ve Bileşenleri
+Boot / Start: Bilgisayarı Başlatmak
+Reboot / Reset / Restart: Bilgisayarı Kapatıp, Yeniden Başlatmak
+Reset Atmak: Çalışan Bilgisayarı “Reset” Düğmesine Basarak Yeniden Başlatmak.
+CTRL-ALT-DEL: “Soft Reset” ya da Sisteme Giriş Ekranını Getirmek.
+Setup: Bir Programın Kurulması İçin Gerekli Dosya.
+Install: Setup Dosyasını Kullanarak Bir Program Kurulumu Yapmak.
+Unınstall: Bilgisayara Önceden Kurulmuş Bir Programı Kaldırmak.
+Kaynak:Adnan Menderes Üni Temel Bilgi Teknolojileri
+Mini Sözlük
+Şekil 1. Verinin Karar Bilgisine Dönüşüm Süreci (2).
+1. Babagil M.(2007). BILG101 Ders Notu, Ünite 11, Doğu Akdeniz Üniversitesi
+2. Bayramoğlu H., Bilgisayar Donanımı Ders Notu, ITEC115 Bilgisayara Giriş / ITEC190 Hukuk Dersleri için Doğu
+Akdeniz Üniversitesi
+3. a) http://okul.selyam.net/, b)nuriural.net/mikro1.doc
+4. Bilgisayarların Keşfi 2010: Dijital Dünyada Yaşamak, Bölüm 4, Çizgi TAGEM
+5. Yuvka A. ITEC115 Bilgisayara Giriş, ITEC190 Hukuk İçin Bilgisayar Ders Notu, Doğu Akdeniz Üniversitesi
+Referanslar
+ İki nokta arasında; elektronik veri gönderme ve alma işlemine iletişim
+diyoruz. İletişim, iletişim kanalları üzerinde geçekleşir. İletişim kanalları,
+mesajları bir noktadan başka bir noktaya geçtiği yollardır.
+İletişimde, bir kaynak göndereceği mesajı elektrik sinyalleri olarak şifreler ve
+alıcıya iletişim kanalları üzerinden gönderir.
+İletişimde, analog ve dijital sinyaller verileri iletişim kanalları üzerinden
+gönderir.
+Analog sinyaller; verileri alır ve bunu sürekli bir dalga formuna çevirerek
+iletişim kanalları üzerinden gönderilebilmesini sağlar. Bu sinyallerin veri taşıma
+kapasitesi çok yüksektir.
+Dijital sinyaller, verileri sürekli olmayan pulse’lara dönüştürürler. Elektronik bir
+pulse eksikliği 0, elektronik bir pulse olması ise 1 ile gösterilir. 0 ve 1 diskrete
+olduğu için gelen veri çok daha açık bir formatta gelir. Böylece alici veriyi
+yeniden yapılandırıp orijinal haline nasıl dönüştüreceğini bilir.
+Dijital sinyaller, analog sinyallerine göre çok daha fazla veriyi çok daha hızlı bir
+şekilde transfer eder (1).
+Analog sinyaller süreklidir ve büyüklük ve kalite bakımından değişiklik gösterir.
+Sayısal sinyaller iki durumdan birisine sahiptir: Açık veya kapalı. Çoğu
+bilgisayarlar sayısaldır. İkilik sistemde, iki adet sayı kullanılır (0 ve 1) (Cizgi)
+Bilgisayarın Verileri İşleyiş Şekli
+Bir çokluğun miktarını belirtmek için, günlük hayatta kullandığımız sayma
+sistemi onlu sayma sistemidir. Bilindiği gibi bu sistemde 0’ dan 9’ a kadar olan
+10 adet sayı sembolü kullanılmaktadır. İkili sayma sisteminde ise sayılar 2 adet
+sembolden yani 1’ ve 0 ‘dan oluşmaktadır.
+Bilgisayarın içerisinde, verilen bilgilerin çözümlenip sonucun dış ortama
+aktarılabilmesi için birçok elektronik devre kullanılmaktadır. Çok uçlu olan bu
+devrelerin çalışabilmesi için bazı uçlarına 5 V, bazılarına ise 0 V luk gerilim
+uygulanması gerekir. Mikrochip denilen bu elektronik devrelerin uçlarına
+uygulanan bu gerilimler chip içinde bulunan transistörleri çalıştırır. Böylece
+veriler elektronik olarak çözümlenir ve çıkış uçlarında yine 5 veya 0 V luk
+gerilimler olarak verilir.
+İşte, bilgisayara uygulanan bu iki farklı gerilim değeri yerine 1’ ve 0’ sayı
+sembolleri kullanıldığında, bilgisayarın karakterleri (harfler veya değişik
+sembolleri) ve onlu sayma sisteminde kullandığımız rakamları algılayabilmesi
+sağlanmış olur. 5V --> 1 ile ifade edilir. 0V --> 0 ile ifade edilir.
+Böylece, bilgisayara girilecek tüm veri ya da komutlar işlenmeden önce makine
+diline kodlanması gerekir. Aslında işlemciler sayılardan anlamaz, sadece
+elektrik akımın var yada yok olması temeline göre çalışırlar. İşte elektrik
+akımları yukarda bahsettiğimiz gibi transistorlar aracılığı ile kontrol edilir.
+Transistor yarı iletken bir elektronik devre elemanıdır ve her modern
+elektronik cihazın içinde bulunur. Birçok kullanım alanı olan transistorlar
+bilgisayarlarda anahtarlama elemanı olarak kullanılırlar (3).
+A. Veri (Data) Aktarımı
+ Bir bilgisayar devresi, bir elektriksel yükün varlığı ya da yokluğuna göre elektronik
+olarak 0 veya 1 ile gösterilir. Bir araya gelerek grup oluşturan sekiz bite, bir byte denir.
+Byte bilgisayarda tek bir karakteri temsil eder.
+Bir araya gelerek grup oluşturan sekiz bite, bir byte denir. Byte bilgisayarda tek bir
+karakteri temsil eder.
+1. M.E.B. MEGEP İç Donanım Birimleri 481BB0091 Modülü (E-Kitap)
+2. M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+3. MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+4. Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+5. Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+6. Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. Bit (Binary Digit), Byte
+Bilgisayarda veri, ikili sayı sistemi kullanılarak ifade edilir. İkili sayı sisteminde sadece iki
+sayı kullanılabilir: 0 ve 1. Bilgisayar dünyasındaki en küçük veri bit ile ifade edilir ve
+sadece 0 ya da 1 değerini alabilir (3).
+Sekiz bit’in yan yana gelmesi ile bir bayt (byte) oluşur. 1 bayt = 8 bit
+Bilgisayar dünyasında bir modem’in veri aktarım hızı bir saniyede transfer edilen bit sayısı
+(bps - bits per second) birimi ile ifade edilir.
+Örneğin: 100Mbps, 1Gbps
+Depolama kapasitesi ise bayt (byte) birimi ile ifade edilir.
+• 1 Byte : 8 Bit
+• Kilo Byte (KB) : 1024 Byte
+• Mega Byte (MB) : 1024 KB
+• Giga Byte (GB) : 1024 MB
+• Tera Byte (TB) : 1024 TB
+• PetaB yte (PB) : 1024 TB
+İkili sayı sistemini oluşturan sembollerin (0 ve 1) her birine bit adı verilir. Biz sayıları 0 ile 9
+arasındaki on farklı sembolle yazarız. 9’dan sonra gelen sayı için ayrı bir sembol
+kullanmak yerine 10 kullanırız. Bilgisayarlar ise sadece 0 ve 1 sayılarını kullanırlar. İkili sayı
+sisteminde 2 sayısını ifade edebilmek için 10 yazılır. İkilik sayı sisteminin mantığı ondalık
+sayı sistemi ile aynıdır. Ancak küçük sayıları ifade edebilmek için bile bir çok basamak
+kullanılması gerekir (5).
+C. İkili Sayı sistemi
+Şekil 4. Ondalık Sayı sistemi ve İkili Sayı sistemi (5)
+DONANIM (HARDWARE): Ağ, bilgisayar veya çevre birimlerinin elektronik,
+elektromekanik ve mekanik aksamınına denir.
+YAZILIM (SOFTWARE): Ağ donanımlarının ve bilgisayar sistemini oluşturan
+donanım birimlerinin yönetimini ve kullanıcıların işlerini yapmak için
+gerekli olan programlarına denir.
+Mini Sözlük
+Şekil 1. Analog ve Sayısal İşaretlerin Zamana Bağlı Değişimi
+Şekil . Bit ve Byte Gösterimi (4).
+Şekil 1. Bit (Binary Digit) Gösterimi (4). 
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. Bayramoğlu H., Bilgisayar Donanımı Ders Notu, ITEC115 Bilgisayara Giriş / ITEC190 Hukuk Dersleri
+için Doğu Akdeniz Üniversitesi
+3. a) http://okul.selyam.net/, b)nuriural.net/mikro1.doc
+4. Bilgisayarların Keşfi 2010: Dijital Dünyada Yaşamak, Bölüm 4, Çizgi TAGEM
+5. Yuvka A. ITEC115 Bilgisayara Giriş, ITEC190 Hukuk İçin Bilgisayar Ders Notu, Doğu Akdeniz
+Üniversitesi
+Referanslar
+ Bilgisayarlar aç-kapa mantığıyla çalışan anahtarlamalı çoklayıcılar, çalışır
+ve bu şekilde bilgi depolar. Bilgisayarlar sadece bu iki durumu anlar ve ona
+göre çalışır. “1” açık olarak algılanır ve “0” da kapalı olarak algılanır. 1 ve 0
+bilgisayarın elektronik komponentin de bu iki durumu açıklamak için kullanılır.
+Bu durumlar, ikili basamaklar veya bit olarak oluşturulur.
+Bilgisayardaki alfa-nümerik bilgi sistemini dönüştürmek için çoğunlukla ve
+yaygın olarak “Bilgi değişimi için Amerikan Standart Kodlama sistemi” (ASCII)
+kullanılır. ASCII klavyede yazılan sembolleri dönüştürmek için ikilik sayı sistemi
+kullanır. Bilgisayar aç/kapa durumlarından bir tanesini gönderdiğinde 1 ve 0
+komutlarının anlaşılması için elektriksel, Işıksal veya radyo dalgaları kullanılır.
+Unutmamalıdır ki her karakterin sadece kendine ait olan ve kendini
+tanımlaması için kullanılan 2'li sayı sisteminde 8 basamaklı bir karşılığı vardır.
+Bilgisayarlar aç/kapa mantığına göre düzenlendiği için 2'li sayı sistemi onlar
+için çok uygundur. İnsanlar 2'li sayı sistemine göre çok kolay olduğu için 10'luk
+sayı sistemini kullanırlar ve bu yüzden bu sayılar bilgisayarın anlamsı için 2'li
+sayı sistemine çevrilmelidir.
+İkili sayı sistemleri bazen çok uzun olduğu için 16'lık sayı sistemine çevrilir. Bu
+çevirim işlemleri daha kolaylaştırır ve bilgisayarın bu veriyi hafızaya almak daha
+kolay.
+Bitler ve Bytelar
+•İkili sistemde sıfır demek elektriksel olarak sıfır volt demektir. ( 0 = 0 volt)
+•İkili sistemde bir demek elektriksel olarak +5 volt demektir. ( 1 = +5 volt)
+ Bilgisayarlar 8 bitlik grupların kullanılması mantığıyla dizayn edilmiştir. Bu
+8 bitlik gruplara bayt adı verilir. 1 bayt adreslenebilen en küçük depolama yeri
+olarak bilinir. Bu depolama yerleri bir ASCII kodları gibi bir değer veya tek bir
+karakter olarak algılanır. Açılan ve kapanan 8'li anahtarların toplam
+kombinasyonun sayısı 256 dır. Baytların aralıkları 0 ile 255 arasındadır. Bu
+yüzden bayt çalışan bilgisayarları ve ağ sistemlerini anlamak için çok önemli
+içerikli bir konudur.
+10 Tabanlı Sayı Sistemi
+Nümerik sistemler kendi sembollerini kullanmak için bazı sembol ve kurallar
+içerirler. En çok kullanılan nümerik sistemler, onluk sayı sistemi veya temel 10
+sayı sistemidir. 10 tabanlı sayı sistemi 0,1,2,3,4,5,6,7,8,9 sembollerini kullanır.
+Bu sembollerin kombinasyonlarıyla birlikte bütün nümerik değerler yazılabilir.
+Onluk sayı sistemi 10'nun kuvvetleri üzerine kurulmuştur. Soldan sağa doğru
+her pozisyondaki değer 10 ile çarpılır ve bu çarpım değere üs olarak yansır.
+Çarpılan bu 10 değerin pozisyonuna bağlı olarak yükselir. Bir değer onluk sayı
+sisteminde sağdan sola doğru okunduğunda sağdan ilk değer 100 yani 1 olur ve
+ikinci değer is 101
+(10x1=10) olur. Üçüncü pozisyon ise 102
+(10 x 10 = 100) olur.
+Yedinci pozisyon 106
+ile gösterilir ( 10 x 10 x10 x 10 x 10 x 10 = 1.000.000).
+Numaranın ne kadar kolonu olduğuna bakılmaksızın hep bu yöntem uygulanır.
+Örnek: 2134 = (2x103
+) + (1x102
+) + (3x101
+) + (4x100
+)
+Bu örnekte 4 birle pozisyonunda, 3 onlar pozisyonunda, 1 yüzler
+pozisyonunda, 2 ise binler pozisyonundadır. Bu örnek 10'luk sayı sisteminin
+kullanıldığını açıkça gösteriyor.
+Bu sistemin nasıl çalıştığını görmek çok önemlidir, çünkü bu, diğer iki sayı
+sistemini, 2 tabanlı ve 16 tabanlı sayı sistemini anlamak için gereklidir. Bu
+sistemlerde 10 tabanlı sayı sitemiyle aynı metodu kullanırlar (1).
+A. Verinin İkili Gösterimi
+
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. MEGEP Ağ Temelleri Modülü, 2008, Ankara (E-Kitap)
+• MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+• Academytech-CCNA-Türkçe Eğitim Notu.
+• Tan, S.O.Karabük Üniversitesi, KBT 115 Ağ Temelleri Ders Notları
+• Korkmaz S. Bilgisayar Ağ Sistemleri, Ağ Temelleri (Network). Kırklareli Üniversitesi
+D. Ek Kaynaklar
+B. 2 Tabanlı Sayı Sistemi
+Boole mantığı bir veya iki adet gelen voltajı kabul etme tabanı üzerine kurulmuştur. Gelen
+voltaj tabanı oluşturur ve çıkan voltaj ise gelen voltaja göre değişir. Bu voltaj değişimi
+bilgisayarın çalışmasında kapalı veya açık anlamına gelir. Bu durumlar ikili sayı sisteminde
+olduğu gibi 1 ve 0 olarak algılanır.
+Boole mantığı ikilik tabana göre sayıları karşılaştırma ve seçme yöntemiyle çalışan ikili bir
+mantıktır. Bu mantıksal seçimler “VE”, “VEYA”, ve “DEĞİL” dir. DEĞİL fonksiyonu hariç
+Boole mantığının fonksiyonları ikili mantık fonksiyonlarıyla aynıdır. Mantık kurallarına
+bağlı olarak sadece 1 ve 0 sayılarını kabul eder ve ona göre işlem yaparlar.
+“DEĞİL” işlemi 1 veya 0 değerini birbirine çevirebilir. Unutmayalım ki; mantık kapıları özel
+olarak bu işlemler için geliştirilmiştir. Mantık kuralı ne olursa olsun girdi ve çıktı zıt
+karakterli olur.
+“VE” işlemi, iki girdi değeri alır. Eğer bu girdilerin ikisi de 1 değerini alıyorsa çıktı 1 olarak
+değerlendirilir. Diğer durumlarda çıktı 0 olarak değerlendirilir. Bu ihtimaller için farklı 4
+tane kombinasyon vardır. Bu kombinasyonların üçünde çıktı değeri 0 sadece bir tanesinde
+çıktı değeri 1 olarak değerlendirilir.
+“VEYA” işlemi de iki girdi alır. Eğer bu girdilerden en az bir tanesi 1 değerini sağlıyorsa çıktı
+değeri 1 olarak değerlendirilir. Yine bu işlemde de 4 farklı kombinasyon bulunmasına
+karşın “VE” işleminden farklı olarak bu kombinasyonların üçünde 1 değeri olur sadece bir
+tanesinde 0 değeri olur.
+Boole mantık işlemleri alt ağ ve özel sembol maskeleme operasyonlarında kullanılır. Özel
+sembol maskeleme operasyonu bizim adresleri filtrelememizi sağlar. Adresler ağlardaki
+aygıtlar tarafından belirlenir ve bu adreslerin bir grup olmasına veya başka bir ağ
+operasyonu tarafından kontrol edilmesine izin verir. (1).
+C. Boole Mantığı ve İkilik Sayı Sistemi
+Boot / Start: Bilgisayarı Başlatmak
+Reboot / Reset / Restart: Bilgisayarı Kapatıp, Yeniden Başlatmak
+Reset Atmak: Çalışan Bilgisayarı “Reset” Düğmesine Basarak Yeniden Başlatmak.
+CTRL-ALT-DEL: “Soft Reset” ya da Sisteme Giriş Ekranını Getirmek.
+Setup: Bir Programın Kurulması İçin Gerekli Dosya.
+Install: Setup Dosyasını Kullanarak Bir Program Kurulumu Yapmak.
+Unınstall: Bilgisayara Önceden Kurulmuş Bir Programı Kaldırmak.
+Kaynak:Adnan Menderes Üni Temel Bilgi Teknolojileri
+Mini Sözlük
+1. MEGEP (Millî Eğitim Bakanlığı Bilişim Teknolojisi İşlemciler (CPU) 481bb0009 Ders Notu. Ankara 2012
+2. Oktuğ, S. İTÜ Bilgisayar Mühendisliği Bölümü, BLG433-Bilgisayar Haberleşmesi Ders Notları
+3. Uğurlu B. BM-307 Mikroişlemciler ve Mikrobilgisayarlar Ders Notu. Çanakkale Onsekiz Mart Üniversitesi.
+4. Bilgisayarların Keşfi 2010: Dijital Dünyada Yaşamak, Bölüm 10, Çizgi TAGEM
+5. Özdemir S.(2013). Veri İletişimi, Data Communications Ders Notu, Gazi Üniversitesi
+Referanslar
+Data Communications (Veri İletişimi) verinin kablo gibi bir ortam kullanılarak
+iki cihaz arasında iletilmesidir.
+Veri iletişiminin etkinliği 4 parametreyle ifade edilir:
+1. Delivery (Doğru Hedef) : Verinin sadece doğru hedefe ulaşmasıdır.
+2. Accuracy (Doğruluk) : Verinin kaynağından çıktığı şekliyle iletilmesidir.
+3. Timeliness (Zaman) : Verinin zamanında hedefe ulaşmasıdır. Gerçek
+zamanlı iletişimde (audio, video) çok önemlidir.
+4. Jitter (Gecikme Değişimi) : Paketlerin hedefe ulaşma süresindeki
+değişimdir.
+Veri iletişim sistemi 5 elemandan oluşur:
+1. Message (Mesaj): iletilen bilgidir (ses, görüntü, metin, sayı, resim)
+2. Sender (Gönderici): veriyi ileten cihazdır (pc, workstation, video camera)
+3. Receiver (Alıcı): veriyi alan cihazdır (pc, workstation, televizyon)
+4. Transmission medium (İletim Ortamı): verinin gönderen ve alan cihaz
+arasında iletilmesini sağlayan fiziksel yoldur (twisted pair wire, coaxiel
+cable, fiber optic cable, radio waves)
+5. Protocol (Protokol): veri iletişimini başlatır, yönetir, sonlandırır.
+Veri Formları
+Günümüzde bilgi çeşitli şekillerde ortaya çıkmaktadır.
+1. Text: Veri iletişiminde text bit dizileri halinde ifade edilir. Çeşitli bit dizileri
+(code) text sembollerini ifade eder. “Unicode coding system” her
+sembolü 32 bitlik bir kod ile ifade eder.
+2. Number: Veri iletişiminde sayılar bit dizileri halinde ifade edilir.
+3. Images: Bir image pixel matrisi ile ifade edilir. Matris içindeki her bir
+nokta bir bit dizisidir.
+4. Audio ve video: Diğerlerinden farklı olarak sürekli verilerdir, elektiriksel
+sinyal veya resimler dizisi olarak ifade edilebilirler.
+Veri akışı 3 şekilde olabilir:
+1. Simplex: iletişim tek yönlüdür (televizyon, keyboard, monitor)
+2. Half-duplex: iki cihazda veriyi hem gönderebilir hem de alabilir. Ancak iki
+cihaz sırayla veri alıp gönderebilir. (telsiz, walkie-talkies)
+3. Full-duplex: iki cihaz eşzamanlı veri gönderebilir veya alabilir. (telefon,
+ADSL modem) (5).
+A. Veri İletişimi
+Veri İletimi İçin Kullanılan Ortamlar:
+Veri iletimi ortamları için, bakır tel, cam lifler, hava olarak sıralayabiliriz. Bakır teller
+kullandığımızda veri elektrik akımı kullanarak, cam lifler üzerinde ışık yardımı ile, hava da
+ise radio dalgaları, mikrodalga ya da kızılötesi ışınlar ile aktarılır. Doğal olarak, her ortamda
+o ortamın özelliklerine uygun bir kodlama yapılması gerekir (2).
+Sayısal Sayısal Çevirme:
+Bilginin iki nokta arasında iletilmesi için analog veya dijital (sayısal) sinyale çevrilmesi
+gerekir. Sayısal sayısal çevirmede sayısal veri sayısal sinyale dönüştürülür. Analog sayısal
+çevirmede analog veri sayısal sinyale dönüştürülür. Çevirme işleminden elde edilen sinyal
+paralel veya seri olarak iki nokta arasında iletilir (5).
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. MEGEP Ağ Temelleri Modülü, 2008, Ankara (E-Kitap)
+• MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+• Academytech-CCNA-Türkçe Eğitim Notu.
+• Tan, S.O.Karabük Üniversitesi, KBT 115 Ağ Temelleri Ders Notları
+• Korkmaz S. Bilgisayar Ağ Sistemleri, Ağ Temelleri (Network). Kırklareli Üniversitesi
+D. Ek Kaynaklar
+B. Veri İletim Ortamları / Yöntemleri
+
+C. Elektromanyetik Spectrum
+Boot / Start: Bilgisayarı Başlatmak
+Reboot / Reset / Restart: Bilgisayarı Kapatıp, Yeniden Başlatmak
+Reset Atmak: Çalışan Bilgisayarı “Reset” Düğmesine Basarak Yeniden Başlatmak.
+CTRL-ALT-DEL: “Soft Reset” ya da Sisteme Giriş Ekranını Getirmek.
+Setup: Bir Programın Kurulması İçin Gerekli Dosya.
+Install: Setup Dosyasını Kullanarak Bir Program Kurulumu Yapmak.
+Unınstall: Bilgisayara Önceden Kurulmuş Bir Programı Kaldırmak.
+Kaynak:Adnan Menderes Üni Temel Bilgi Teknolojileri
+Mini Sözlük
+Şekil 1. Veri İletişim Sistemi
+Şekil 1. Veri Akışı (5).
+Şekil 3. Elektromanyetik Spectrum ve Haberleşmede Kullanımı
+1. Oktuğ, S. İTÜ Bilgisayar Mühendisliği Bölümü, BLG433-Bilgisayar Haberleşmesi Ders Notları
+2. MEGEP (Millî Eğitim Bakanlığı Bilişim Teknolojisi Ağ Temelleri (481BB0089) Ders Notu. Ankara 2011
+3. Özdemir S.(2013). Veri İletişimi, Data Communications Ders Notu, Gazi Üniversitesi
+Referanslar
+Veri İletimi İçin Kullanılan Ortamlar:
+Veri iletimi için pek çok ortam kullanılır. Bu ortamları, bakır tel, cam lifler, hava
+olarak sıralayabiliriz. Bakır teller kullandığımızda veri elektrik akımı kullanarak,
+cam lifler üzerinde ışık yardımı ile, hava da ise radio dalgaları, mikrodalga ya da
+kızılötesi ışınlar ile aktarılır. Doğal olarak, her ortamda o ortamın özelliklerine
+uygun bir kodlama yapılması gerekir (1).
+ Seri iletişim asenkron seri iletişim ve senkron seri iletişim olmak üzere iki
+çeşittir:
+Asenkron Seri İletişim:
+Herhangi bir zamanda veri gönderilebilir. Veri gönderilmediği zaman hat boşta
+kalır. Senkron seri iletişimden daha yavaştır. Her veri grubu ayrı olarak
+gönderilir. Gönderilen veri bir anda bir karakter olacak şekilde hatta bırakılır.
+Karakterin başına başlangıç ve sonunda hata sezmek için başka bir bit eklenir.
+Başlangıç için başla biti (0), veri iletişimini sonlandırmak için ise dur biti (1)
+kullanılır (1). Bilgi gruplar halinde gönderilir. Bir grupta genellikle 8 bit olur. Bir
+grubun geldiğini alıcıya start biti, bittiğini stop biti gösterir. Byte seviyesinde
+asenkrondur, ama bit seviyesinde senkron yapmak gerekir. Keyboard, mouse
+örnektir (5).
+Senkron Seri İletişim:
+Senkron iletişim alıcı ve vericinin eş zamanlı çalışması anlamına gelir. Önce
+gönderici taraf belirli bir karakter gönderir. Bu her iki tarafça bilinen iletişime
+başlama karakteridir. Alıcı taraf bu karakteri okursa iletişim kurulur. Verici
+bilgileri gönderir. Transfer işlemi veri bloku tamamlanana ya da alıcı verici
+arasındaki eşleme kayboluncaya kadar devam eder (1). Start ve stop biti
+olmadan bitler ardarda gönderilir. Bitleri gruplara ayırmak ve zamanlama
+işlemleri alıcı tarafından yapılır. Asenkrona göre daha hızlıdır (5).
+A. Paralel ve Seri İletişim
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. MEGEP Ağ Temelleri Modülü, 2008, Ankara (E-Kitap)
+• MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+• Academytech-CCNA-Türkçe Eğitim Notu.
+• Tan, S.O.Karabük Üniversitesi, KBT 115 Ağ Temelleri Ders Notları
+• Korkmaz S. Bilgisayar Ağ Sistemleri, Ağ Temelleri (Network). Kırklareli Üniversitesi
+D. Ek Kaynaklar
+B. Paralel İletişim
+
+C. Seri İletişim
+Şekil. Paralel İletişim (5).
+Şekil 4. Seri İletişim (5).
+Boot / Start: Bilgisayarı Başlatmak
+Reboot / Reset / Restart: Bilgisayarı Kapatıp, Yeniden Başlatmak
+Reset Atmak: Çalışan Bilgisayarı “Reset” Düğmesine Basarak Yeniden Başlatmak.
+CTRL-ALT-DEL: “Soft Reset” ya da Sisteme Giriş Ekranını Getirmek.
+Setup: Bir Programın Kurulması İçin Gerekli Dosya.
+Install: Setup Dosyasını Kullanarak Bir Program Kurulumu Yapmak.
+Unınstall: Bilgisayara Önceden Kurulmuş Bir Programı Kaldırmak.
+Kaynak:Adnan Menderes Üni Temel Bilgi Teknolojileri
+Mini Sözlük
+Şekil 3. Elektromanyetik Spectrum ve Haberleşmede Kullanımı
+PARALEL İLETİŞİM SERİ İLETİŞİM
+Paralel veri iletimi, bir veri içindeki
+bitlerin aynı anda gönderilmesidir.
+Paralel veri iletiminde gönderilecek
+bilginin her biti için ayrı bir kablo
+bağlantısı bulunur.
+Paralel veri iletiminde, bir karakterin
+tüm bitleri aynı anda iletildiği için
+başla-bitir bitlerine ihtiyaç yoktur.
+Dolayısıyla doğruluğu daha
+yüksektir. Paralel veri iletimi, bilginin
+tüm bitlerinin aynı anda iletimi
+sebebiyle çok hızlıdır (1).
+Aynı anda n bit gönderilir. Maliyet
+yüksektir, hızlıdır. Kısa mesafelerde
+kullanılır (5).
+Seri veri iletimi, bir veri içindeki
+bitlerin aynı hat üzerinden ard arda
+gönderilmesidir.
+Bilgisayar ağlarında kullanılan
+iletişim seri iletişimdir.
+Seri veri iletiminde, bir kerede bir
+karakterin sadece bir biti iletilir. Alıcı
+makine, doğru haberleşme için
+karakter uzunluğunu, başla-bitir
+(start-stop) bitlerini ve iletim hızını
+bilmek zorundadır (1).
+Aynı anda 1 bit gönderilir. Maliyet
+düşüktür, yavaştır. Uzun mesafelerde
+kullanılır (5).
+Şekil 4. Asenkron Seri İletişim (5).
+Şekil 4. Senkron Seri İletişim (5).
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. MEGEP (Millî Eğitim Bakanlığı Bilişim Teknolojisi Ağ Temelleri (481BB0089) Ders Notu. Ankara 2011
+3. Özdemir S.(2013). Veri İletişimi, Data Communications Ders Notu, Gazi Üniversitesi
+Referanslar
+İnternet Bağlantısı İçin Ne Gerekli?
+ Dünya üzerindeki en büyük veri ağı İnternettir. İnternet irili ufaklı çok
+sayıda ağları içerir. Bu devasa ağların son noktaları bireysel tüketicilerdir. Bu
+büyük ağa bağlı olan son kullanıcıların bağlantıları fiziksel ve mantıksal
+bağlantıların kopması veya bilgisayar üzerindeki uygulamaların bozulmasından
+kaynaklanan sorunlardan dolayı kesilebilir. Özetle, İnternet bağlantısı için;
+1. Fiziksel Bağlantı
+2. Mantıksal Bağlantı
+3. Uygulamalar gereklidir.
+Bilgisayar ile İnternet ağı arasındaki fiziksel bağlantı özel olarak bu iş için
+hazırlanmış modem veya ağ arabirim kartı (NIC) sayesinde sağlanır. Fiziksel
+bağlantı, lokal ağdaki bilgisayar ile İnternet üzerindeki herhangi bir cihazla
+arasındaki sinyal transferini sağlar.
+Mantıksal bağlantı ise, protokol denilen standartlarda kullanılır. Ağ üzerinde
+cihazların haberleşmesi için tanımlanan kurallar bütününe protokol diyoruz.
+İnternet bağlantılarında genellikle çoklu protokoller kullanılır. İnternet
+üzerinde kullanımı en yaygın olan protokol Aktarım Kontrol Protokolü/İnternet
+Protokolüdür (TCP/IP). TCP/IP veri aktarımında kullanılan protokol takımıdır.
+Bağlantının son parçası olan uygulamalar ise verileri tercüme ederek anlaşılır
+bir halde kullanıcıya sunar. Uygulamalar İnternet üzerindeki veri alış verişlerini
+protokoller yardımı ile yapar. En büyük örnek olarak bir ağ tarayıcısı (web
+browser) HTML kodlarını kullanıcıya görsel olarak göstermesini verebiliriz. Aynı
+şekilde İnternet üzerinden dosyaları bilgisayarımıza indirmekte kullandığımız
+Dosya Transfer Protokolü’nü de (FTP) çok kullanılan protokoller arasında
+gösterebiliriz. Ağ tarayıcıları ise tescilli plug-in uygulamalarını kullanarak film
+veya flash animasyonları gibi özel veri tiplerini görsel hale getirebilirler (Atay).
+Bilgisayarın Temel Parçaları (Bileşenleri):
+1-Temel Elektronik Parçalar:
+Transistor: Bu devre elemanı sinyali kuvvetlendiren veya devreyi açıp
+kapatmaya yarayan elemandır.
+Bütünleşik devreler: Özel görevler yapılan, birçok transistor ve yarı iletken
+materyal içeren cihaz.
+Resistor: Elektrik akımına karşı koymak için üretilen devre elemanıdır.
+Kapasite (Kondansatör) : Yalıtkan bir materyal ile ayrılmış iki iletken metal
+plakadan oluşan ve enerjiyi elektrostatik alan formunda depolayan elektronik
+komponenttir.
+Konektör: Kablonun bir porta veya arabirim girişlerine bağlanan parçasıdır.
+Işık Yayan Diyot: Akım geçerken ışık yayan yarı iletken eleman (Atay).
+A. İnternete Bağlanmak
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. MEGEP Ağ Temelleri Modülü, 2008, Ankara (E-Kitap)
+• MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+• Academytech-CCNA-Türkçe Eğitim Notu.
+• Tan, S.O.Karabük Üniversitesi, KBT 115 Ağ Temelleri Ders Notları
+• Korkmaz S. Bilgisayar Ağ Sistemleri, Ağ Temelleri (Network). Kırklareli Üniversitesi
+D. Ek Kaynaklar
+B. Temel Elektronik Parçalar
+
+C. Temel Elektronik Parçalar
+Şekil 2. Temel Elektronik Parçalar (Devam).
+Şekil 3. Temel Elektronik Parçalar (Devam).
+Boot / Start: Bilgisayarı Başlatmak
+Reboot / Reset / Restart: Bilgisayarı Kapatıp, Yeniden Başlatmak
+Reset Atmak: Çalışan Bilgisayarı “Reset” Düğmesine Basarak Yeniden Başlatmak.
+CTRL-ALT-DEL: “Soft Reset” ya da Sisteme Giriş Ekranını Getirmek.
+Setup: Bir Programın Kurulması İçin Gerekli Dosya.
+Install: Setup Dosyasını Kullanarak Bir Program Kurulumu Yapmak.
+Unınstall: Bilgisayara Önceden Kurulmuş Bir Programı Kaldırmak.
+Kaynak:Adnan Menderes Üni Temel Bilgi Teknolojileri
+Mini Sözlük
+Şekil 1. Temel Elektronik Parçalar.
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. MEGEP (Millî Eğitim Bakanlığı Bilişim Teknolojisi Ağ Temelleri (481BB0089) Ders Notu. Ankara 2011
+3. Özdemir S.(2013). Veri İletişimi, Data Communications Ders Notu, Gazi Üniversitesi
+Referanslar
+Bilgisayarın Temel Parçaları (Bileşenleri):
+2-Kişisel Bilgisayarların Parçaları (Bileşenleri, Alt Sistemleri):
+• Baskı devre kartlar (PCB) : Çiplerin, elektronik elemanların ve entegre
+devreleri üzerinde bulunduran ince kart.
+• CD Sürücü: Okunabilir hafıza olan kompakt diskteki veriler okuyabilen
+cihazlar.
+• Merkezi İşlem Birimi (CPU) : Tüm hesaplamaların yapıldığı bilgisayarın
+beyidir.
+• Disket Sürücü: Diskete veri yazıp okuyabilen disket sürücü.
+• Hard disk sürücü: Hard disk üzerine veri yazılabilen veya okunabilen cihaz.
+• Mikroişlemci: Merkezi işlem birimini içeren silikon çip.
+• Ana kart: Mikrobilgisayarın ana devre kartı.
+• Veri Yolu: Bilgisayar içerisindeki parçalar arasındaki veri akışını sağlayan
+iletken yığını.
+• Rasgele Erişilebilir Bellek (RAM) : Yeni veriyi yazan ve depolayan,
+gerektiğinde kullanabildiğimiz cihaz. Ancak RAM’lar işlevlerini sürdürebilmeleri
+için sürekli elektrik enerjisine ihtiyaç duyarlar. Eğer enerjisi kesilirse depoladığı
+tüm veriler kaybedilir.
+• Sadece Okunabilen Bellek (ROM) : Bir defaya mahsus olmak üzere üzerine
+veri yazılan ve sadece önceden yazılmış verinin okunabildiği parça.
+• Sistem Ünitesi: Bilgisayarın işlemcisini, şasisini, ana hafızasını veri yollarını ve
+portlarını içeren ana parçadır. Sistem ünitesi klavye, monitör veya diğer harici
+olarak bağlanan parçaları içermez.
+• Genişleme Slotu: Ana kartın üstünde bulunan ve bilgisayara farklı yetenekler
+ilave etmek için kullanılan, üzerine kartların takıldığı soketlerdir.
+• Güç Kaynağı: Bilgisayara güç sağlayan parçadır.
+• Arka düzlem Parçaları
+• Arka düzlem: Genişleme kartları için gerekli soketleri barındıran büyük devre
+kartıdır.
+• Ağ Ara yüz Kartı: Bilgisayara takılan bir panodur. Bu pano ile bilgisayar ağa
+bağlanabilir.
+• Video Kartı: Bilgisayara görüntü ile ilgili yetenekleri kazandıran bilgisayarın
+ana kartının üzerine takılan karttır.
+• Ses Kartı: Bilgisayara ses ile ilgili yetenekleri kazandıran, bilgisayarın ana
+kartının üzerine takılan karttır.
+• Paralel Bağlantı Noktası (Port) : Yazıcı gibi harici aygıtları bağlamak için
+kullanılan, aynı anda 1 bitten fazla transfer yeteneğine sahip ara yüzdür.
+• Seri Bağlantı Noktası: Birim zamanda sadece 1 bit gönderebilen ve seri
+bağlantılar için kullanılan ara yüzdür.
+• Fare (Mouse) Bağlantı Noktası: Farenin bilgisayara bağlanması için
+tasarlanmış bağlantı noktasıdır.
+• Güç Kablosu: Aygıta güç vermesi için elektriksel aygıttan üretilen gücün söz
+konusu aygıta elektriksel gücün iletilmesini sağlaması için gerekli olan
+kablodur.
+Düşünce olarak bilgisayar birbirlerine veri yolları ile bağlanmış bir küçük ağ
+sistemidir. Böyle düşünme bilgisayar yapısını anlamamızı kolaylaştırır (Atay).
+A. Kişisel Bilgisayarın Temel Bileşenleri
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. MEGEP Ağ Temelleri Modülü, 2008, Ankara (E-Kitap)
+• MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+• Academytech-CCNA-Türkçe Eğitim Notu.
+• Tan, S.O.Karabük Üniversitesi, KBT 115 Ağ Temelleri Ders Notları
+• Korkmaz S. Bilgisayar Ağ Sistemleri, Ağ Temelleri (Network). Kırklareli Üniversitesi
+D. Ek Kaynaklar
+B. Anakart Bileşenleri
+
+C. Kişisel Bilgisayarın Bileşenleri
+Boot / Start: Bilgisayarı Başlatmak
+Reboot / Reset / Restart: Bilgisayarı Kapatıp, Yeniden Başlatmak
+Reset Atmak: Çalışan Bilgisayarı “Reset” Düğmesine Basarak Yeniden Başlatmak.
+CTRL-ALT-DEL: “Soft Reset” ya da Sisteme Giriş Ekranını Getirmek.
+Setup: Bir Programın Kurulması İçin Gerekli Dosya.
+Install: Setup Dosyasını Kullanarak Bir Program Kurulumu Yapmak.
+Unınstall: Bilgisayara Önceden Kurulmuş Bir Programı Kaldırmak.
+Kaynak:Adnan Menderes Üni Temel Bilgi Teknolojileri
+Mini Sözlük
+Şekil 4. Kişisel Bilgisayar Sistemi ve Bileşenleri
+Şekil 1. Anakart ve Bileşenleri
+1. MEGEP (Millî Eğitim Bakanlığı Bilişim Teknolojisi Ağ Temelleri (481BB0089) Ders Notu. Ankara 2011
+2. Bayramoğlu H., Bilgisayar Donanımı Ders Notu, ITEC115 Bilgisayara Giriş / ITEC190 Hukuk Dersleri için Doğu
+Akdeniz Üniversitesi
+3. Uğurlu B. BM-307 Mikroişlemciler ve Mikrobilgisayarlar Ders Notu. Çanakkale Onsekiz Mart Üniversitesi.
+4. Parlar, T. Bilgisayar Donanımı Ders Notu, Donanım Kartları. Antakya MYO, 2012
+5. Çukurova Üniversitesi, Enformatik Bölümü, Donanım Ders Notu, 2012
+Referanslar
+Port: Bilgisayarla dış aygıtlar arasındaki kablo ile iletişimi sağlayan veri
+kanallarına port adı verilir. Portlar, seri (COM) ve paralel (LPT) olmak üzere iki
+temel kısımda incelenir. SCSI, USB, PCMCIA gibi aynı anda birden fazla dış
+aygıtın bilgisayara bağlanabilmesine olanak tanıyan portlar bulunmaktadır.
+Port, bir aygıtın bağlandığı veya sistem ile iletişim kurduğu noktadır (bazen jak
+olarak adlandırılır). Konnektör, bir kablonun ucundaki, porta giren parçadır
+(Tagem).
+Seri Port: Her seferinde içeriye veya dışarıya doğru bir bit bilgi taşıyan fiziksel
+bir ara yüzdür. Kişisel bilgisayarların tarihi boyunca terminaller veya modemler
+gibi cihazlar ile bilgisayarlar arasındaki veri transferi çoğunlukla seri bağlantı
+noktaları üzerinden sağlanmıştır. Fare, klavye, diğer çevre birimleri de bu yolla
+bilgisayara bağlanmaktadır (1).
+Paralel Port: Bilgisayarın kasasının arkasında bulunan 25 pinlik D şeklindeki
+konektördür. Genellikle yazıcıyı bağlamak için kullanılır. Seri porta göre hızlı
+olmasına rağmen aynı kararlılığı sağlayamaz. Bu bağlantı noktasına aynı
+zamanda LPT ( Line Print Terminal) de denilmektedir (1).
+Modem: Standart telefon hatlarını kullanarak ayrı yerlerdeki bilgisayarlar
+arasında bağlantı yapılmasını sağlayan araçlardır. Bu şekilde, bir bilgisayardan
+diğerine veri aktarımı yapılabilir ya da özel bazı protokollerle internet servisleri
+kullanılabilir. Telefon hatları, normal şartlarda, sadece ses iletebilir. Modemler,
+bilgisayarlardaki dijital bilgiyi öncelikle ses sinyallerine dönüştürdükten sonra
+sinyalleri alan karşı taraftaki modem ise, analog sinyalleri ters dönüşümle
+bilgisayarların kullandığı dijital bilgiye dönüştürür (1).
+A. Ağ Bağlantı Terimleri
+RJ-11 Modem Port: Telefon / Modem portudur. Telefon hattı üzerinden internet
+bağlantısı kurmak için kullanılır.
+RJ-45 Ethernet Port: LAN bağlantısı için kullanılır. 10 Mbps ile 1GB arasında veri transfer
+hızı sağlar.
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. MEGEP Ağ Temelleri Modülü, 2008, Ankara (E-Kitap)
+• MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+• Academytech-CCNA-Türkçe Eğitim Notu.
+• Doğu Akdeniz Üniversitesi Bilgisayar Ağ Sistemleri (BTEP208) Ders Notu
+• Korkmaz S. Bilgisayar Ağ Sistemleri, Ağ Temelleri (Network). Kırklareli Üniversitesi
+D. Ek Kaynaklar
+B. RJ-11 ve RJ-45 Portu
+Portlar ve konnektörler, anakartın dış birimlerle bağlantı kurduğu özel yapılardır.
+C. Bilgisayar Sistemi ve Bileşenleri
+Boot / Start: Bilgisayarı Başlatmak
+Reboot / Reset / Restart: Bilgisayarı Kapatıp, Yeniden Başlatmak
+Reset Atmak: Çalışan Bilgisayarı “Reset” Düğmesine Basarak Yeniden Başlatmak.
+CTRL-ALT-DEL: “Soft Reset” ya da Sisteme Giriş Ekranını Getirmek.
+Setup: Bir Programın Kurulması İçin Gerekli Dosya.
+Install: Setup Dosyasını Kullanarak Bir Program Kurulumu Yapmak.
+Unınstall: Bilgisayara Önceden Kurulmuş Bir Programı Kaldırmak.
+Kaynak:Adnan Menderes Üni Temel Bilgi Teknolojileri
+Mini Sözlük
+Şekil 4. Sistem Ünitesi LPT Portu ve Kablosu
+Şekil 3. Anakart Üzerinde Yer Alan Seri (Com) Portu ve Kablosu (1)
+Şekil 5. Modem Türleri
+Şekil 3. Modem RJ-11 Portu ile RJ-45 Ethernet Kartı Portu (1)
+Şekil 4. Sistem Ünitesi (Kasası) Bağlantı Portları
+Boot / Start: Bilgisayarı Başlatmak
+Reboot / Reset / Restart: Bilgisayarı Kapatıp, Yeniden Başlatmak
+Reset Atmak: Çalışan Bilgisayarı “Reset” Düğmesine Basarak Yeniden Başlatmak.
+CTRL-ALT-DEL: “Soft Reset” ya da Sisteme Giriş Ekranını Getirmek.
+Setup: Bir Programın Kurulması İçin Gerekli Dosya.
+Install: Setup Dosyasını Kullanarak Bir Program Kurulumu Yapmak.
+Unınstall: Bilgisayara Önceden Kurulmuş Bir Programı Kaldırmak.
+Kaynak:Adnan Menderes Üni Temel Bilgi Teknolojileri
+Mini Sözlük
+1. MEGEP (Millî Eğitim Bakanlığı Ağ Güvenliği Ve Ağ Protokolleri 481bb0007,Elektrik-Elektronik
+Teknolojisi, Ders Notu Ankara, 2011
+2. Bayramoğlu H., Bilgisayar Donanımı Ders Notu, ITEC115 Bilgisayara Giriş / ITEC190 Hukuk Dersleri için Doğu
+Akdeniz Üniversitesi
+3. Vikipedia, MAC Adresi, 30.01.2014
+4. Parlar, T. Bilgisayar Donanımı Ders Notu, Donanım Kartları. Antakya MYO, 2012
+5. Çukurova Üniversitesi, Enformatik Bölümü, Donanım Ders Notu, 2012
+Referanslar
+Ağ Arabirim Kartı (NIC-Network Interface Cart)
+ Bilgisayarların ve diğer cihazların bir ağa bağlanmasını sağlayan
+donanımlara ağ arabirim kartı (NIC- network interface kart) denir. Bilgisayarın
+özelliklerine göre anakartla bütünleştirilmiş hâlde olabilir ya da anakart
+üzerindeki herhangi bir çevresel yuvaya takılı olabilir. ISA, PCI, USB, PCMCI gibi
+bağlantı yuvalarını kullanan ağ arabirim kartları vardır. Bunlardan en sık
+kullanılanı PCI bağlantı noktasını kullanan kartlardır. Ağ arabirim kartlarının
+kendine özgü başka bir kartta olmayan 48 bitlik fiziksel bir adresi vardır. Bu
+adrese MAC (Media Access Control) adresi denir. MAC adresi kullanıcılar için
+ağ üzerindeki veri akışını kontrol etmekte kullanılır.
+MAC Adress (Media Access Control-Ortama Erişim Adresi)
+MAC adresi, bilgisayarların ağ kartının ya da benzer ağ cihazlarının içine
+değiştirilemez bir şekilde yerleştirilmiş olan bir adrestir. 0020AFF8E771
+örneğinde olduğu gibi on altılık düzende (hexadecimal) rakamlardan oluşur.
+MAC adresi yerine donanım adresi ya da fiziksel adres terimleri de kullanılabilir
+(1).
+MAC Adresi (Fiziksel Adres,Donanım Adresi), ağ donanımının tanımlanmasını
+sağlar. MAC adresi, bilgisayarın ethernet kartına üretici tarafından kodlanan bir
+bilgidir. Her donanım için özel bir adresi vardır. Aynı MAC adresine sahip birden
+fazla ağ cihazı yoktur. MAC adresi 6 oktetten oluşur. İlk 3 oktet donanımı
+üreten firmayı işaret eder. Son 3 oktet donanımı işaret eder. MAC adresi,
+sadece yerel ağlarda haberleşmeyi sağlar. Ağın dışına taşınabilecek bir adres
+değildir. Sadece aynı ağ üzerindeki bilgisayarların birbirlerini bulmalarını
+sağlar. Aynı ağda iki ağ cihazının birbiriyle haberleşmesi MAC adresiyle
+mümkündür. MAC adresinin kullanıldığı protokollerden bazıları şunlardır:
+Ethernet, Token ring, Wi-fi, Bluetooth, FDDI, SCSI’dir (3).
+A. NIC (Network Interface Card)
+Windows İşletim Sisteminde Başlat/Çalıştır (Kısayol: Win+R) cmd yazıp entere basın.
+Komut satırına getmac yazıp entere basın.
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. MEGEP Ağ Temelleri Modülü, 2008, Ankara (E-Kitap)
+• MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+• Academytech-CCNA-Türkçe Eğitim Notu.
+• Doğu Akdeniz Üniversitesi Bilgisayar Ağ Sistemleri (BTEP208) Ders Notu
+• Korkmaz S. Bilgisayar Ağ Sistemleri, Ağ Temelleri (Network). Kırklareli Üniversitesi
+• Bartın Üniversitesi Network Ders Notları
+• Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+• Tan, S.O. Karabük Üniversitesi, KBT 115 Ağ Temelleri Ders Notları
+D. Ek Kaynaklar
+B. Sistem Ünite Türleri
+ Bilgisayarın MAC Adresini öğrenmek için aşağıdaki video izlenebilir.
+C. Uygulama Videosu
+Video 1. Mac Adresi Nasıl Öğrenilir?
+Şekil 2. Bilgisayarın IP / MAC Adresini Öğrenmek
+Şekil 1. Ağ Arabirim Kartları (NIC- Network Interface Cart)
+Şekil 1. Ağ Arabirim Kartları (NIC- Network Interface Cart) 
+1. MEGEP (Millî Eğitim Bakanlığı Bilişim Teknolojisi İşlemciler (CPU) 481bb0009 Ders Notu. Ankara 2012
+2. Bayramoğlu H., Bilgisayar Donanımı Ders Notu, ITEC115 Bilgisayara Giriş / ITEC190 Hukuk Dersleri için Doğu
+Akdeniz Üniversitesi
+3. Uğurlu B. BM-307 Mikroişlemciler ve Mikrobilgisayarlar Ders Notu. Çanakkale Onsekiz Mart Üniversitesi.
+4. Parlar, T. Bilgisayar Donanımı Ders Notu, Donanım Kartları. Antakya MYO, 2012
+5. Çukurova Üniversitesi, Enformatik Bölümü, Donanım Ders Notu, 2012
+Referanslar
+Modem:
+Bilgisayarınızın telefon hatlarını kullanarak iletişim kurmasını sağlar. Standart
+telefon hatlarında sadece ses transferi yapılabilir. Bu durumda verileri sese ve
+sesi de veriye dönüştürmek gerekir. Bu dönüştürme işleminin çok yüksek bir
+hızla yapılması gerekir. Fakat telefon hatlarının kalitesi çok yüksek hıza izin
+vermemektedir. Bu nedenle her şey modemlerin kendi özelliklerine bağlıdır.
+Kısaca modemin görevi, bilgisayardan aldığı digital (sayısal) veriyi analog veriye
+çevirerek göndermek ve aynı şekilde karşı taraftaki bilgisayardan gelen analog
+veriyi tekrar digital veriye çevirerek bilgisayara iletmektir. Modem terimi,
+MODodulation-DEModulation kelimelerinin kısaltılması ile oluşturulmuştur
+(1).
+‘Dial Up’ Modemler:
+Normal bir telefon hattı, ‘Dial Up modem ve bir internet erişim kodu, bu
+bağlantı şeklini kullanabilmek için yeterlidir. Bağlantı kurulurken Türk
+Telekomun Internet Servis Sağlayıcı’lar (ISS) için sağladığı özel bir erişim
+numarası modem tarafından çevrilir, servis sağlayıcının modemi ile irtibat
+kurulur, kullanıcı adı ve şifre kontrol edilir ve veri alışverişi gerçekleşir. Dial Up,
+telefon hattını kullandığından, aynı anda hem internete bağlanıp hem de
+telefon görüşmesi yapamazsınız. Dial Up modemler 2400, 9600,14400, 28800,
+33600, 56000 bps hızlarına ulaşabilir. Günümüzde en çok kullanılan Dial Up
+modemler 56 Kbps hızındadır. Bu modemler dâhilî (Internal) ve harici
+(External) olmak üzere iki çeşittir:
+Dâhil (Internal) Modemler:
+Dâhilî modemler, bilgisayara takılan diğer kartlar gibi kasa içinde bir yuvaya
+takılır. Modem kartının üzerindeki iki çıkıştan biri telefon hattına, diğeri ise
+telefon cihazına bağlanır. Gücünü cihazın güç kaynağından dâhilî olarak temin
+eder.
+Harici (Enternal) Modemler:
+Harici modemler ise ayrı bir cihaz şeklindedir. Bu nedenle, bilgisayara seri
+çıkışların birinden ara kablo yardımı ile bağlanır. Bilgisayarın dışında
+olduklarından elektriği bilgisayardan alamaz. Bu nedenle bir adaptörleri vardır.
+Bağlantı işlemi, telefon hattının modeme ve modemden de telefon cihazına
+bağlanma yoluyla gerçekleşir.
+VDSL Modemler:
+Very High Data Rate Digital Subscriber Line telefon hatları üzerinden çok
+yüksek hızlarda veri alışveriş hızı sunabilen bir DSL teknolojisidir. 13 ile 52
+Mbps arası indirme (download), 1.5 ile 2.3 Kbps gönderme (upload) hızlarına
+erişilebilir. Çok geniş bant genişliği imkanı sunmasına rağmen, VDSL ‘de
+maksimum 1200 m gibi bir maksimum mesafe mahzuru vardır. Daha kısa
+hatlar üzerinde asimetrik bir veri iletimi sağlar (1).
+A. MODEM
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. MEGEP Ağ Temelleri Modülü, 2008, Ankara (E-Kitap)
+• MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+• Academytech-CCNA-Türkçe Eğitim Notu.
+• Doğu Akdeniz Üniversitesi Bilgisayar Ağ Sistemleri (BTEP208) Ders Notu
+• Korkmaz S. Bilgisayar Ağ Sistemleri, Ağ Temelleri (Network). Kırklareli Üniversitesi
+D. Ek Kaynaklar
+B. MODEM TÜRLERİ
+ADSL Modemler: Asymmetric Digital Subscriber Line – Asimetrik Sayısal Abone Hattı)
+Mevcut telefon hattınız üzerinden yüksek veri, ses ve görüntü iletişimini aynı anda
+sağlayan, hızlı ve güvenli, sabit modem teknolojisidir. Bu teknolojide bağlantı
+sağlandığında ayırıcı (splitter) adlı cihaz sayesinde telefon hattı meşgul edilmez. Aynı anda
+hem internet erişimi hem de telefon iletişimi kullanılabilir. ADSL modemler bağlantı
+şekillerine göre dört grupta incelenir:
+Ethernet Modemler: Bilgisayarla olan bağlantılarını üzerinde bulunan Ethernet portları ile
+sağlar. Bu sebeple bilgisayarınızda ‘Ethernet’ kartı bulunmalıdır.
+USB Modemler: Bilgisayarın USB portundan bağlanan bu tip modemler bilgisayarın
+kasasının dışında bulunur. Bazı modeller güç beslemesi gerektirirken bazıları USB
+portundan aldığı elektrikle yetinir.
+PCI Modemler: Bu tip modemler bilgisayarın PCI slotuna takılır, ‘driver’ yüklendikten
+sonra bir çevirmeli bağlantı olarak kurulumu yapılır.
+Kablosuz Modemler: Yapısı itibariyle kablosuz (wireless) modemler, aynı anda hem kablo
+ile bilgisayarlara bağlanarak ağ oluşturuyor ve interneti dağıtıyor hem de aynı ortamdaki
+kablosuz ağ kartına sahip bilgisayarları da bu ağa dahil ederek bu bilgisayarların ağa
+girmesini sağlıyor. RF (radyo frekansı) teknolojisini kullanan bu modemlerde internet
+erişimi modemin konumuna göre farklılıklar gösterebilmektedir. Kapalı alanlarda sinyal
+gücünün zayıf olması performansın azalmasına sebep olmaktadır. Günümüzde kullanılan
+kablosuz modemlerden birisi de 3G mobil modemlerdir. 3G mobil internet ile GPRS/EDGE
+destekli 3G uyumlu 3G mobil modeminizle kablosuz, kolay ve hızlı bir şekilde her yerden
+internete bağlanabilirsiniz. 3G mobil modem ile epostalarınıza hareket hâlindeyken
+ulaşabilir, SMS gönderebilir, telefonunuzu meşgul etmeden kablosuz, kolay ve hızlı bir
+şekilde her yerden internete bağlanabilirsiniz.
+C. ADSL MODEMLER
+Boot / Start: Bilgisayarı Başlatmak
+Reboot / Reset / Restart: Bilgisayarı Kapatıp, Yeniden Başlatmak
+Reset Atmak: Çalışan Bilgisayarı “Reset” Düğmesine Basarak Yeniden Başlatmak.
+CTRL-ALT-DEL: “Soft Reset” ya da Sisteme Giriş Ekranını Getirmek.
+Setup: Bir Programın Kurulması İçin Gerekli Dosya.
+Install: Setup Dosyasını Kullanarak Bir Program Kurulumu Yapmak.
+Unınstall: Bilgisayara Önceden Kurulmuş Bir Programı Kaldırmak.
+Kaynak:Adnan Menderes Üni Temel Bilgi Teknolojileri
+Mini Sözlük
+Şekil 3. Dahili (Internal) Modem
+Şekil 4. Modem Türleri
+Şekil 4. Modem İletişimi
+Boot / Start: Bilgisayarı Başlatmak
+Reboot / Reset / Restart: Bilgisayarı Kapatıp, Yeniden Başlatmak
+Reset Atmak: Çalışan Bilgisayarı “Reset” Düğmesine Basarak Yeniden Başlatmak.
+CTRL-ALT-DEL: “Soft Reset” ya da Sisteme Giriş Ekranını Getirmek.
+Setup: Bir Programın Kurulması İçin Gerekli Dosya.
+Install: Setup Dosyasını Kullanarak Bir Program Kurulumu Yapmak.
+Unınstall: Bilgisayara Önceden Kurulmuş Bir Programı Kaldırmak.
+Kaynak:Adnan Menderes Üni Temel Bilgi Teknolojileri
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. Bayramoğlu H., Bilgisayar Donanımı Ders Notu, ITEC115 Bilgisayara Giriş / ITEC190 Hukuk Dersleri için Doğu
+Akdeniz Üniversitesi
+3. Vikipedia, MAC Adresi, 30.01.2014
+4. Parlar, T. Bilgisayar Donanımı Ders Notu, Donanım Kartları. Antakya MYO, 2012
+5. Çukurova Üniversitesi, Enformatik Bölümü, Donanım Ders Notu, 2012
+Referanslar
+Ağ Cihazları
+Genel olarak ağ segmentlerine bağlanmamızı sağlayan cihazların tümüdür. Bu
+cihazlar iki ana gruba ayrılırlar.
+İlki son kullanıcı cihazlarıdır. Bilgisayarlar, tarayıcılar, yazıcılar ve kullanıcıya
+direkt hizmet verebilen cihazlar son kullanıcı cihazları olarak adlandırılırlar.
+İkinci grup cihazlar ise ağ cihazlarıdır. Son kullanıcı cihazlarının tamamının
+birbirleriyle haberleşmesini sağlayan cihazların tamamına da ikinci grup
+cihazlar denilir.
+Son kullanıcı cihazları son kullanıcının ağa bağlı herhangi bir kullanıcıya
+bağlanmasını sağlar. Bu cihazlar kullanıcıların bilgiyi paylaşmasını, yaratmasını
+ve sahip olmasını sağlar. Son kullanıcı cihazları ağa bağlanmadan da
+kullanılabilirler ancak yapılabilinecek işlerin sayısında büyük ölçüde azalma
+olur. Son kullanıcı cihazları ağa, ağ arabirim kartı kullanarak fiziksel yolla
+bağlanırlar. Bu bağlantıyı elektronik postalarını okumak, raporların dökümünü
+almak veya herhangi bir veri tabanına erişmek için kullanırlar (1).
+Ağ arabirim kartı (NIC) ana kart üzerindeki genişleme slotu üzerinde veya ana
+kart dahil olan bir çeşit baskı devre kartıdır. Genellikle ağ adaptörü olarak
+adlandırılır. Dizüstü bilgisayarlarınki de PCMCIA kart olarak adlandırılır. Her ağ
+arabirim kartının (NIC) kendisine ait Medya Erişim Kontrol (MAC) adresi
+denilen özel bir kodu bulunur. Bu adres kullanıcılar için ağ üzerindeki veri
+akışını kontrol etmekte kullanılır (1).
+Ağ cihazları birbirleri arasında veri transferi yapacak olan iki son kullanıcının
+arasındaki bağlantıyı sağlarlar. Ağ cihazlarının, kablo mesafelerini uzatmak,
+bağlantıları güçlendirmek, veri tiplerini dönüştürmek ve veri akışını kontrol
+etmek gibi görevleri vardır.
+• Tekrarlayıcılar (repeater),
+• Çoklayıcılar (hub),
+• Köprüler (bridges),
+• Anahtarlamalı çoklayıcılar (switch)
+• Yönlendiriciler (router) bu ağ cihazlarına örneklerdir (1).
+A. Ağ Terminolojileri
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. MEGEP Ağ Temelleri Modülü, 2008, Ankara (E-Kitap)
+• MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+• Academytech-CCNA-Türkçe Eğitim Notu.
+• Doğu Akdeniz Üniversitesi Bilgisayar Ağ Sistemleri (BTEP208) Ders Notu
+• Korkmaz S. Bilgisayar Ağ Sistemleri, Ağ Temelleri (Network). Kırklareli Üniversitesi
+• Bartın Üniversitesi Network Ders Notları
+• Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+• Tan, S.O. Karabük Üniversitesi, KBT 115 Ağ Temelleri Ders Notları
+D. Ek Kaynaklar
+B. Son Kullanıcı ve Ağ Cihazları
+ Ağ cihazları hakkında daha fazla bilgi için aşağıdaki video izlenebilir.
+C. Ağ Cihazları Videosu
+Video 1. Ağ Cihazları
+Şekil 2. Son Kullanıcı Cihazları ile Ağ Cihazları (1).
+Şekil 1. Geleneksel LAN (Yerel Alan Ağı) Segmentleri (Bölümleri)
+Şekil 2. Ağ Arabirim Kartı ve PCMCIA Kartı (1).
+AKTİF AĞ DONANIMI: Ağ omurgasını oluşturmak ve uç ağ donanımları için
+fiziksel bağlantı noktaları oluşturmak için kullanılan özel donanımları
+ifade eder (3).
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. Karadeniz Ş. Ağ Donanımları Cihazlar Ders Notu
+3. MYK (Mesleki Yeterlilik Kurumu), Ağ Teknolojileri Elemanı, Seviye 5, Ankara 2012
+Referanslar
+Ağ Cihazları
+Tekrarlayıcılar (repeater) sinyali kuvvetlendirmeye yararlar. Tekrarlayıcılar
+iletişim sırasında analog veya dijital sinyal seviyelerini düzelterek sinyallerin
+kaybolmasını veya bozulmasını engellerler. Ancak köprüler (bridges) veya
+yönlendiriciler (router) gibi yönlendirme yapamazlar.
+Kablonun kapasitesinden daha fazla mesafelere bağlantı kurulması
+gerektiğinde araya bir yükseltici konularak sinyalin güçlendirilmesini sağlayan
+cihazdır. OSI’nin 1. katmanında çalıştığı için verinin içeriğine bakmaz, sadece
+sinyalleri güçlendirir. Ağ trafiğini yönetmez (2).
+Çoklayıcılar (Hubs):
+Ağ elemanlarını birbirine bağlayan çok portlu bir bağdaştırıcıdır. En basit ağ
+elemanıdır. Hub kendisine gelen bilgiyi gitmesi gerektiği yere değil, portlarına
+bağlı bütün bilgisayarlara yollar. Bilgisayar gelen bilgiyi analiz ederek kendisine
+gelmişse kabul eder.
+Hublar, 4, 8, 12, 16, 24 portlu olarak üretilirler. Huba UTP kablo ile bağlanılır ve
+her bir bağlantı 100 metreden daha uzun olamaz. Hub çalışırken herhangi bir
+portundan kablo çıkartmanız veya takmanız herhangi bir sorun çıkarmaz.
+Ağ kuruduktan sonra ortaya çıkan problemlerden biri de ağın genişlemesidir.
+Ağ genişledikçe mevcut hubın port sayısı yeterli olmayabilir. Böyle durumlarda
+ya daha çok porta sahip bir hub alınır ya da başka bir hub ile mevcut hub
+birbirine bağlanır. Hublar birbirine bağlanarak ağın daha da genişlemesi
+sağlanabilir. Hubların birbirine bağlanması için hubların çoğunluğunda bulunan
+uplink portu kullanılır. Eskiden hublar çapraz kablo ile bağlanırlardı.
+Günümüzde ise hublarda normal portların yanında, üzerinde crossover, uplink,
+out, MDI/X gibi ibarelerin bulunduğu portlar görebilirsiniz.
+Birbirine bağlanacak iki hubdan birinin uplink portuna düz kablonun bir ucunu,
+diğer hubın ise normal bir portuna kablonun diğer ucunu takın. Ancak daha
+sonra karıştırmamanız amacıyla birinci porta takmanızı öneririz. Ayrıca uplink
+portunun yanında bir düğme bulunuyorsa bu düğmeye basılmalıdır.
+İşlevsel olarak hublar kendi aralarında aşağıdaki gibi ayrılırlar:
+Pasif (Passive) Hub: Hubın portlarına gelen sinyal herhangi bir
+kuvvetlendirmeye tabi tutulmadan direk gönderilir.
+Aktif (Active) Hub: Yönlendirici benzeri çalışırlar, gelen sinyal güçlendirilerek
+gönderilir. Bu hublar bazen multiport repeater olarak da adlandırılırlar. Ayrıca
+Akıllı (Intelligent) hub adıyla isimlendirilen cihazlarda mevcuttur. Bu hublar
+köprü görevini de üslenirler ve ağ trafiğini yönetirler. Bunlara çok portlu bridge
+deme de mümkündür. En son geliştirilen ve switch teknolojisini kullanan yine
+trafik filtreleme özelliğini sağlayan Switching Hublarda bu kategoriye girer.
+A. Ağ Cihazları
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. MEGEP Ağ Temelleri Modülü, 2008, Ankara (E-Kitap)
+• MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+• Academytech-CCNA-Türkçe Eğitim Notu.
+• Doğu Akdeniz Üniversitesi Bilgisayar Ağ Sistemleri (BTEP208) Ders Notu
+• Korkmaz S. Bilgisayar Ağ Sistemleri, Ağ Temelleri (Network). Kırklareli Üniversitesi
+• Bartın Üniversitesi Network Ders Notları
+• Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+• Tan, S.O. Karabük Üniversitesi, KBT 115 Ağ Temelleri Ders Notları
+D. Ek Kaynaklar
+B. Hub ve Switch Bağlantısı
+ Hub ve Switch hakkında daha fazla bilgi öğrenmek için aşağıdaki video izlenebilir.
+C. Hub / Switch Videosu
+Video 1. Switch Nedir?
+Şekil 3. Hub ve Switch Bağlantı Örneği
+Şekil 1. Tekrarlayıcı (Repeater) (1).
+Şekil 4. Hub (Çoklayıcı)
+YÖNETİLEBİLİR AĞ ANAHTARI: Ağ donanımlarının birbirlerine bağlanmasına olanak
+veren ve veri iletişimini yazılımsal olarak kurallara bağlanabilen aktif ağ
+donanım bağlantı noktalarıdır.
+YÖNLENDİRME: Bir ağa gelen ve bir ağdan giden paketlerin sabit veya dinamik
+kurallar ile hangi ağ arayüzleri arasında hareket edeceğini belirleme
+işlemlerine denir.
+YÖNLENDİRME PROTOKOLÜ: Yönlendirme işleminde veri paketlerinin gideceği
+noktaların dinamik olarak tespit edilmesini sağlayan kurallar bütününü
+ifade eder (3).
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MYK (Mesleki Yeterlilik Kurumu), Ağ Teknolojileri Elemanı, Seviye 5, Ankara 2012
+Referanslar
+Ağ Cihazları
+Köprüler (bridges) ağ içerisindeki verilerin temel sinyaller halinde iletilmesini
+sağlarlar. Köprü demek yerel alan ağları (LANs) arasındaki bağlantıyı sağlamak
+anlamına gelir. Lokal alan ağlarını birbirine bağlamanın yanında verileri
+sınırlandırarak köprüden geçip geçmediklerini kontrol ederler. Buda ağın her
+parçasının daha verimli olmasını sağlar (1).
+Anahtar / Dağıtıcı / Anahtarlı Çoklayıcılar (Switch):
+Anahtar (Switch) ağ sistemlerinde, ağ içindeki aygıtların ortak kullanım veya
+paylaşım için birbirine bağlanmasını sağlayan ve diğer bilgisayarlardan gelen
+verileri filtreleyerek sadece ilgili bilgisayara gönderen cihazdır. Klasik
+hub’lardan farkı; gelen veriyi sadece istenilen aygıta gönderir, hub ise gelen
+veriyi tüm aygıtlara gönderir ve sadece ilgili aygıt veriyi alır.
+Günümüzde hub’ların yerine anahtar (dağıtıcı) cihazları kullanılmaktadır.
+Anahtar cihazının günümüzde 4-5-8-16-24-26-48 portlu olanları
+bulunmaktadır. Anahtar cihazı portlarına bağlanan bilgisayarları MAC
+adreslerine bakarak tanır. Dağıtım işlemini gerçekleştirmek için MAC
+adreslerini yapısında bulunan tablolarda tutar. Kendisine ulaşan veri
+paketlerinin MAC adreslerini inceleyerek sadece hedef MAC adresine sahip
+bilgisayarın bağlı olduğu porta gönderir. Böylece ağdaki çakışmalar
+engellenmiş olur (2).
+Anahtarlamalı çoklayıcılar (switch) veri transfer yönetimini çok daha iyi
+yaparlar. Sadece lokal ağ üzerinde veri transferini sağlamazlar bunun yanında
+bağlı olan kullanıcılardan hangisinin veri transferine ihtiyacı varsa bağlantıyı o
+yönde o kullanıcıya verir. Köprüyle olan bir diğer farkı ise anahtarlamalı
+çoklayıcılar veri iletim formatlarını dönüştürmezler (1).
+A. Ağ Cihazları
+Yönlendirici (Router): Temel olarak yönlendirme görevi yapar. LAN-LAN ya da LAN-WAN
+arasında bağlantı kurmak amacıyla kullanılır. Üzerinde LAN ve WAN bağlantıları için ayrı
+port bulunur ve şaseli olarak da üretilebilir. Bu portlara gerektiğinde LAN veya WAN
+portları eklenebilir. Yönlendiriciler sahip oldukları işletim sistemleri ile programlanabilir ve
+gerekli ayarlamalar yapıldığında uzak bir ağa erişmek için mevcut birden fazla yol
+arasından kullanabilecekleri en iyi seçimi yapabilir (2).
+Yönlendiriciler, yukarıda bahsi geçen cihazların tüm özelliklerini barındırırlar {
+Tekrarlayıcılar (repeater), çoklayıcılar (hub), köprüler (bridges), anahtarlamalı çoklayıcılar
+(switch) }. Yönlendiriciler, sinyalleri güçlendirir, çoklu bağlantıları ağ içerisinde ayırabilir,
+veri iletim formatlarını dönüştürebilir ve veri iletimini yönetebilirler. Uzak mesafelerle
+ayrılmış olan lokal alan ağlarını (LANs) birbirlerine bağlarlar. Buna geniş alan ağları (WAN)
+adı verilir. Başka hiçbir cihaz bu tip bağlantıyı sağlayamaz (1).
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. MEGEP Ağ Temelleri Modülü, 2008, Ankara (E-Kitap)
+• MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+• Academytech-CCNA-Türkçe Eğitim Notu.
+• Doğu Akdeniz Üniversitesi Bilgisayar Ağ Sistemleri (BTEP208) Ders Notu
+• Korkmaz S. Bilgisayar Ağ Sistemleri, Ağ Temelleri (Network). Kırklareli Üniversitesi
+• Bartın Üniversitesi Network Ders Notları
+• Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+• Tan, S.O. Karabük Üniversitesi, KBT 115 Ağ Temelleri Ders Notları
+D. Ek Kaynaklar
+B. Yönlendirici (Router)
+ Router hakkında daha fazla bilgi öğrenmek için aşağıdaki video izlenebilir.
+C. Yönlendirici (Router) Videosu
+Video 1. Router Nedir?
+Şekil 1. Köprüler (Bridges) (1)
+Şekil 4. Yönlendirici (Router)
+Şekil 2. Anahtar / Dağıtıcı (Switch) (2)
+Şekil 3. Anahtar / Dağıtıcı (Switch) (1)
+Ağ Topolojileri: Bir ağdaki bilgisayarların nasıl yerleşeceğini, nasıl bağlanacağını,
+veri iletiminin nasıl olacağını belirleyen genel yapıdır.
+Topoloji: Bilgisayar ağını oluşturan bileşenlerin, uç ve ara düğümlerin birbirlerine
+bağlanmasını gösteren bir çeşit “ağ haritası” dır. Ağ Topoloji Türleri;
+Yerel Alan Ağları (LAN): 1.Doğrusal (Bus Topology) 2.Halka (Ring Topology)
+3.Yıldız (Star Topology)
+Geniş Alan Ağları (WAN) 1.Ağaç (Tree Topology) 2.Örgüsel (Mesh Topology) (4).
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. Vikipedia, MAC Adresi, 30.01.2014
+4. Parlar T. Ağ Temelleri_1 Ders Notu, Topolojileri Antakya MYO, 2012
+5. Çukurova Üniversitesi, Enformatik Bölümü, Donanım Ders Notu, 2012
+Referanslar
+Ağ topolojileri ağın yapısını tanımlamada kullanılır. Topolojinin bir kısmı
+kablolama arabirimlerinden bahis eden fiziksel topoloji kısmıdır. Diğer kısmı ise
+medyanın veri gönderiminde nasıl kullanıldığından bahis eden mantıksal
+kısmıdır. Fiziksel topoloji genel olarak Şekil-1/2’deki şekillerde kullanılır.(1).
+•Tek yol topolojisi (bus) uçları kapatılmış tek bir omurga hattan oluşur. Tüm
+kullanıcılar bu omurgaya direkt bağlıdırlar.
+•Halka topolojide (Ring) bir kullanıcı bir diğerine bağlıdır, diğer kullanıcıda
+diğerine ve son kullanıcı ilk kullanıcıya bağlıdır.
+•Yıldız (Star) topolojide tüm kullanıcılar tek bir merkezi noktaya bağlıdır.
+•Genişletilmiş yıldız topolojide(Extended Star) her kullanıcı merkezi bir
+noktaya bağlı ve birden fazla bulunan merkezi noktada başka bir merkeze
+bağlıdır.
+•Hiyerarşik topoloji genişletilmiş yıldız topolojiye benzer bir yapıya sahiptir.
+Birbirlerine bağlı çoklayıcı veya anahtarlamalı çoklayıcılar yerine bilgisayarlar
+mevcuttur ve bu bilgisayarların içinde bulunduğu ağ topolojinin en tepesindeki
+bilgisayar tarafından yönetilir.
+•Örgü topoloji (Mesh) diğer topoloji tiplerine göre en sağlıklı çalışan ve
+sağlamlığı en iyi olan topoloji tipidir.
+Ağların mantıksal topolojileri ise iki kullanıcın birbirleriyle haberleşmesini
+sağlar. En önemli iki mantıksal topoloji genele yayın (Broadcast) ve jeton
+geçirme (Token passing) topolojileridir.
+İkinci mantıksal topoloji ise jeton geçirme sistemidir. Jeton geçirmede
+elektronik bir jeton mevcuttur. Bu jeton sırayla tüm kullanıcıları sırayla dolaşır
+ve jetonu elinde bulunduran kullanıcı ağın içerisine veri gönderir. Eğer kullanıcı
+veri göndermezse jeton bir diğer kullanıcıya geçer ve uygulama bu şekilde
+devam eder. Bu sisteme en güzel iki örnekten birincisi TOKEN RİNG ve diğeri
+ise FDDI (Fiber distributed Data Interface) ‘dır. Arcnet Token ring ve FDDI’ nın
+farklı bir varyasyonudur. Arcnet tek yol (bus) topoloji üzerinde jeton geçirme
+sisteminin kullanılmış halidir (1).
+A. Ağ Topolojileri
+Ağ Protokolleri: Ağ içerisindeki bir kullanıcıdan başka ağ içerisindeki bir diğer kullanıcıya
+veri iletilebilmesi için protokol uyumluluğu aranır. Protokoller ağ içerisindeki cihazların
+birbirleriyle nasıl haberleşeceğini gösteren ve yöneten kuralların tümüdür. Protokoller veri
+haberleşmesinde veri formatı, zamanı, sırasını ve hata kontrolün sınırlarlar. Protokoller
+olmadan bilgisayarlar diğer bilgisayarlardan bit seviyelerinde gelen veri akışın kontrol
+edemez ve yapılandıramazlar (1).
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. MEGEP Ağ Temelleri Modülü, 2008, Ankara (E-Kitap)
+• MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+• Academytech-CCNA-Türkçe Eğitim Notu.
+• Doğu Akdeniz Üniversitesi Bilgisayar Ağ Sistemleri (BTEP208) Ders Notu
+• Korkmaz S. Bilgisayar Ağ Sistemleri, Ağ Temelleri (Network). Kırklareli Üniversitesi
+• Bartın Üniversitesi Network Ders Notları
+• Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+• Tan, S.O. Karabük Üniversitesi, KBT 115 Ağ Temelleri Ders Notları
+D. Ek Kaynaklar
+B. Ağ Protokolleri
+ Ağ topolojileri hakkında daha fazla özet bilgi için aşağıdaki tablo incelenebilir (4).
+C. Ağ Topoloji Türlerini Karşılaştırma
+Tablo 1. Ağ Topolojileri (4).
+Şekil 1. Fiziksel Topolojiler (1)
+Şekil 4. Ağ Protokolleri (1)
+Şekil 2. . Birçok Farklı Ağ Topolojiler (1)
+Boot / Start: Bilgisayarı Başlatmak
+Reboot / Reset / Restart: Bilgisayarı Kapatıp, Yeniden Başlatmak
+Reset Atmak: Çalışan Bilgisayarı “Reset” Düğmesine Basarak Yeniden Başlatmak.
+CTRL-ALT-DEL: “Soft Reset” ya da Sisteme Giriş Ekranını Getirmek.
+Setup: Bir Programın Kurulması İçin Gerekli Dosya.
+Install: Setup Dosyasını Kullanarak Bir Program Kurulumu Yapmak.
+Unınstall: Bilgisayara Önceden Kurulmuş Bir Programı Kaldırmak.
+Kaynak:Adnan Menderes Üni Temel Bilgi Teknolojileri
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. Vikipedia, MAC Adresi, 30.01.2014
+4. Parlar, T. Bilgisayar Donanımı Ders Notu, Donanım Kartları. Antakya MYO, 2012
+5. Çukurova Üniversitesi, Enformatik Bölümü, Donanım Ders Notu, 2012
+Referanslar
+Ağ topolojileri Topoloji bilgisayarların birbirine nasıl bağlandıklarını tanımlayan
+genel bir terimdir. Topolojinin bir kısmı kablolama arabirimlerinden bahseden
+fiziksel topoloji kısmıdır. Diğer kısmı ise medyanın veri gönderiminde nasıl
+kullanıldığından bahseden mantıksal topoloji kısmıdır.
+Yol (Bus) Topolojisi
+Bütün terminaller tek bir doğrusal kablo ile birbirlerine bağlanmışlardır.
+Burada hatta gönderilen sinyal tüm terminallere gider. Sinyal bir hedefe
+ulaşana ya da bir sonlandırıcıya gelene kadar hatta dolaşır. Hattaki bilgi akışı
+çift yönlüdür. Kaynak istasyon bilgiyi hatta bırakır. Bilgi her iki yönde ilerleyerek
+hatta yayılır. Ancak bu topolojide birden fazla istasyonun bilgi göndermesi
+durumunda ağ trafiğinde aksamalar meydana gelir. Bunu önlemek için hat
+paylaşımını düzenleyen ağ protokolleri kullanılmalıdır. Bus topolojisi
+kullanılarak kurulan ağlarda koaksiyel kablo kullanılır, ağdaki her istasyona ise
+T-konnektör takılır. Bus topolojisinde verileri sonlandırmak için mutlaka
+kablonun iki ucuna sonlandırıcı (terminatör) adı verilen ağı sonlandıran
+parçalar takılmalıdır (2).
+Bus topolojisinin;
+Avantajları (+)
+• Ucuz ve kurulumu kolay bir çözümdür.
+• Kablo yapısı güvenlidir.
+• Merkezi birime ihtiyaç duyulmaz.
+Dezavantajları (-)
+• En büyük dezavantajı bir istasyonda oluşan hatanın (temassızlık, kopukluk,
+kısa devre vs.) tüm sistemi etkilemesidir.
+• Arıza tespiti zordur.
+• Maksimum 30 istasyon bağlanabilir.
+Yıldız (Star) Topolojisi
+En yaygın kullanılan topoloji tipidir. Bu topolojisinde her bilgisayar ağ
+iletişiminin gerçekleşmesi için merkezi birim (switch, hub, vs ) dediğimiz
+cihazlara bağlanır. Hatta gönderilen sinyal önce merkezi birime ulaşır, buradan
+hedefe yönlendirilir (2).
+Yıldız topolojisinin;
+Avantajları (+)
+• Bir istasyonun arızalanması ağı etkilemez.
+• Ağa yeni bir istasyon eklemek kolaydır.
+• Arıza tespiti kolaydır.
+Dezavantajları (-)
+• Merkezi birimin devre dışı kalması tüm sistemi etkiler.
+• Çok fazla kablo kullanıldığı için diğer topolojilere göre masraflıdır.
+A. Ağ Topolojileri
+Ağaç (Tree) Topolojisi: Genellikle yıldız topolojisindeki ağları birbirine bağlamak için
+kullanılır. Böylece ağlar büyütülebilir. Bir ağacın dalları farklı topolojilerdeki ağları temsil
+eder, ağacın gövdesi ile de bunlar birbirine bağlanabilir.
+Halka (Ring) Topolojisi: Mantıksal olarak bir daire şeklinde tüm düğümlerin birbirine
+bağlandığı topoloji çeşididir. Hatta gönderilen sinyal hedefe ulaşıncaya kadar tüm
+terminallere uğrar. Düğümlerden herhangi birindeki hatanın ya da kablodaki bir sorunun
+tüm sistemi etkilemesi bu topolojinin en önemli dezavantajıdır.
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. Ağ Topolojileri
+ Ağ topolojileri hakkında daha fazla bilgi öğrenmek için aşağıdaki video izlenebilir.
+C. Ağ Topolojileri Videosu
+Video 1. Genel Fiziksel Ağ Topolojileri
+Şekil 1. Yol (Bus) Topolojisi (2).
+Şekil 3. Ağaç ve Halka Ağ Topolojileri (2)
+Şekil 2. Yıldız (Star) Topolojisi (2).
+Boot / Start: Bilgisayarı Başlatmak
+Reboot / Reset / Restart: Bilgisayarı Kapatıp, Yeniden Başlatmak
+Reset Atmak: Çalışan Bilgisayarı “Reset” Düğmesine Basarak Yeniden Başlatmak.
+CTRL-ALT-DEL: “Soft Reset” ya da Sisteme Giriş Ekranını Getirmek.
+Setup: Bir Programın Kurulması İçin Gerekli Dosya.
+Install: Setup Dosyasını Kullanarak Bir Program Kurulumu Yapmak.
+Unınstall: Bilgisayara Önceden Kurulmuş Bir Programı Kaldırmak.
+Kaynak:Adnan Menderes Üni Temel Bilgi Teknolojileri
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. Vikipedia, MAC Adresi, 30.01.2014
+4. Parlar T. Ağ Temelleri_1 Ders Notu, Topolojileri Antakya MYO, 2012
+5. Çukurova Üniversitesi, Enformatik Bölümü, Donanım Ders Notu, 2012
+Referanslar
+Mimariye göre;
+• İstemci – Sunucu mimarisi (Client-Server)
+• Türdeş mimari
+Ölçeğe göre;
+• LAN
+• MAN
+• WAN
+İstemci-Sunucu mimarisi (Client-Server)
+Üzerindeki herhangi bir kaynağı paylaşan bilgisayara sunucu (server), bu
+kaynağa erişen cihaza da istemci (client) adı verilir. Bir bilgisayarı sunucu yapan
+unsur, üzerindeki donanım miktarı, hatta özel bir donanım olup olmaması
+değil, üzerindeki bir kaynağı paylaştırmasıdır. Doğal olarak üzerindeki kaynağı
+paylaştıran ve bir çok kullanıcının hizmetine sunan bir bilgisayar, talebi
+karşılamak için daha "güçlü" olmalıdır (4).
+İstemci/sunucu anlaşması, ağ üzerindeki bilgisayarın bir tanesinin sunucu
+olmasıyla başlar. Sunucu istemcinin isteklerine cevap verir. Sunucu istemcinin
+oysa baskı işlemi veya diğer servislerini sürekli cevaplayacak olan merkezi
+bilgisayardır. Birçok ağ istemci/sunucu modeline göre ayarlanmaktadır.
+Genellikle masaüstü bilgisayarları istemci durumunda olup, birbirine bağlı ve
+büyük hafızalara sahip olan bilgisayarlar sunucu olarak görev yapar.
+Sunucular birçok istemcinin isteğini aynı anda karşılayabilmek için
+tasarlanmıştır. İstemci sunucu kaynaklarına ulaşamadan önce sunucu
+tarafından tanınmalı ve sunucunun istemciye izin vermesi gerekmektedir. Bu
+bir kimlik denetleme servisi sayesinde kullanıcılara bir hesap isim ve şifre
+verilmesi yoluyla yapılabilir. Kimlik denetleme servisi ağın koruma görevlisi
+olarak davranır.
+Kullanıcı hesaplarının merkezleştirilmesi, büyük ağalardaki ağ yöneticileri için
+güvenliği çok kolay hale getirir. Ağ kaynaklarının dosya, yazıcı veya diğer
+uygulamalara yoğunlaşması yedeklenmesi gereken veriler meydana getirir. Bu
+kaynakları ayrı bilgisayarlara yaymaktansa bu iş için özel olarak tasarlanmış
+bilgisayarlar kullanılır. Birçok istemci/sunucu sistemleri aynı zamanda ağa yeni
+servisler ekleyerek ağı daha kullanışlı hale getiriyorlar.
+İşlevlerin dağıtılması istemci/sunucu sistemine çok tatmin edici avantajlar
+getirir fakat aynı zamanda maliyeti de arttırır. Kaynakların bir sunucuda
+toplanması mükemmel bir güvenlik, kolay ulaşılabilirlik ve koordine kontrol
+getirmesine rağmen, sunucu ağ üzerindeki bir hatayla karşılaşabilir. İşlevsel bir
+sunucu olmadan bir ağ tam anlamıyla çalışmaz. Sunucular, deneyimli eğitimli
+personel ve yönetici isterler. Bu ağın çalışma süresini arttırır. Aynı zamanda
+sunucu sistemleri ek olarak özel donanımlar ve yazılımlar ister, bunlar da
+maliyet olarak yansır (1).
+Noktadan Noktaya Bağlantı (Peer-to-Peer):
+Noktadan-noktaya ağlar için ağa bağlanmış olan bilgisayarlar eşit ortak olarak
+veya bir görevdeş olarak davranır. Bu bilgisayarlar görevdeş olduğunda bazıları
+sunucu görevini üstelenir bazıları da istemci görevini üstlenir . Örnek olarak B
+bilgisayarında olan bir bilgiyi A bilgisayarı isterse A bilgisayarı istemci olarak
+davranmış olur ve B bilgisayarı da sunucu olarak davranmış olur. Daha sonra bu
+roller A ve B arasında değişkenlik gösterebilir.
+Noktadan noktaya ağlarda bireysel kullanıcı kendi kaynaklarını kontrol edebilir.
+Kullanıcı hangi dosyaları paylaşıp paylaşmayacağına karar verebilir. Ayrıca
+kaynak kullanıcısı diğer kullanıcıların kaynak bilgiye ulaşması için şifre
+isteyebilir. Bu durumda böyle bir ağda merkez bir yönetici olmadığını her
+kullanıcının bireysel olarak bir yönetici gibi davrandığını görürüz. Ek olarak
+kullanıcı kendi verilerini bir kayıp ihtimaline karşı yedeklemelidir. Eğer
+bilgisayar sunucu olarak davranırsa, bu bilgisayarın performansını oldukça
+düşürür. Noktadan noktaya ağ kurulumu kolay ve kullanması basit bir ağ tipidir.
+Her bilgisayara yüklü bir işletim sisteminden farklı olarak ek bir donanım veya
+ekipman istemez. Çünkü ağı yöneten bir yönetici yoktur, bireysel kullanıcılar
+kendi kaynaklarını kontrol eder. Ağ büyüdükçe noktadan noktaya bağlantı
+zorluğu gittikçe artmaktadır. Noktadan noktaya ağlar 10 veya daha az
+bilgisayarla yapılır. Noktadan noktaya bağlantı etkinliği ağ üzerindeki bilgisayar
+sayısı arttıkça azalır. Ayrıca her kullanıcı kendi kaynağını kendi kontrol
+ettiğinden ağdaki güvenliğin kontrol edilmesi zordur. İstemci/sunucu modeli
+ağlar noktadan noktaya ağlardaki kısıtlamaları çözmek için kullanılabilir (1).
+A. Ağ Sınıflamaları
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. Mimariye Göre Ağ Sınıflaması
+ Ağ temelleri hakkında daha fazla bilgi öğrenmek için aşağıdaki video izlenebilir.
+C. Ağ Temelleri Videosu
+Video 1. Ağ Temelleri
+Şekil 1. Mimariye Göre Ağ Sınıflaması (1)
+Boot / Start: Bilgisayarı Başlatmak
+Reboot / Reset / Restart: Bilgisayarı Kapatıp, Yeniden Başlatmak
+Reset Atmak: Çalışan Bilgisayarı “Reset” Düğmesine Basarak Yeniden Başlatmak.
+CTRL-ALT-DEL: “Soft Reset” ya da Sisteme Giriş Ekranını Getirmek.
+Setup: Bir Programın Kurulması İçin Gerekli Dosya.
+Install: Setup Dosyasını Kullanarak Bir Program Kurulumu Yapmak.
+Unınstall: Bilgisayara Önceden Kurulmuş Bir Programı Kaldırmak.
+Kaynak:Adnan Menderes Üni Temel Bilgi Teknolojileri
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. Vikipedia, MAC Adresi, 30.01.2014
+4. Parlar T. Ağ Temelleri_1 Ders Notu, Topolojileri Antakya MYO, 2012
+5. Çukurova Üniversitesi, Enformatik Bölümü, Donanım Ders Notu, 2012
+Referanslar
+Lokal-Yerel Alan Ağları (Local Area Network-LANs)
+Lokal alan ağları aşağıdaki parçaları içerir.
+• Bilgisayarlar
+• Ağ arabirim kartı
+• Ağ medyaları
+• Ağ cihazları
+Lokal alan ağları sınırlı bir alan içerisinde bilgisayar teknolojisi kullanarak
+verimli bir şekilde dosya ve yazıcı paylaşımını ve iç haberleşmeyi mümkün hale
+getirdi. Bu teknolojiye en önemli örnek e-postalardır. Bazı temel LAN
+teknolojileri aşağıdaki gibidir.
+• Ethernet
+• Andaçlı halka (Token Ring)
+• FDDI
+Geniş Alan Ağları (Wide Area Network-WANs)
+WAN’lar farklı bölgelerde olan ve bilgisayar veya sunucuları içeren LAN’ların
+birbirlerine bağlanmış halleridir. Çünkü WAN’lar geniş coğrafi alanlar
+üzerindeki ağları birbirlerine bağlar, buda uzak mesafelerdeki merkezlerin
+haberleşmesi açısından çok önemlidir . WAN’ları kullanarak LAN’lar
+içerisindeki bilgisayarlar, yazıcılar ve diğer cihazlar uzaktaki kullanıcılar
+tarafından paylaşılmak suretiyle kullanılabilirler. WAN’lar dünyanın herhangi
+bir noktasındaki herhangi bir kullanıcıya aynı ofis içerisindeymiş gibi eş zamanlı
+mesaj gönderilmesini sağlarlar. Bu özellik sayesinde “Telecommuters” diye
+adlandırılan yeni bir işçi sınıfı bile oluşmuştur. Bu sınıf bürolarında gitmeden
+işlerini evlerinden halledebilmektedir (1).
+WAN’lar şu nedenlerden dizayn edilir;
+• Geniş coğrafik bir alana yayılmış ağları yönetmek için.
+• Kullanıcılara diğer kullanıcılarla eş zamanlı haberleşme sağlamak için.
+• Lokal kullanıcıların kesintisiz uzak kaynaklardan faydalanması için.
+• E-posta, dosya transferi, e-alış veriş ve internet kullanmak için.
+Bazı temel WAN teknolojileri;
+• Modemler
+• Entegre dijital ağ servisi (Integrated Services Digital Network (ISDN))
+• Dijital kiralık hat (Digital Subscriber Line (DSL))
+• Çerçeve Aktarıcı (Frame Relay)
+• A.B.D (T) ve Avrupa (E) Taşıyıcı serileri- T1, E1, T3, E3
+• Senkronize optik ağ (Synchronous Optical Network (SONET))
+A. Ölçeğe Göre Ağ Türleri
+Metropol Alan Ağları (MANs)
+Şehir veya şehrin belli bölgelerindeki ağlara MAN denir. Genellikle ortak coğrafik alanda
+iki yada daha fazla LAN’ı ihtiva eder. Örneğin birçok şubesi bulunan büyük bankalar . Tipik
+servis sağlayıcıların iki yâda daha fazla LAN'a bağlanmak için kullandıkları özel haberleşme
+hatlarını da örnek olarak verebiliriz. Ayrıca kablosuz köprü teknolojisi kullanılarak ta sinyal
+yaymayı MAN’a örnek olarak verebiliriz.
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. Metropol Alan Ağları (MANs)
+ Ağ temelleri hakkında daha fazla bilgi öğrenmek için aşağıdaki video izlenebilir.
+C. Ağ Temelleri Videosu
+Video 1. Ağ Temelleri
+Şekil 2. Metropol Alan Ağları (1)
+Şekil 1. . WANs ve Kullanılan Cihazlar (1)
+Boot / Start: Bilgisayarı Başlatmak
+Reboot / Reset / Restart: Bilgisayarı Kapatıp, Yeniden Başlatmak
+Reset Atmak: Çalışan Bilgisayarı “Reset” Düğmesine Basarak Yeniden Başlatmak.
+CTRL-ALT-DEL: “Soft Reset” ya da Sisteme Giriş Ekranını Getirmek.
+Setup: Bir Programın Kurulması İçin Gerekli Dosya.
+Install: Setup Dosyasını Kullanarak Bir Program Kurulumu Yapmak.
+Unınstall: Bilgisayara Önceden Kurulmuş Bir Programı Kaldırmak.
+Kaynak:Adnan Menderes Üni Temel Bilgi Teknolojileri
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. Vikipedia, MAC Adresi, 30.01.2014
+4. Parlar T. Ağ Temelleri_1 Ders Notu, Topolojileri Antakya MYO, 2012
+5. Çukurova Üniversitesi, Enformatik Bölümü, Donanım Ders Notu, 2012
+Referanslar
+Depolama Alanı Ağları (SANs)
+Sunucular ve depo kaynaklar arasında yüksek performanslı veri iletimi için
+adanmış olan sisteme SAN (Storage-Area Network) denir. Bu sistemde ayrılmış
+olan özel ağ içerisinde sunucular ile kullanıcılar arasında veri alışverişinden
+kaçınılır . SAN teknolojisi yüksek hızda sunucu-depolayıcı, sunucu-sunucu,
+depolayıcı-depolayıcı bağlantılarına olanak sağlar. Normal ağ altyapısında
+oluşan problemlerden etkilenmemesi için bu metot diğer altyapıdan ayrılmış
+özel ağ altyapısıyla kullanılır.
+SAN’lar aşağıdaki özellikleri sağlar;
+• Performans
+• Erişilebilirlilik
+• Ölçülendirilebilirlilik
+Özel Sanal Ağlar (Virtual Private Network-VPN)
+VPN genel internet alt yapısı gibi altyapı kullanan ancak genelden bağımsız
+olan özel bir internet ağıdır. “Telecommuter” lar VPN kullanarak şirketlerinin
+VPN yönlendiricilerine (router) kendi bilgisayarlarından güvenli bir tünel
+yardımı ile bağlanabilirler.
+VPN ‘nin Faydaları
+VPN genel olarak normal ağlardan daha fazla güvenlik ve bağlantı sürekliliği
+sağlayan bir alt yapıya sahip özel bir ağdır. VPN ‘ler sürekli zamanda aynı
+güvenlik ve yönetim özelliklerini korur. Ancak noktadan noktaya bağlantılarda
+en pahalı yöntem VPN yöntemidir (1).
+A. Ölçeklerine Göre Ağ Türleri (SAN, VPN)
+Internet-Intranet-Extranet
+İnternet, birçok bilgisayar sistemini birbirine bağlayan, dünya çapına yayılmış olan bir
+iletişim ağıdır. Bu ağ sadece herhangi bir kuruluşa, gruba ya da ülkeye ait değildir.
+İnternet’in çıkış noktası, ABD Savunma Bakanlığı bünyesindeki “İleri Araştırma Projeleri
+Ajansı” (ARPA – Advanced Research Projects Agency) nın 1969 yılında kurduğu ARPANET
+ağıdır (4).
+Lokal alan ağlarının temel konfigürasyonlarına intranet denir. İntranet web sunucuları
+genel web sunucularından farklı olarak sadece lokal kullanıcılara açık olup şifre
+karşılığında giriş izini vermektedir. İntranetler, kuruluşların lokal ağlarına imtiyazlı
+kullanıcıların girişine izin verecek şekilde dizayn edilir. Bununla beraber web sunucuları
+intranetin içinde kurulur ve tekst tabanlı tarayıcı teknolojisi kullanılarak sunucu üzerinde
+depolanmış bilgiye erişilmesini sağlar.
+Extranetler, intranet tabanlı uygulamalar ve servisleri içinde barındıran daha geniş
+alanlarda kullanılan ve dış kullanıcılara güvenli erişim sağlayan ağlardır. Genellikle bu tarz
+sistemlerde dış kullanıcı, kullanıcı adı şifre ve hatta daha yüksek güvenlik seviyelerinde
+güvenlik uygulamaları ile muhatap olur. Akabinde extranetler iki veya daha fazla
+intranetin güvenli bir şekilde birleşiminden meydana gelir (1).
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. Internet-Intranet-Extranet
+
+C. Ağ Türleri ve Kıyaslanmaları
+Şekil 3. Ölçeklerine Göre Ağlar ve Ağların Kıyaslanması (4).
+Şekil 1. .Storage-Area Network (1)
+Şekil 2. Özel Sanal Ağlar-VPN (1)
+Collision (Çarpışma): Bir Ethernet ağında, aynı anda veri iletmek isteyen iki
+cihazın yol açtığı sonuç. Veri paketlerinin çarpıştığını tespit eden ağ
+her ikisini de iptal eder. Çarpışma, Ethernet ağının doğal bir
+sonucudur.
+Domain (Alan): Bir isimle belirlenen bilgi alanı. Internet'te ağ adresleri dizisini
+içerir.
+Segment (Bölüm): Köprüler (bridge), router'lar veya anahtarlarla sınırlanmış
+olan ağın bir bölümü.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. Vikipedia, MAC Adresi, 30.01.2014
+4. Parlar T. Ağ Temelleri_1 Ders Notu, Topolojileri Antakya MYO, 2012
+5. Çukurova Üniversitesi, Enformatik Bölümü, Donanım Ders Notu, 2012
+Referanslar
+Lokal-Yerel Alan Ağları (Local Area Network-LANs) Kablolaması
+Ağ Cihazları (Aktif Cihazlar)
+• Repeater (Tekrarlayıcı),
+• Hub,
+• Bridge (Köprü),
+• Switch (Anahtar),
+• Access Point (WireLess) [Erişim Noktası]
+• Router (Yönlendirici).
+Tekrarlayıcılar-Yenileyici (Repeater)
+Kablonun kapasitesinden daha fazla mesafelere bağlantı kurulması
+gerektiğinde araya bir yükseltici konularak sinyalin güçlendirilmesini sağlayan
+cihazdır. OSI Referans modelinde Fiziksel Katman-Layer-1 (Katman-1) ağ
+cihazıdır.
+1. Verinin içeriğine bakmaz, sadece sinyalleri güçlendirir. Ağ trafiğini
+yönetmez.
+2. Ağ kablosunun erişebileceği maksimum mesafeyi uzatırlar.
+3. Ağdaki maksimum düğüm sayısını arttırır.
+4. Farklı kablo tipleri kullanan ağları birleştirebilir (4).
+Telgraf, telefon, mikrodalga ve optik iletişim sinyali uzun mesafelere aynı güçte
+iletmek için tekrarlayıcı kullanır. Tekrarlayıcı sinyali alır onu tekrar yükseltir ve
+gönderir. Tekrarlayıcı sinyali aldığında gidebilecek en uzun mesafeye gitmesi
+için sinyal değerini yükseltir. Yerel ağ genişlemesinde 10Mbps lik Ethernet için
+dört tekrarlayıcı kuralı standart olarak kabul edilir. Bu kural yerel ağdaki iki
+kullanıcı arasında en fazla dörtten fazla tekrarlayıcı olmaması gerektiğini söyler.
+Bu kural her tekrarlayıcı tarafından oluşturulan gecikme süresini kısıtlamak için
+kullanılır. Lokal ağ üzerinde çok fazla gecikme ağ üzerideki çakışmaların sayısını
+arttırır ve bu da yerel ağın daha etkisiz çalışmasına neden olur (1).
+Hub (Çoklayıcılar)
+Aslında çoklayıcılar çok portlu tekrarlayıcılardır. Bazı durumlarda bu iki ayıtın
+arasındaki fark destekledikleri port sayısı olarak görülür. Genellikle tekrarlayıcı
+iki porta sahipken çoklayıcılar 4 porttan 24 porta kadar çıkabilirler . Çoklayıcılar
+genellikle 10BASE-T veya 100BASE-T tipi ağlarda kullanılır. Aynı zamanda bazı
+özel ağ mimarilerinde de kullanılmaktadır (1).
+Herhangi lineer bir veri yolunu nerde olursa olsun bir çoklayıcıya bağlarsak ağ
+topolojimiz bir yıldıza dönüşür. Veri kablolar aracılığı ile çoklayıcının portlarına
+ulaştığı zaman çoklayıcının portları gelen veri elektriksel olarak tekrarlar ve
+verinin geldiği port hariç aynı segment içinde bulunan diğer portlara gönderir.
+Çoklayıcılar üç farklı şekilde bulunurlar:
+• Pasif – Pasif çoklayıcı sadece fiziksel bağlantı noktası sağlar. Ağ trafiğini
+elle kontrol edemeyiz veya mevcut trafiği göremeyiz. Sinyali güçlendirmez
+veya temizlemez. Pasif çoklayıcı sadece fiziksel medyayı paylaşmak için
+kullanıldığı gibi pasif çoklayıcının elektrik enerjisine ihtiyacı yoktur.
+• Aktif – Aktif çoklayıcılar, gelen sinyali kuvvetlendirmek için dışarıdan bir
+elektrik enerjisine ihtiyacı vardır.
+• Zeki – Bu çoklayıcı fonksiyon olarak temelde aktif çoklayıcıyla aynı işleve
+sahiptir. Ancak bu çoklayıcı mikro işlemcisi vardır ve hata kontrolü
+yapabilir. Zeki çoklayıcılar, aktif çoklayıcılardan daha pahalıdır ancak sorun
+giderme özelliği vardır.
+Cihazlar çoklayıcılara bağlandığında tüm trafik çoklayıcı üzerinde meydana
+gelir. Daha fazla cihaz bağlandığında daha fazla çakışma (Collision) meydana
+gelir. İki yada daha fazla çalışma istasyonu çoklayıcıya aynı anda veri gönderirse
+çakışma meydana gelir. Çakışma oluştuğunda tüm veriler zarar görür. Tüm
+cihazlar aynı segmente bağlandıkları zaman bu oluşuma çakışma grubu
+(collision domain) denir. Çoklayıcılara yoğunlaştırıcıda denir çünkü çoklayıcılar
+ethernet ağları için merkezi bağlantı noktası sunar (1).
+A. LAN Kablolaması
+Köprüler (Bridges)
+Bazı zamanlar vardır ki; büyük yerel ağların daha küçük parçalara bölünmesi
+gerekmektedir. Bu bölünme büyük yerel ağ üzerindeki trafiği azaltır . Küçük ağ
+parçacıklarını birbirine bağlamak için köprüler, anahtarlı çoklayıcılar, yönlendiriciler ve ağ
+geçitleri kullanılır. Anahtarlı çoklayıcılar ve köpüler, OSI modelinin veri zinciri katmanında
+işlem yaparlar. Köprülerin işlevi ağın hangi kısmına sinyalin geçip hangi kısmına
+geçmeyeceği konusunda zekice kararlar verir.
+Köprü ağ üzerinden bir çerçeve aldığında çerçevenin gideceği MAC adresine köprünün
+tablosundan bakılır ve bu tabloya göre köprü o çerçevenin diğer segmente
+kopyalanmasına, akışının izin verilmesine veya filtrelenmesine karar verir. Bu işlem
+aşağıda anlatıldığı gibi olur:
+• Eğer hedef aynı kesimde ise köprü çerçevenin diğer kesimlere geçmesine izin vermez
+ve bloklar. Bu işlemin adı filtreleme olarak bilinir.
+• Eğer hedef aygıt farklı bir kesimde ise köprü bu çerçeveyi alır ve uygun olan kesime
+iletir.
+• Eğer köprü tablosunda hedef aygıtın MAC adresi bulunmuyor ise köprü bağlı olduğu
+tüm kesimlere çerçeveyi gönderir ve bunlardan bir tanesinin almasını bekler. Bu
+işleme taşırma işlemi denir.
+• Eğer köprü stratejik bir yere bağlanmış ise ağın işleyişini önemli ölçüde iyileştirir (1).
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. Köprüler (Bridges)
+ Ağ temelleri hakkında daha fazla bilgi öğrenmek için aşağıdaki video izlenebilir.
+C. Ağ Temelleri Videosu
+Video 1. Ağ Temelleri
+Collision (Çarpışma): Bir Ethernet ağında, aynı anda veri iletmek isteyen iki
+cihazın yol açtığı sonuç. Veri paketlerinin çarpıştığını tespit eden ağ
+her ikisini de iptal eder. Çarpışma, Ethernet ağının doğal bir
+sonucudur.
+Domain (Alan): Bir isimle belirlenen bilgi alanı. Internet'te ağ adresleri dizisini
+içerir.
+Segment (Bölüm): Köprüler (bridge), router'lar veya anahtarlarla sınırlanmış
+olan ağın bir bölümü.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. Vikipedia, MAC Adresi, 30.01.2014
+4. Parlar T. Ağ Temelleri_1 Ders Notu, Topolojileri Antakya MYO, 2012
+5. Çukurova Üniversitesi, Enformatik Bölümü, Donanım Ders Notu, 2012
+Referanslar
+Anahtarlamalı Çoklayıcılar (Switch)
+Anahtarlamalı çoklayıcılar (switch) bazen çok portlu köprüler olarak ifade
+edilebilir. Tipik bir köprünün sadece iki bağlantı yeri olmasına karşın
+anahtarlamalı çoklayıcılar kaç porta sahip ise o kadar ağ kesimini
+bağlayabilirler. Köprülere benzer olarak, anahtarlamalı çoklayıcılar da gelen
+verinin ağ üzerindeki hangi bilgisayardan geldiğini kesin olarak bilirler.
+Anahtarlamalı çoklayıcılar bu bilgiyi verinin hangi bilgisayardan gelip hangi
+bilgisayara gittiğini yönetmek için bir tablo yapmada kullanır.
+Bu her ikisinin arasında benzerlikler olmasına rağmen, anahtarlamalı çoklayıcı
+köprülerden daha sofistike bir aygıttır. Köprüler, hedef MAC adresine göre,
+verinin diğer ağ kesimlerine gönderilip gönderilmeyeceğine karar verirken
+anahtarlamalı çoklayıcılar verinin hangi ağ kesimine gideceğine de karar verir
+ve gideceği portu da aktif hale getirir. Eternet anahtarlamalı çoklayıcıları
+bağlantı sorunlarının çözümü için çok popüler olmaya başladı çünkü
+anahtarlamalı çoklayıcı kullanılan ağlar bant genişliği ve hız bakımından
+oldukça iyi performans sağlıyorlar.
+Anahtarlamalı çoklayıcı teknolojisi yerel ağ trafiğini azaltıp bant genişliğini
+yükselterek tıkanmaları azaltan bir teknolojidir. Anahtarlamalı çoklayıcılar,
+çoklayıcıların yerine rahatlıkla kullanılabilir çünkü aynı anda çoklayıcıların
+işlevini de yaparlar. Bu durum minimum sızmalarla birlikte ağın performansını
+geliştirir.
+Bugünün veri iletiminde bütün anahtarlamalı çoklayıcılar iki temel işlem
+üzerinde çalışırlar. İlk işlemin adı “veri çerçevesi anahtarlaması” dır. Veri
+çerçevesi anahtarlaması işlemi, verinin hangi medyadan gelip hangi medyaya
+gideceğinin belirlenmesi işlemidir. İkinci işlem ise yapılan anahtarlamanın
+kontrol edilmesi işlemidir. Bu işlemde bir tablo oluşturulur ve bir döngü aranır.
+Anahtarlamalı çoklayıcılar yüksek hızları destekler ve sanal ağ gibi bazı yeni
+fonksiyonlarda da kullanılır.
+Ethernet anahtarlamalı çoklayıcılarının birçok yararı vardır. Bunlardan bir
+tanesi, kullanıcıları sanal devre kullanarak paralel olarak haberleşmesini ve
+ağın bu sanal devreyi tanınmasını sağlamasıdır . Bu ayrılan medya içindeki
+bant genişliğini maksimum kullanma çıkarır. Diğer bir yararı ise bu
+anahtarlamalı çoklayıcıların tekrar kullanılması nedeniyle çok ucuz maliyetli
+olarak algılanır (1).
+A. LAN Kablolaması
+Yönlendirici (Routers)
+Ağlar arası (LAN-LAN, LAN-WAN, WAN-WAN) haberleşmenin yapılabilmesi için ara
+bağlantıyı sağlar.Gelen paketin başlığından ve yönlendirme tablosu bilgilerinden
+yararlanarak yönlendirme kararlarını verme yeteneğine sahiptir. Routerin bir işlemcisi,
+EPROM (hafızası) ve üzerinde bir işletim sistemi IOS (Internal Operating System) vardır.
+OSI Katman 3 te çalışır.
+Erişim Noktası -WAP (Wireless Access Point)
+Bir yönlendirici (router) değildir. WAP bir köprüdür (bridge). Kablolu bir ağı kablosuz ağa
+genişletir. OSI katman 2 de çalışır.
+Gateway (Ağ Geçidi)
+Ağ geçidi, farklı ağ iletişim kurallarını kullanan iki bilgisayar ağı arasında veri çerçevelerinin
+iletimini sağlayan ağ donanımıdır. Bir başka deyişle aynı dili konuşamayan iki ağ arasında
+tercüman vazifesi görür. İletişimi sağlayabilmek için ağ geçidi iletişim kurallarını
+dönüştürme işlemini gerçekleştirir. Dönüştürme işlemi OSI yedi katman modelinin yedisi
+için de geçerlidir. Genellikle bu iş için özel üretilmiş donanımlar varsa da, birden çok
+arayüzü olan ve bünyesinde farklı iletişim kurallarını barındıran bilgisayarlar da ağ geçidi
+görevini üstlenebilirler. Her ne kadar günlük yaşamda ve bazı işletim sistemlerinde ağ
+geçidi ve yönlendirici aynı anlamda kullanılıyorsa da, ağ geçidi daha çok OSI yedi katman
+modelinin dördüncü ve yukarısındaki katmanlarında uygulama bulur. Yönlendirici ise OSI
+yedi katman modelinin üçüncüsü olan ağ katmanı kullanılır (4).
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. Yönlendirici (Router), WAP ve Gateway
+ Ağ temelleri hakkında daha fazla bilgi öğrenmek için aşağıdaki video izlenebilir.
+C. Ağ Temelleri Videosu
+Video 1. Ağ Temelleri
+Şekil 1. . Anahtarlamalı Çoklayıcı-Switch (1)
+Şekil 2. . Anahtarlamalı Çoklayıcı-Switch (1)
+Protocol (Protokol): Bir ağ üzerindeki cihazların aralarında nasıl iletişim
+kuracağını belirleyen kurallar dizisi.
+Segment: (Bölüm): Köprüler, router'lar veya anahtarlarla sınırlanmış olan ağın
+bir bölümü.
+Topology (Topoloji): Bir kurumsal ağda, ağ noktalarının ve ortamın fiziksel olarak
+düzenlenmiş hali.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+5. Parlar, T. Bilgisayar Donanımı Ders Notu, Donanım Kartları. Antakya MYO, 2012
+Referanslar
+Kablo elektriksel bir devredir. Kablo genellikle çevresi koruyucu tabakalar ile
+kaplanan, iletimin mümkün olduğunca az veri kayıpla gerçekleşmesini sağlayan
+araçlardır. Günümüzde internetten, araba motoruna, ev aletlerine birçok
+alanda kullanılmaktadır. Veri, enerji, sinyal taşır. Günümüzde kablosuz
+cihazların gittikçe yaygınlaşması ve popülerliğinin yanı sıra kablolu iletişim
+uzun mesafelerde, yüksek frekanslı iletişimlerde vazgeçilmez durumdadır (2).
+Bakır kablolar nerdeyse tüm LAN’ larda kullanılıyor. Farklı tipte bulunan bakır
+kabloların avantajları ve dezavantajları bulunmaktadır. Kablolama ağın işlemesi
+açısından çok önemli bir noktadır. Çünkü bakır bilgiyi elektriksel sinyallerle
+taşır ve bunun anlaşılması için temel elektrik kaidelerinin bilinmesi gerekir.
+Fiber optik kablo uzak mesafeler, yüksek bant genişliği, noktadan notaya
+haberleşme ve LAN omurgaları ile WAN’ lar için en uygun kablo tipidir. Optik
+medyada veri ya ince cam kesitten ya da plastik fiberden ışık yardımıyla iletilir.
+Elektriksel sinyal optik sinyale dönüştürülür ve daha sonrada medya üzerinden
+gönderilir. Dolayısıyla fiber kabloda herhangi bir elektriksel sinyal
+olmadığından çok iyi bir yalıtkan ve çok güvenli bir taşıma aracıdır.
+Fiziksel bağlantı sayesinde yazıcı, sunucu ve yazılımlar paylaşılarak
+üretkenliğinin artmasına olanak sağlar.
+Kablosuz iletişimde ise tamamen sabit bir yerde kalma ve kablolama dan
+kurtulmuş oluyoruz. Ancak, çok yüksek hızlarda veri akışı, güvenlik veya
+sürekliliği kablolu ağlar gibi sağlayamıyoruz. Bu nedenlerden dolayı kablosuz
+teknolojinin kullanımı sınırlı halde kalıyor (1).
+Kablo Standartları:
+Koaksiyel (coaxial)
+Koaksiyel kablo içi boş silindirik iletken metalden yapılmıştır. Etrafında iki
+iletken elementten yapılmış iç kablo vardır. Bu elementlerden bakır kablonun
+tam ortasından geçer ve kablonun esnek olmasını sağlar. Diğer element ise
+kablonun etrafında kabloya kalkan vazifesi görür. Bu kalkan kabloyu etrafındaki
+elektromanyetik dalgalara ve kemirgen haşerelere karşı korur (1).
+Koaksiyel kablo elektromanyetik kirliliğin yoğun olduğu ortamlarda düşük
+güçte sinyalleri iletmek için geliştirilmiş bir kablodur. Ses ve video iletiminde
+kullanılır.
+Lokal ağlar (LAN) için koaksiyel kablonun birkaç avantajı vardır. Bunlardan ilki
+kalkanlı (STP) ve kalkansız (UTP) olması fark etmeksizin tekrarlayıcıya
+(repeater) ihtiyaç duymadan uzun mesafelerde kullanılabilmesi. Koaksiyel
+kablo fiber optik kabloya göre daha ucuz olması ve teknolojisinin uzun
+yıllardan beri bilinmesi nedeniyle genel olarak daha fazla kullanılmaktadır.
+Farklı alanlarda kullanılmasına rağmen yaygın olarak her çeşit veri transferinin
+yapıldığı yerler ve kablolu televizyon dağıtım şebekesi (1).
+A. Kablolama
+UTP (Unshielded Twisted – Pair / Koruyucusuz Dolanmış Çift)
+UTP birbirine dolanmış çiftler hâlinde ve en dışta da plastik bir koruma olmak üzere
+üretilir. Kablonun içinde kablonun dayanıklılığını arttırmak ve gerektiğinde dıştaki plastik
+kılıfı kolayca sıyırmak için naylon bir ip bulunur. Günümüzde en yaygın olarak kullanılan
+kablo standardıdır. Tel çiftlerinin birbirine dolanmış olmaları hem kendi aralarında hem de
+dış ortamdan oluşabilecek sinyal bozulmalarının önüne geçmek için alınmış bir tedbirdir
+(2).
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. UTP Kablo
+ Kablolama hakkında daha fazla bilgi için aşağıdaki video izlenebilir.
+C. Kablolama Videosu
+Şekil 1. Koaksiyel Kablo (1)
+Video 1. Kablolama
+Şekil 2. Koaksiyel Kablo ve RJ-45 Konnektör (1)
+Protocol (Protokol): Bir ağ üzerindeki cihazların aralarında nasıl iletişim
+kuracağını belirleyen kurallar dizisi.
+Segment: (Bölüm): Köprüler, router'lar veya anahtarlarla sınırlanmış olan ağın
+bir bölümü.
+Topology (Topoloji): Bir kurumsal ağda, ağ noktalarının ve ortamın fiziksel olarak
+düzenlenmiş hali.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+5. Parlar, T. Bilgisayar Donanımı Ders Notu, Donanım Kartları. Antakya MYO, 2012
+Referanslar
+UTP (Unshielded Twisted – Pair)
+(Koruyucusuz Dolanmış Çift / Kalkansız Bükümlü Kablo Çifti)
+Kalkansız bükümlü kablo çifti (UTP) bazı ağlarda kullanılan ve dört parçadan
+oluşan kablo çeşididir. UTP kablosunu oluşturan 8 tane kablodan her birinin
+etrafı bir yalıtkan malzemeyle kaplıdır. Buna ilaveten her kablo çifti diğer çift
+üzerine bükülüyor. Bu tip kablolarda EMI veya RFI dan kaynaklanan sinyal
+kesim etkileri kolaylıkla önlenebiliyor. UTP kablolarının arasındaki sinyal
+kesimini azaltmak kabloların büküm sayısına bağlıdır. STP kablolarına benzer
+olarak UTP kablolarının da bir adımdaki büküm sayısı kablonun değişik
+özellikler sergilemesini sağlar (1).
+UTP kablolar dış görünümleri bakımından birbirlerine çok benzer. Ancak her
+UTP kablonun üzerinde hangi kategoride oldukları belirtilir. CAT (category)
+kategori anlamına gelmektedir. Kablonun kategorisi, o kablonun göstermiş
+olduğu performansa göre belirlenmiştir. Piyasada şu anda en çok CAT5 kablo
+kullanılmaktadır (2).
+• Cat1: Kullanım alanı telefon iletişimi ve zil teli gibi zayıf akım sistemleridir.
+• Cat2: 4 Mbit/s hızında işlev görecek ağ sistemlerinde kullanılır.
+• Cat3: 16 MHz’lik bir frekans geçişi sağlayabilir. Saniye de 10 Mbit’lik bir
+veri gönderebilir. Günümüzde Cat 1’in yerini almıştır ve IP telefon olmayan
+hatlarda telefon kablosu olarak kullanılır.
+• Cat4: 20 MHz’lik bir frekans geçişine elverişlidir. Saniyede 16 Mbit’lik veri
+taşır.
+• Cat5: Günümüzde en çok kullanılan UTP kablo türüdür. 100 MHz’lik bir
+frekans geçişine elverişlidir. Saniyede 100 Mbit’lik veri taşır.
+• Cat5e: Cat 5’e göre daha dayanıklı ve uzun ömürlüdür.110 m ‘ye kadar
+kullanılabilir.
+• Cat6: 250 MHz’lik bir frekans geçişine elverişlidir. Günümüzde cat5 ve
+cat5e’nin yerini almaktadır. Saniyede 1 gb’lik bir veri taşıma özelliğine
+sahiptir.
+• Cat6a: 500 MHz’lik bir veri geçişine elverişlidir. 1 gb ve daha üstü veri
+iletiminde tercih edilir. Kablo kesiti cat 5 ve cat 6’ya göre daha kalındır.
+• Cat7: Aslında STP (shielded twisted pair)olarak üretilen bu kablo
+teknolojik gelişme ve ihtiyaçlara göre UTP olarak da üretilmeye
+başlanmıştır. Ancak kullanım alanları çok düşüktür. Gerek kesit kalınlığı
+gerekse çok güç gerektiren durumlarda topraklama gerekliliği bu kablonun
+UTP olarak kullanım alanlarını kısıtlamıştır (2).
+Kalkansız bükümlü kablo çifti (UTP) kabloların bazı avantajları vardır. Kolanımı
+kolay ve diğer ağ medyalarına göre daha ucuzdur. Aslında UTP kablolarının
+metresi diğer yerel ağ kablolarının metre birim fiyatından daha azdır. Fakat
+gerçek avantajı bu kablonun esas avantajlı olduğu yer boyutudur. UTP
+kablosunun çapı daha küçük olduğundan tam olarak kılavuzu doldurmaz. Bu
+özellik eski bir binaya bir ağ döşerken çok büyük yarar sağlar. Ayrıca, RJ–45 tipi
+bağlayıcı ile birlikte kullanılan UTP kabloları ve böylece potansiyel ağ
+kaynaklarının gürültü düzeyi önemli ölçüde azaltılır ve çok sağlam bir iletim
+sağlanır. UTP kablolarının bazı dezavantajları da vardır. UTP kablolarında
+elektriksel olarak gürültü ve sinyal kesilmesi gerçekleşir. Bunun için kısa
+mesafelerde UTP kablolarının yerine fiber optik kablolar kullanılır.
+Bir iletişimi oluştuğu zaman, merkez kaynaktan iletilen sinyalin gideceği yere
+olan uzaklığı hesaba katılmalıdır. Bu koşul hem fiziksel perspektifte hem de
+yazılımsal olarak doğrudur. Gönderilen sinyal bağlantı devresi tarafından alıcı
+sinyal olarak çevrilir. Kaynağın gönderici pini hedefin alıcı piniyle birbirine
+bağlanmalıdır.
+Yerel ağ anahtarlamalı çoklayıcıyı (switch) bilgisayara bağlarken kullandığımız
+kablo şekline düz kablo denir.
+Bir anahtarla (switch) portunu diğer anahtar portuna bağlayan kabloya çapraz
+kablo denir.
+Bilgisayarın üzerindeki RJ–45 adaptörünü yönlendirici (router) veya anahtarın
+(switch) konsol portuna bağlayan kabloya rollover kablo denir (1).
+A. UTP Kablo
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. UTP Kablo Renk Şeması ve Standartları
+ Kablolama hakkında daha fazla bilgi için aşağıdaki video izlenebilir.
+C. Kablolama Yapısı Videosu
+Şekil 1. Koaksiyel Kablo (1)
+Video 1. Kablolama Yapısı
+Şekil 2. UTP Kablo Renk Şeması ve Standartları 
+Protocol (Protokol): Bir ağ üzerindeki cihazların aralarında nasıl iletişim
+kuracağını belirleyen kurallar dizisi.
+Segment: (Bölüm): Köprüler, router'lar veya anahtarlarla sınırlanmış olan ağın
+bir bölümü.
+Topology (Topoloji): Bir kurumsal ağda, ağ noktalarının ve ortamın fiziksel olarak
+düzenlenmiş hali.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+5. Parlar, T. Bilgisayar Donanımı Ders Notu, Donanım Kartları. Antakya MYO, 2012
+Referanslar
+STP (Shielded Twisted – Pair)
+(Koruyuculu Dolanmış Çift / Kalkanlı Bükümlü Kablo Çifti)
+Korumalı çift bükümlü (STP – shielded twisted pair) kablo koaksiyel kablodan,
+çift bükümlü kabloya geçiş aşamasında kullanılsa da günümüzde fazla tercih
+edilmemektedir. Kullanımının zor olması, maliyetinin daha yüksek olması ve
+dıştaki tel zırhın yarardan çok zarar vermesi gibi etkenler bu kablonun
+kullanılmamasının başlıca sebeplerindendir. STP kablo kullanılırken dıştaki tel
+zırhın topraklanması gerekir. Aksi takdirde zırh elektromanyetik dalgaları
+toplayan anten vazifesi görür. En dıştaki tel zırhın zarar görmemesi
+topraklamanın tamamlanması sebebiyle önemlidir (2).
+Kalkanlı çift bükümlü kablo kalkanlama, bozma ve bükümleme tekniklerinin bir
+karışımıdır . Her kablo çifti metal kılıf içerisine yerleştirilmiştir. Metal kılıf
+içerisine yerleştirilen dört çift kablonun tamamı ayrıca bir metal kılıf içine daha
+yerleştirilmiştir. 150 ohm luk bir kablodur. Ethernet ağlarında kullanılan STP,
+elektriksel gürültülerden etkilenmezler. Örnek olarak elektromotor kuvvetin
+yaratmış olduğu elektromanyetik dalgalar veya radyo frekansları verilebilinir.
+STP kablo her ne kadar dış etkenlerden daha az etkilense de UTP kablodan
+hem daha pahalı hem de kurulumu UTP’ ye göre daha zor (1).
+Yeni oluşan bir teknoloji olan ScTP kablo FTP olarak ta bilinir, UTP ve ATP
+kablonun iyi yanlarını almış ve ayrıca 100–120 ohm luk bir değere sahiptir.
+Konnektör
+Çift bükümlü kabloları sonlandırmak için RJ (registered jack) serisi
+konnektörler kullanılır. RJ serisi konnektörlerden RJ-12 telefon sistemlerinde
+kullanılırken RJ-45 konnektörü ise UTP ve STP kablolarını sonlandırmak için
+kullanılır. Fiber optik kabloları sonlandırmak için ise ST-SC konnektörleri
+kullanılır.
+Kablo Hazırlama
+Bir bilgisayar ağı kablosu hazırlamak için ihtiyacımız olan malzemeler UTP veya
+STP kablo, RJ-45 konnektör ve kablo sıkma pensesidir (2).
+• Kablo sıkma pensesi
+• Kablo temizleme, soyma ve kesme aletleri
+• Yalıtkan konnektör kapakları
+A. STP Kablo
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. Kablolama Malzemeleri
+ UTP kablo yapımı hakkında daha fazla bilgi için aşağıdaki video izlenebilir.
+C. UTP Kablo Yapımı Videosu
+Şekil 1. Koaksiyel Kablo (1)
+Video 1. RJ-45 ile UTP Kablo Yapımı
+Şekil 3. Kablolama Malzemeleri
+Şekil 2. STP Kablo (2). 
+Protocol (Protokol): Bir ağ üzerindeki cihazların aralarında nasıl iletişim
+kuracağını belirleyen kurallar dizisi.
+Segment: (Bölüm): Köprüler, router'lar veya anahtarlarla sınırlanmış olan ağın
+bir bölümü.
+Topology (Topoloji): Bir kurumsal ağda, ağ noktalarının ve ortamın fiziksel olarak
+düzenlenmiş hali.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+5. Parlar, T. Bilgisayar Donanımı Ders Notu, Donanım Kartları. Antakya MYO, 2012
+Referanslar
+Kablo Hazırlama
+Ağ (network) için kablo hazırlarken öncelikle dikkat etmeniz gereken şey
+kullanacağınız kablo standardıdır. Cat5 kablolar için genel olarak kullanılan iki
+standart vardır: 586-A ve 586-B. Bu standartlar kullanılan kablonun üzerinde
+yazmaktadır (2).
+Bilgisayarlar ‘hub’ ya da ‘switch’ gibi merkezi birim kullanarak birbirine
+bağlanacak ise kabloların aynı standarda göre bağlanması gerekmektedir (düz
+bağlantı) . Yani kablonun her iki ucunun da kablonun üzerindeki standarda
+göre ya 586-A ya da 586-B’ye göre bağlanması gerekmektedir (568A ↔568A
+ya da 568B ↔568B) .
+İki bilgisayarı birbirine bağlamak için kabloların farklı standarda göre yapılması
+gerekmektedir (çapraz bağlantılı) . Bunun için de kablonun bir ucunu 586-A’ya
+göre bir ucunu da 586-B’ye göre bağlanması gerekmektedir (568A ↔ 568B ya
+da 568B ↔ 568A) (2)
+Optik Medya:
+Elektromanyetik Spektrum
+Optik fiber ağlarında kullanılan ışık bir nevi elektromanyetik enerjidir. Elektrik
+yük bir yerden bir yere hareket ettiğinde veya ivmeli bir hareket kazandığında
+elektromanyetik güç oluşur. Dalga olarak şekillenen bu enerji çeşidi bir vakuma
+doğru yol alır. Bu dalga enerjisinin bu özelliğine dalga boyu denir.
+Radyo, mikrodalga, radar, görünür ışık, x-ışınları ve gama ışınları çok farklı
+şeyler olarak algılanır. Fakat hepsi elektromanyetik enerjisinin çeşitleridir. Eğer
+bu enerjilerin dalga boyları en yüksek seviyeden en düşük seviyeye doğru
+sürekli bir değişim yapıyorsa bu periyoda elektromanyetik spektrum denir.
+Elektromanyetik dalga boyu bir elektrik yükünün ne kadar sıklıkta dışarı ve
+içeri doğru hareket yapması olarak tanımlanır. Elektrik yükünün hareketini su
+üzerinde olan bir yapışkana benzetebiliriz. Eğer bu yapışkan yavaş bir şekilde
+hareket ederse dalga boyu uzun olacaktır. Ama bu işlem daha ani ve hızlı bir
+şekilde olursa iki dalga tepesi arasındaki mesafe daha kısa olacaktır.
+Elektromanyetik dalgalar aynı yöntemle uygulandığı için çoğu aynı özelliklere
+sahip olurlar. Bir vakum merkezine doğru saniyede 300.000 kilometre hızla
+gidebilirler. İnsan gözleri sadece 700 ile 400 nanometre arasındaki dalga
+boyuna sahip olan elektromanyetik dalgaları hissedebilir. 700 nanometredeki
+dalga boyu insan gözüne kırmızı olarak gözükür. 400 nanometre olan ise insan
+gözüne mor olarak gözükür. Bu aradaki elektromanyetik spektrum insan
+gözüyle gökkuşağı olarak görülür.
+İnsan gözüyle görülmeyen dalga boyları fiber optik veri transferinde kullanılır.
+Bu dalga boylarının uzunluğu kırmızı dalga boylarının uzunluğundan daha
+fazladır ve bu yüzden kızıl ötesi ışık diye adlandırılırlar. Kızıl ötesi ışıklar
+televizyonların uzaktan kumandalarında kullanılır. Optik fiber veri transferinde
+kullanılan dalgaların boyları 850,1310 veya 1550 nanometredir. Bu dalga
+boylarının seçilme sebebi, veri iletiminde diğer dalga boylarına nazaran daha
+iyi performans sağlamasıdır (1)
+A. Kablo Hazırlama ve Fiber Kablo
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. Fiber Kablo
+ Fiber kablo çeşitleri hakkında daha fazla bilgi için aşağıdaki video izlenebilir.
+C. Fiber Kablo Çeşitleri Videosu
+Şekil 1. Koaksiyel Kablo (1)
+Video 1. Fiber Kablo Çeşitleri
+Şekil 2. Fiber Kablo ve Kabinet Bağlantı Paneli
+Şekil 1. Cat5 Standartları (2). 
+Protocol (Protokol): Bir ağ üzerindeki cihazların aralarında nasıl iletişim
+kuracağını belirleyen kurallar dizisi.
+Segment: (Bölüm): Köprüler, router'lar veya anahtarlarla sınırlanmış olan ağın
+bir bölümü.
+Topology (Topoloji): Bir kurumsal ağda, ağ noktalarının ve ortamın fiziksel olarak
+düzenlenmiş hali.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+5. Parlar, T. Bilgisayar Donanımı Ders Notu, Donanım Kartları. Antakya MYO, 2012
+Referanslar
+Çok Modlu Fiber (Multimode)
+Işığın fiberin içerisinde hareket ettiği kısıma çekirdek adı verilir . Işık ışınlarının
+açısı sayısal aralık içerisindeyse ışınlar çekirdek içerisine girebilirler. Görüldüğü
+gibi ışınlar açıdan dolayı fiber içerisinde sınırlı sayıda yolda hareket edebilirler.
+Bu optik yollara “mod” adı verilir. Eğer fiberin çapı yeteri kadar geniş ise ışık
+çok sayıda yolda hareket edebilir. Bu tip fibere “Çok Modlu (Multimode) Fiber”
+denilir. Tek modlu (singlemode) fiberin çekirdeği sadece tek mod da ışığın
+hareket etmesine müsaade eder (1)
+Ağlarda kullanılan tüm fiber optik kablolar, ayrılmış kılıflar içerisinde iki cam
+fiber içerirler. Fiberlerden biri, veriyi A cihazından B cihazına taşırken, diğeri
+veriyi B cihazından A cihazına taşırlar. Fiberler ters yönlere giden tek yönlü
+yollara benzerler. Bu bize tam iki yönlü (full-duplex) haberleşme sağlar. Çift
+bükümlü kabloların veri alımı ve iletiminde farklı kablo çiftleri kullanıldığı gibi
+fiber devrelerde de bir kablo gönderici bir kablo alıcı olarak kullanılır. Tipik
+olarak fiber kablo bağlantı noktalarına ulaşana kadar ortak bir dış kılıfın
+içerisinde beraber bulunurlar. Bağlayıcılar takılana kadar kabloların
+bükülmesine veya kalkanlaşmasına ihtiyaç duyulmaz. Çünkü ışık fiberin
+içindeyken hiçbir yere kaçamaz. Bu fiber ile herhangi bir veri karışması
+olmaması anlamına geliyor. Çoklu fiber kablo çiftlerini genel olarak aynı kablo
+içerisinde görürüz. Buda tek bir kablo ile katlar veya binalar arası geçiş
+yapmamızı sağlar. Tek bir kablo 2 ile 48 arası veya daha fazla ayrılmış fiber
+içerir. Bakır kablolarda ise her bir bağlantı için farklı bir UTP kablo çekmemiz
+gerekir. Ayrıca fiber kablo bakıra göre saniyede daha fazla biti daha uzak
+mesafeye taşıyabilir.
+Genellikle fiber optik kablo beş parçadan oluşur. Çekirdek, kılıf, tampon, direnç
+elemanı ve dış kılıftan oluşur (1).
+A. Fiber Kablo
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. Fiber Kablo Özelikleri
+ Fiber kabloya ek yapımı hakkında daha fazla bilgi için aşağıdaki video izlenebilir.
+C. Fiber Kabloya Ek Yapımı Videosu
+Şekil 1. Koaksiyel Kablo (1)
+Video 1. Fiber Kabloya Ek Yapımı
+Şekil 3. Fiber Kablo Özelikleri
+Şekil 1. Fiber Kablo (1)
+Şekil 1. Fiber Optik Kablo Parçaları (1)
+Protocol (Protokol): Bir ağ üzerindeki cihazların aralarında nasıl iletişim
+kuracağını belirleyen kurallar dizisi.
+Segment: (Bölüm): Köprüler, router'lar veya anahtarlarla sınırlanmış olan ağın
+bir bölümü.
+Topology (Topoloji): Bir kurumsal ağda, ağ noktalarının ve ortamın fiziksel olarak
+düzenlenmiş hali.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+5. Parlar, T. Bilgisayar Donanımı Ders Notu, Donanım Kartları. Antakya MYO, 2012
+Referanslar
+Fiber Optik Kablo Parçaları
+Çekirdek (Core) fiber optiğin merkezindeki ışık iletim elemanıdır. Tüm ışık
+sinyalleri çekirdek boyunca harekete ederler. Çekirdek genel olarak silikon
+dioksit ile diğer elementlerin birleşiminden meydana gelen bir çeşit camdan
+yapılır. Çok modlu fiberin çekirdeğinde, cam indeksi artırılmış cam kullanılır.
+Dolayısıyla, çekirdeğin dış alanının merkeze göre optik yoğunluğu daha az
+olduğu için ışık çekirdeğin dış yüzeyinde daha hızlı hareket eder. Fiberde ışık
+ışını çekirdeğin merkezinden aşağıya doğru giden yolda, çekirdeğin dış sınırda
+giden yoldaki kadar hızlı hareket edemediklerinden bu tasarım kullanılıyor.
+Çoklu mod fiberde gönderilen tüm ışınlar hedef beraber ulaşmalıdırlar.
+Çekirdeğin etrafı giydirilmiştir (Cladding). İç taraftaki malzemede silikondan
+yapılmıştır ancak kırılma indeksi çekirdeğe göre çok düşüktür. Işık fiber
+çekirdek boyunca hareket ederken kılıf ve çekirdek arasındaki yansımalar bize
+toplam iç yansımayı verir. LAN’ lar içerisinde genellikle standart fiber optik
+kablo tipi kullanılır. Fiber optik kabloda 62,5 veya 50 mikron çekirdeği ve 125
+mikron çapında kılıftan meydana gelir. Genel olarak 62.5/125 veya 50/125
+fiber optik kablo diye adlandırılır. Mikronun bir metrenin milyonda biri olduğu
+unutulmamalıdır. (1μ)
+Kılıfın etrafındaki tampon (Buffer) malzemesi genellikle plastiktir. Tampon
+malzemesi çekirdek ve kılıfı dış darbelerden korur. İki tip teme kablo dizayn
+çeşidi vardır. İlki gevşek-kılıflı kablo ve ikincisi sıkı tamponlu kablodur. Gevşekkılıflı kablo bina dışında, sıkı kılıflı kablo ise bina içlerinde kullanılır.
+Direnç elemanı tamponun etrafında sarılıdır (Aramid Yann). Kullanıcı kabloyu
+kullanırken kabloyu çekmeleri sırasında oluşacak hasarları engeller. Malzeme
+olarak genellikle kevlar kullanılır. Bu malzeme su geçirmez yelek yapımında
+kullanılan malzemenin aynısıdır.
+Son element ise dış cekettir (Jacket). Kablonun en dış katmanı olan dış ceket
+kabloyu aşınma, kimyasal maddeler ve diğer kablo için zararlı olan etkenlere
+karşı korur. Genellikle dış ceketin rengi turuncu olur. Bazen farklı renklerde de
+üretilebilir.
+LED’ ler veya VCSEL’ ler çok modlu fiberlerde genellikle kullanılan ışık
+kaynağıdır. LED’ ler daha ucuz ve kurulum sırasında ekstra güvenlik
+önlemlerine ihtiyaç duyulan maddedir. Ancak LED’ ler sinyali lazer kadar uzağa
+gönderemez. Çok modlu fiber optik kablolar (62,5/125) veriyi yaklaşık olarak
+2000 metre mesafeye taşıyabilirler.
+Tek Modlu Fiber (Single Mode)
+Tek modlu fiber kablo çok modlu fiber kablo ile aynı parçalardan meydana
+gelir. Tek modlu fiberin dış ceketinin rengi genellikle sarı olur. Çok modlu fiber
+kablo ile tek modlu fiber kablonun arasındaki en temel farklılık, tek mod fiber
+kablonun adından da anlaşılacağı gibi tek modda iletim yapmasıdır. Tek modlu
+fiberin çekirdek yarıçapı 8-10 mikron yarıçapındadır. 9 mikronluk çekirdek çok
+yaygındır. Kablo ceketinde yazan 9/125 olarak tanımlanan tek modlu fiber
+kablonun çekirdek yarıçapı 9 ve dış kılıf yarıçapının 125 mikron olduğu anlaşılır.
+Tek modlu fiberde ışık kaynağı olarak lazer kullanılır. Işık ışını çekirdeğe 90
+derecelik açı yaparak girer. Sonuç olarak veri ışın dalgalarında ve çekirdeğin
+tam ortasında düz bir hat üzerinde taşınır . Böylece hem iletim hızın hem de
+iletim mesafesini artırmış oluruz (1).
+A. Fiber Optik Kablo Parçaları
+Tek modlu fiber yüksek veri iletim kapasitesi ve daha uzak mesafeye iletilebilme yetisine
+sahiptir. 3000 metreye kadar iletim yapılabilinir. Ancak lazer ile tek modlu fiber kullanımı
+diyot ile çok modlu fiber kullanımına göre daha pahalıdır. Bu karakteristik özelliklerden
+dolayı tek modlu fiber kablo çoğunlukla bina içerisinde kullanılır (1).
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. Tek Modlu Fiber Kablo
+ Fiber kablo ucu yapımı hakkında daha fazla bilgi için aşağıdaki video izlenebilir.
+C. Fiber Kablo Ucu Yapımı Videosu
+Video 1. Fiber Kablo Ucu Yapımı
+Şekil 3. Tek Modlu Fiber Kablo –Single Mode (1)
+Şekil 1. Fiber Optik Kablo Parçaları (1)
+Protocol (Protokol): Bir ağ üzerindeki cihazların aralarında nasıl iletişim
+kuracağını belirleyen kurallar dizisi.
+Segment: (Bölüm): Köprüler, router'lar veya anahtarlarla sınırlanmış olan ağın
+bir bölümü.
+Topology (Topoloji): Bir kurumsal ağda, ağ noktalarının ve ortamın fiziksel olarak
+düzenlenmiş hali.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+5. Parlar, T. Bilgisayar Donanımı Ders Notu, Donanım Kartları. Antakya MYO, 2012
+Referanslar
+Diğer Fiber Parçalar
+LAN’ lar içerisinde çoğu bilgi iletişimi elektriksel sinyaller halinde olurlar. Ancak
+optik fiber hatlarda veri ışık ile iletilir. Bu nedenle elektriksel sinyalleri ışığa ve
+diğer tarafta ışığı elektriksel sinyale çevirmek için parçalara ihtiyacımız vardır .
+Gönderici veriyi anahtardan veya yönlendiriciden alır. Bu veri elektriksel sinyal
+şeklindendir. Gönderici bu elektronik sinyali aynı değere eş ışık sinyallerine
+çevirir. Elektronik sinyali ışığa çevirmek için iki tip araç kullanılır.
+• Işık yayan diyot (LED) 850ve 1310 nanometre değerinde kızıl ötesi ışık
+üretir. Daha sonra bu ışık lensler sayesinde yansıtılarak kablonun sonuna
+kadar gönderilir.
+• Tahrik edilmiş emisyon radyasyonundan üretilen yüksen ışık (LAZER)
+1310nm veya 1550 nm değerinde yoğun kızıl ötesi ışık yayan bir kaynaktır.
+Lazerler daha çok uzun mesafeler için kullanılır. Fakat insan gözüne zarar
+vermemesi için dikkatli olmak gerekmektedir.
+Bu ışık kaynakları veriyi çok kısa sürede ve çok hızlı bir şekilde iletebilirler.
+Optik kablonun diğer ucundaki gönderici, alıcı pozisyonunda olur. Alıcı
+fonksiyonu güneş enerjisiyle çalışan hesap makinesinin içindeki fotoelektrik
+hücresinin fonksiyonu gibi bir fonksiyona sahiptir. Işık alıcıya çarptığında alıcı
+elektrik üretir. Alıcının ilk işi bu ışık demetinin hangi sıklıkta vuruş yaptığıdır.
+Daha sonra alıcı bu ışık sinyallerini başlangıçta çevrilmiş olan orijinal elektronik
+sinyallere çevirir ve bu sinyaller voltaj değişikliği yaratmaya başlar. Daha sonra
+bu sinyalleri bakır kablo aracılığıyla bilgisayar, yönlendirici veya anahtar gibi
+elektronik aygıtlara gönderir. Yarı iletken aygıtlar çoğunlukla alıcı olarak
+kullanılır ve bunlara PIN foto diyotları denir. PIN foto diyotlar göndericinin
+ürettiği 850,1310 veya 1350nm lik ışıklara duyarlıdır. Eğer makul dalga
+boylarında üretilen ışık demetlerinin vuruşları bu değerler arasında ise foto
+diyotlara vuruştan sonra foto diyotlar çabuk bir şekilde ve uygun bir voltajda
+elektrik üretir. Işık vuruşları kesildiği anda PIN diyotları da voltaj üretmeyi ani
+şekilde keserler. Bu durum voltaj değişikliklerine neden olur ve bakır kablolar
+üzerinde 1 ve 0 olarak nitelendirilir.
+Bağlayıcılar fiberin sonuna bağlanırlar ve böylece fiberle alıcıyı veya
+göndericiyi birbirine bağlarlar. Çok modlu fiberler için kullanılan bağlayıcının
+adı abone bağlayıcısıdır. (SC konektör). Tek modlu fiberler için kullanılan
+bağlayıcılar için ise düz uç bağlayıcı (ST konektör) denir.
+Göndericiler, alıcılar, bağlayıcılar ve fiberler haricinde optik bir ağın mutlak
+olarak tekrarlayıcılara ve fiber patch panellere ihtiyaç vardır.
+Tekrarlayıcılar uzun mesafelerde zayıflayan ışınları yükseltip orijinal şekillerine
+dönüştüren bir optik yükselticidir. Bu sayede optik sinyaller uzun mesafelere
+rahatça gönderilebilir.
+Fiber patch panelleri normal patch panellerine benzemekle birlikte bakır
+kablolar için kullanılır. Bu paneller optik ağlardaki iletimin enekliğini arttırarak
+daha hızlı bir iletim sağlar (1).
+A. Diğer Fiber Parçaları
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. Fiber Kablo Konnektörleri
+ Fiber kablo hakkında daha fazla bilgi için aşağıdaki video izlenebilir.
+C. Fiber Kablo Nasıl Çalışır Videosu
+Video 1. Fiber Optik Kablo Nasıl Çalışır?
+Şekil 2. Fiber Optik Kablo Konnektörleri
+Şekil 1. Fiber Parçaları (1)
+Hız aşımı (Overclock): işlemcinin üreticinin etikette belirlediği hız değerinden
+yüksek değerlerde çalıştırılması işlemidir. Anakartta ayar
+değişiklikleriyle işlemcinin hızı artırılabilir. Sistem hızı (FSB), çarpan ve
+voltaj değerlerinde yapılan değişikliklerle işlemci hızı artırılabilir (1).
+Program:İşlemciye gönderilen ve ona ne yapması gerektiğini söyleyen komutlara
+denir.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+Referanslar
+A. UTP Kablosunun RJ-45 Konektörüne Takılması
+Şekil 1. Aşama 1 (2)
+Şekil 2. Aşama 1 Devamı (2)
+Hız aşımı (Overclock): işlemcinin üreticinin etikette belirlediği hız değerinden
+yüksek değerlerde çalıştırılması işlemidir. Anakartta ayar
+değişiklikleriyle işlemcinin hızı artırılabilir. Sistem hızı (FSB), çarpan ve
+voltaj değerlerinde yapılan değişikliklerle işlemci hızı artırılabilir (1).
+Program:İşlemciye gönderilen ve ona ne yapması gerektiğini söyleyen komutlara
+denir.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Optik Kablolama Modülü, 2008, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+Referanslar
+A. Tek Modlu /Çok Modlu Fiber Kablo Yapımı ve Konektör Türleri
+Şekil 1. Tek Modlu Fiber Kablo Yapımı (2)
+Şekil 2. Çok Modlu Fiber Kablo Yapımı (2) 
+Protocol (Protokol): Bir ağ üzerindeki cihazların aralarında nasıl iletişim
+kuracağını belirleyen kurallar dizisi.
+Segment: (Bölüm): Köprüler, router'lar veya anahtarlarla sınırlanmış olan ağın
+bir bölümü.
+Topology (Topoloji): Bir kurumsal ağda, ağ noktalarının ve ortamın fiziksel olarak
+düzenlenmiş hali.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+5. Parlar, T. Bilgisayar Donanımı Ders Notu, Donanım Kartları. Antakya MYO, 2012
+Referanslar
+Ağ Bağlantı Tipleri
+1. Kablolu (Koaksiyel, UTP, STP, Fiber Kablo)
+2. Kablosuz (Home RF, IrDA, BlueTooth, Wi-Fi, WiMAX, 3G +)
+Wireless (Kablosuz) Ağlar
+Kablosuz ortamlar; radyo dalgalarını (HomeRF), kızılötesi ışınları(Infrared Data
+Association-IrDA) mikro dalgaları (BlueTooth) kullanarak veri iletirler ve alırlar.
+Bu ortamda fiziksel bağlantıya ihtiyaç yoktur. Kablolu network sisteminin
+uygun olmadığı (kablolamanın zor olduğu yerlerde) durumlarda bu ortamı
+kullanmak iyi bir seçenektir.
+Kablosuz Ağların Avantajları
+• Esneklik
+• Kolay Kurulum
+• Zaman
+• Maliyet
+• Sağlamlık
+Kablosuz Ağların Dezavantajları
+• Güvenlik
+• İletişim Hızı
+• Standartlara Uyma Zorunluluğu
+Kızılötesi- (Infrared Data Association-IrDA)
+Çok düşük frekanslı kızılötesi ışık dalgaları yoluyla birbirini gören iki nokta
+arasında iletişim sağlar. Bir kaç metreyi aşmayan kısa uzaklıklar için kullanılır.
+Taşınabilir bilgisayarlarda veri iletişimi, kişisel bilgisayarlarda fare, yazıcı gibi
+aygıtları kullanmak amacıyla kullanılır. 1-4 Mbps veri iletişim hızlarındadır.
+Bluetooth
+Bluetooth, kablosuz kısa-mesafeli, ses ve veri haberleşmesini sağlamak için
+oluşturulmuş bir sistemdir. Cep telefonları, PDA'lar, bilgisayarlar ve çevre
+birimlerini birbirine bağlamak için kullanılan kısa mesafe standardıdır.
+Bluetooth sistemi farklı dijital sistemler arasında kısa mesafede bilgi alışverişini
+sağlar. Temel olarak aygıtları birbirine bağlayan kablolardan kurtulma amacıyla
+çıkarılmıştır. Küresel olarak yaklaşık 10m ye kadar bilgi iletebilir. Veri iletim hızı
+1 Mbps'dir.
+Wi-Fi (Wireless Fidelity - Kablosuz Bağlantı)-WLAN
+LAN düzeyinde internet erişimi sağlayan kablosuz bağlantı tipidir. 150m ye
+kadar bağlantı sağlayabilir. Bilgisayarların yüksek hızda ve geniş bir menzilde
+bilgisayar ağı oluşturması amacıyla çıkarılmıştır. IEEE 802.11b olarak da bilinir.
+Bluetooth dan 10 kat daha hızlı ve menzili 10 kat daha fazladır.
+Kapsama alanına göre veri transfer hızları
+• 150 m de 1 Mbit/s
+• 100 m de 5.5 Mbit/s
+• 80 m de 8 Mbit/s
+• 50 m de 11 Mbit/s
+Kablosuz İletişimde Yeni Trendler (Wimax, 3G +, LTE)
+WiMAX (Worldwide Interoperability for Microwave Access), IEEE 802.16
+standartlarını kullanan aletler için bir sertifika işaretidir. Verici antenden
+yaklaşık 50 km mesafeye kadar bir etki alanı ve 75 Mbps indirme hızı olması
+planlanan bir çeşit kablosuz bağlantı sistemidir.
+WiMAX / Hot-spot:
+İngilizce bir sözcük olan “Hot-spot”, kablosuz hızlı internet bağlantısının
+yapılabildiği belirli bir bölgeye verilen bir terimdir.
+Hot-spot’lar havaalanı, kafe, restaurant vb. kapalı alanlar veya kampüs
+alanlarında kullanılabilir.
+3G +
+Son 10 yıldır hücresel şebeke endüstrisi artan bant genişliği ile birlikte sadece
+ses şebekesinden ses ve veri şebekesine doğru sürekli gelişmektedir. Bu zaman
+periyodunda mobil telefonlar kablosuz bir telefon olmaktan çıkmış olup;
+konuşma, yazışma, fotoğraf gönderme, video izleme, müzik indirme, oyun
+oynama ve hesap yapma gibi işlevlerle evrensel bir cihaz haline dönüşmüştür.
+Sistem kapasitesi DSL ve kablo internetten az değildir (5).
+A. Kablosuz Ağ Türleri
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. Kablolu ve Kablosuz Ağ Bağlantı Türü
+ Fiber kablo hakkında daha fazla bilgi için aşağıdaki video izlenebilir.
+C. Fiber Kablo Nasıl Çalışır Videosu
+Video 1. Fiber Optik Kablo Nasıl Çalışır?
+Şekil 1. Kablolu ve Kablosuz Ağların Ortak Kullanımı (2) 
+Boot / Start: Bilgisayarı Başlatmak
+Reboot / Reset / Restart: Bilgisayarı Kapatıp, Yeniden Başlatmak
+Reset Atmak: Çalışan Bilgisayarı “Reset” Düğmesine Basarak Yeniden Başlatmak.
+CTRL-ALT-DEL: “Soft Reset” ya da Sisteme Giriş Ekranını Getirmek.
+Setup: Bir Programın Kurulması İçin Gerekli Dosya.
+Install: Setup Dosyasını Kullanarak Bir Program Kurulumu Yapmak.
+Unınstall: Bilgisayara Önceden Kurulmuş Bir Programı Kaldırmak.
+Kaynak:Adnan Menderes Üni Temel Bilgi Teknolojileri
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. Vikipedia, MAC Adresi, 30.01.2014
+4. Parlar T. Ağ Temelleri_1 Ders Notu, Topolojileri Antakya MYO, 2012
+Referanslar
+Protokoller veri haberleşmesinde aşağıda görülenleri kontrol ederler.
+• Fiziksel ağlar nasıl yapılır.
+• Bilgisayarlar ağlara nasıl bağlanır.
+• İletim için verinin formatı nasıldır.
+• Veri nasıl gönderilir.
+• Hatalar nasıl giderilir.
+Bu ağ kuralları birçok organizasyon ve komite tarafından oluşturulmuştur. Bu
+organizasyon ve komiteler arasında Elektrik Elektronik Mühendisleri Enstitüsü
+(Institute of Electrical and Electronic Engineers (IEEE)), Amerikan ulusal
+standartları enstitüsü (American National Standards Institute (ANSI)),
+Telekomünikasyon endüstri ortaklığı (Telecommunications Industry Association
+(TIA)), Elektronik endüstrileri birliği (Electronic Industries Alliance (EIA)) ve
+Uluslar arası Telekomünikasyon birliği (the International Telecommunications
+Union (ITU)) bu kuruluşların arasındadır. (1).
+Ağ Modelleri
+Veri Haberleşmesinde Neden Katmanları Kullanırız?
+Verinin ağ içerisinde bir yerden başka bir yere hareket etmesi için ağ
+içerisindeki tüm cihazların aynı dili konuşması veya protokolü kullanması çok
+önemlidir. Protokol, ağ içerisindeki iletişimi sağlıklı bir şekilde yapmak için
+gereken kuralların tümüdür. Bir pilotun uçağını uçururken diğer uçaklar ile
+veya hava kontrol kulesiyle iletişim sağlaması için kullandığı özel bir dil gibi.
+Veri haberleşmesinde protokol, verinin iletimini ve formatını sınırlamak için
+oluşturulan kurallar veya varılan anlaşmadır. Kaynak bilgisayardaki katman 4
+hedef bilgisayardaki katman 4 ile haberleşir . Kullanılan bu kurallara katman 4
+protokolü denilir. Veri bir katmandan diğer bir katmana geçerken her katman
+kendi protokollerine göre veriyi düzenler (1).
+Bir paket gönderildiği hedef bilgisayara ulaştığında, hedef bilgisayarda kaynak
+bilgisayarda yapılan işlemlerin tamamen tersi gerçekleşir ve veri orijinal
+durumuna getirilir.
+Haberleşme ağlarında ortamın fiziksel olarak oluşturulması, paketlerin
+oluşturulması, veri aktarımı sırasında oluşan tıkanıkların giderilmesi, paketlerin
+varış noktasına yönlendirilmesi, ağdaki bir hattın bozulması durumunda
+alternatif yolların bulunması, hataların fark edilmesi, hataların düzeltilmesi,
+verinin bir uygulama protokolü aracılığı ile kullanıcıya sunulması gibi pek çok
+karmaşık işlemin yapılması gerekmektedir. Katmanların kullanılması bu tarz
+karmaşık işlerin yapılmasında kolaylıklar sağlamaktadır (2).
+A. Ağ Protokolleri
+ISO (International Organization for Standardization) 1984 yılında OSI ( The Open System
+Interconnection) referans modelini geliştirmiştir. OSI modeli 7 katmandan oluşur. Bu
+model ağ tasarımı, uygulama ve sorun çözme aşamlarında kuramsal bir temel
+oluşturmaktadır. Bu modelde verinin nasıl iletileceği ve biçimini (format) belirleyen Veri
+İletişim Protokolleri tanımlanmaktadır. Bu model ile katmanların işlevlerinin öğrenilmesi
+ve öğretilmesi kolaylaşmış, farklı donanım ve yazılım ürünlerinin birbirleriyle uyumlu
+çalışması sağlanmış, katmanlar arası iş birliği, görev paylaşımı, problem çözümü gibi
+kolaylıklar gelmiştir (2).
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. OSI Referans Modeli
+ Ağ temelleri hakkında daha fazla bilgi öğrenmek için aşağıdaki video izlenebilir.
+C. Ağ Temelleri Videosu
+Video 1. Ağ Temelleri
+Şekil 2. OSI Referans Modeli (1)
+Şekil 1. . Katmanlar (1)
+Protocol (Protokol): Bir ağ üzerindeki cihazların aralarında nasıl iletişim
+kuracağını belirleyen kurallar dizisi.
+Segment: (Bölüm): Köprüler, router'lar veya anahtarlarla sınırlanmış olan ağın
+bir bölümü.
+Topology (Topoloji): Bir kurumsal ağda, ağ noktalarının ve ortamın fiziksel olarak
+düzenlenmiş hali.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. Vikipedia, MAC Adresi, 30.01.2014
+4. Parlar T. Ağ Temelleri_1 Ders Notu, Topolojileri Antakya MYO, 2012
+Referanslar
+7.Katman: Application Layer (Uygulama Katmanı): Kullanıcı tarafından
+çalıştırılan tüm uygulamalar bu katmanda tanımlıdırlar. Bu katmanda çalışan
+uygulamalara örnek olarak, FTP (File Transfer Protocol), SNMP (Simple
+Network Management Protocol), e-mail uygulamalarını verebiliriz.
+6.Katman: Presentation Layer (Sunuş Katmanı): Bu katman adını amacından
+almıştır. Yani bu katman verileri uygulama katmanına sunarken veri üzerinde
+bir kodlama ve dönüştürme işlemlerini yapar. Ayrıca bu katmanda veriyi
+sıkıştırma/açma, şifreleme/şifre çözme, EBCDIC’dan ASCII’ye veya tam tersi
+yönde bir dönüşüm işlemlerini de yerine getirir. Bu katmanda tanımlanan bazı
+standartlar ise şunlardır;PICT ,TIFF ,JPEG ,MIDI ,MPEG.
+5.Katman: Session Layer (Oturum Katmanı): İletişimde bulunacak iki nokta
+arasındaki oturumun kurulması, yönetilmesi ve sonlandırılmasını sağlar. Bu
+katmanda çalışan protokollere örnek olarak NFS (Network File System), SQL
+(Structured Query Language), RPC (Revate Procedure Call), ASP (AppleTalk
+Session Protocol) ,DNA SCP (Digital Network Arcitecture Session Control
+Protocol) ve X Window verilebilir.
+4.Katman: Transport Layer (İletişim Katmanı): Bu katman iki düğüm arasında
+mantıksal bir bağlantının kurulmasını sağlar. Ayrıca üst katmandan aldığı
+verileri segment’lere bölerek bir alt katmana iletir ve bir üst katmana bu
+segment’leri birleştirerek sunar. Bu katman aynı zamanda akış kontrolü (flow
+control) kullanarak karşı tarafa gönderilen verinin yerine ulaşıp ulaşmadığını
+kontrol eder. Karşı tarafa gönderilen segment’lerin karşı tarafta gönderenin
+gönderdiği sırayla birleştirilmesi işinden de bu katman sorumludur.
+3.Katman: Network Layer (Ağ Katmanı): Bu katman , veri paketlerinin ağ
+adreslerini kullanarak bu paketleri uygun ağlara yönlendirme işini yapar.
+Yönlendiriciler (Router) bu katmanda tanımlıdırlar. Bu katmanda iletilen veri
+blokları paket olarak adlandırılır. Bu katmanda tanımlanan protokollere örnek
+olarak IP ve IPX verilebilir. Bu katmandaki yönlendirme işlemleri ise
+yönlendirme protokolleri kullanılarak gerçekleştirilir. Yönlendirme
+protokollerine örnek olarak RIP,IGRP,OSPF ve EIGRP verilebilir. Burada dikkat
+edilmesi gereken önemli bir nokta da yönlendirme protokolleri ile
+yönlendirilebilir protokollerin farklı şeyler olduğudur. Bu katmanda kullanılan
+yönlendirme protokollerinin görevi ,yönlendirilecek paketin hedef’e
+ulaşabilmesi için geçmesi gereken yolun hangisinin en uygun olduğunu
+belirlemektir. Yönlendirme işlemi yukarıda bahsettiğimiz yönlendirme
+protokollerini kullanarak dinamik bir şekilde yapılabileceği gibi
+,yönlendiricilerin üzerinde bulunan yönlendirme tablolarına statik olarak kayıt
+girilerek de paketlerin yönlendirilmesi gerçekleştirilebilir.
+2.Katman: Data Link Layer (Veri Bağı Katmanı): Network katmanından aldığı
+veri paketlerine hata kontrol bitlerini ekleyerek çerçeve (frame) halinde fiziksel
+katmana iletme işinden sorumludur. Ayrıca iletilen çerçevenin doğru mu yoksa
+yanlış mı iletildiğini kontrol eder ,eğer çerçeve hatalı iletilmişse çerçevenin
+yeniden gönderilmesini sağlamak da bu katmanın sorumluluğundadır. Bu
+katmanda ,iletilen çerçevenin hatalı olup olmadığını anlamak için CRC ( Cyclic
+Redundancy Check) yöntemi kullanılır. Switch’ler ve Bridge’ler bu katmanda
+tanımlıdırlar.
+1.Katman: Physical Layer (Fiziksel Katman): Verilerin fiziksel olarak
+gönderilmesi ve alınmasından sorumlu katmandır. Hub’lar fiziksel katmanda
+tanımlıdırlar. Bu katmanda tanımlanan standartlar taşınan verinin içeriğiyle
+ilgilenmezler. Daha çok işaretin şekli ,fiziksel katmanda kullanılacak konnektör
+türü , kablo türü gibi elektiriksel ve mekanik özelliklerle ilgilenir. Örneğin V.24
+,V.35, RJ45 ,RS-422A standartları fiziksel katmanda tanımlıdırlar.
+A. OSI Referans Modeli Katmanları
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. OSI Referans Modeli
+ Genel ağ Protokolleri hakkında bilgi öğrenmek için aşağıdaki video izlenebilir.
+C. Genel Ağ Protokolleri Videosu
+Video 1. Genel Ağ Protokolleri
+Şekil 2. OSI Referans Modeli ve Protokoller (4)
+Şekil 1. OSI Referans Modeli Katmanları ve Fonksiyonları
+Protocol (Protokol): Bir ağ üzerindeki cihazların aralarında nasıl iletişim
+kuracağını belirleyen kurallar dizisi.
+Segment: (Bölüm): Köprüler, router'lar veya anahtarlarla sınırlanmış olan ağın
+bir bölümü.
+Topology (Topoloji): Bir kurumsal ağda, ağ noktalarının ve ortamın fiziksel olarak
+düzenlenmiş hali.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+5. Parlar, T. Bilgisayar Donanımı Ders Notu, Donanım Kartları. Antakya MYO, 2012
+Referanslar
+Bilginin ağ üzerinde nasıl hareket ettiğini anlamanın en etkili yolu OSI referans
+modelini iyi anlamaktan geçer. Ağ üzerinde farklı cihazlar arasında farklı ağ
+medyaları üzerinden iletilen bilginin nasıl hareket etiğini bize en iyi OSI
+referans modeli açıklar. OSI referans modelinde aşağıda görüldüğü gibi 7
+katman mevcuttur. (Şekil-1)
+OSI Referans Modeli;
+• Ağ haberleşmesini kolay yönetilebilen ufak parçalara böler.
+• Ağda kullanılan farklı üreticilerin cihazlarını birlikte kullanılabilir hale
+dönüştürür.
+• Farklı tipteki donanım ve yazılımın birbirleriyle haberleşmesine olanak
+sağlar.
+• Bir katmanda meydana gelen hatanın diğer katmanlara iletilmesini önler.
+• Ağ haberleşmesini ufak parçalara bölerek anlaşılmasını kolaylaştırır (1).
+A. OSI Referans Modeli
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. OSI Referans Modeli Nasıl Çalışır?
+ Ağ temelleri, topolojiler hakkında daha fazla bilgi için aşağıdaki video izlenebilir.
+C. Ağ Temelleri Videosu
+Şekil 2. OSI Referans Modeli Nasıl Çalışır? (4)
+Şekil 1. OSI Referans Modeli Katmanları ve Ağ Cihazları (3).
+Şekil 1. OSI Referans Modeli Katmanları ve Görevleri (1)
+OSI Katmanı Cihazlar
+7. Uygulama (Application) Ağ geçidi (Gateway)
+6. Sunum (Presentation) Ağ geçidi (Gateway)
+5. Oturum (Session) Ağ geçidi (Gateway)
+4. Taşıma (Transport) Ağ geçidi (Gateway)
+3. Ağ (Network)
+Yönlendirici (Router)
+Katman 3 Switch
+2. Veri İletim (Data Link)
+Köprü (Bridge)
+Katman 2 Switch
+1. Fiziksel (Physical)
+Ağ Kartı (NIC) , Yineleyici (Repeater)
+Hub, MAU (Multistation Access Unit), Kablo, Alıcı ve verici
+Video 1. Network Eğitimi Ağ Nedir, Ağ Temelleri
+Protocol (Protokol): Bir ağ üzerindeki cihazların aralarında nasıl iletişim
+kuracağını belirleyen kurallar dizisi.
+Segment: (Bölüm): Köprüler, router'lar veya anahtarlarla sınırlanmış olan ağın
+bir bölümü.
+Topology (Topoloji): Bir kurumsal ağda, ağ noktalarının ve ortamın fiziksel olarak
+düzenlenmiş hali.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+5. Parlar, T. Bilgisayar Donanımı Ders Notu, Donanım Kartları. Antakya MYO, 2012
+Referanslar
+Bir kaynaktan hedefe iletilen veri, hedefte ve kaynakta da sırasıyla aynı
+katmanlarda işlem görmelidir. Haberleşmenin bu türüne eşten eşe haberleşme
+adı verilir. (Peer-to-peer) Bu işlem boyunca her katmanında yapılan protokol
+düzenlemelerine Protokol Veri Üniteleri denir (PDU - protocol data units). Her
+katmanda kaynak bilgisayarın katmanları hedef bilgisayardaki eş katmanları ile
+özel PDU’ lar sayesinde haberleşir. (Şekil-1)
+Ağ üzerinde veri paketleri kaynak bilgisayarda oluşur daha sonra hedefe
+gönderilir. Her katman veriyi aşağıdaki katmana gönderirken servis
+fonksiyonuna ihtiyaç duyar. Bu servisi sağlamak için; aşağıdaki katman
+yukarıdan aldığı PDU’ yu veriye giydirir (“encapsulation”) ve kendiside kendi
+hizmetini vermek için veriye “header” yada “trailers” ekler. 7, 6 ve 5.
+katmanlar veriye eklemelerini yaptıktan sonra katman 4 daha farklı ve fazla bir
+ekleme yapar. Katman 4’ün PDU’ suyla veri gruplanır ve buna da “segment”
+adı verilir (1).
+Network katmanı veriyi transport katmanı için hazırladıktan sonra transport
+katmanına gönderir. Transport katmanına gelen veri artık iç bağlantının alt
+sistemindedir. Network katmanının asıl görevi iç bağlantıda iletime hazır hale
+getirmektir. Bu işlemde giydirme ve header eklemelerden sonra biter ve paket
+hazır hale gelir (Katman 3 PDU’ su). İletim için header’ in kaynak ve hedefin
+mantıksal adresleri gibi bilgilere ihtiyacı kalıyor.
+Data Link kamanı network katmanı için servis sağlar. Network katmanının
+bilgisini çerçeve “Frame” içerisine yerleştirir (Katman 2 PDU’ su). Frame
+Header data link fonksiyonunu tamamlayıcı bilgiyi içerir. Network katmanının
+bilgisini frame içerisine giydiren data link katmanı network
+katmanı için servis sağlamış olur.
+Fiziksel katman sadece data link katmanına servis sağlar. Fiziksel katman data
+link katmanından aldığı veri paketini “encode” ederek 1 ve 0 lara dönüştürerek
+medya üzerinden iletimi gerçekleştirir (1).
+A. Ağ Modelleri
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. OSI Referans Modeli Nasıl Çalışır?
+ Ağ temelleri, topolojiler hakkında daha fazla bilgi için aşağıdaki video izlenebilir.
+C. Ağ Temelleri Videosu
+Şekil 3. OSI Referans Modeli ve Veri Giydirme
+Şekil 1. OSI Referans Modeli (1)
+Video 1. Network Eğitimi Ağ Nedir, Ağ Temelleri
+Şekil 2. OSI Referans Modeli Veri Türleri (1)
+Tablo 1. OSI Referans Modeli Veri Türleri (3)
+Protocol (Protokol): Bir ağ üzerindeki cihazların aralarında nasıl iletişim
+kuracağını belirleyen kurallar dizisi.
+Segment: (Bölüm): Köprüler, router'lar veya anahtarlarla sınırlanmış olan ağın
+bir bölümü.
+Topology (Topoloji): Bir kurumsal ağda, ağ noktalarının ve ortamın fiziksel olarak
+düzenlenmiş hali.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+5. Parlar, T. Bilgisayar Donanımı Ders Notu, Donanım Kartları. Antakya MYO, 2012
+Referanslar
+Giydirme (Encapsulation) İşlemi
+Ağ içersinde tüm haberleşmeler hedef ve kaynak arasında gerçekleşir. Bilgi ya
+veri ya da veri paketleri olarak iletilir. Eğer bir bilgisayar diğer bir bilgisayara bir
+veri göndermek istiyorsa veri ilk önce giydirilme (encapsulation) işlemine tabi
+tutularak paketlenir ve sonra gönderilir.
+Giydirme (encapsulation) işlemi sayesinde veri gönderilmeden önce gerekli
+protokol kuralları ile sarılır daha sonra iletilir. Dolayısıyla veri OSI katmanları
+arasında hareket ederek “header”, “trailers” ve diğer bilgiler eklenerek iletime
+sokulur.
+Öncelikle gönderilmek istenen veri uygulama “Application” katmanından
+aşağıya doğru diğer katmanlara doğru hareket eder. Bu işlem sırasında her
+katman kendi işlemini yürütür ve veri gönderileceği yere kadar bu şekilde gider
+ve hedef bilgisayarda işlemlerin tersi gerçekleşir. Şekil-2 de ve aşağıda ağın
+işlemesi için yapması gereken beş adımdan oluşan giydirme (encapsulation)
+işlemelerini görebiliriz (1).
+• Veri hazırlanması.
+• Kullanıcı bir e-posta gönderiyor olsun, öncelikle alfa nümerik karakterler
+ağ içerisinde hareket edebilecek veriler haline dönüştürülür.
+• Noktadan noktaya transfer için verinin paketlenmesi
+• Veri ağdaki transferi için paketlenir. Bu paketleme güvenli bir haberleşme
+sağlamak amacıyla segmentler kullanılarak yapılır.
+• Başlığa (Header) ağ IP adresinin eklenmesi
+• Veri kaynak ve hedef mantıksal adreslerini içeren paket başlığına sahip
+olan paketler içerisine konulur.
+• Veri hattı başlığı ve treylerinin eklenmesi
+• Tüm ağ cihazları paketleri bir çerçeve içerisine koyar. Çerçeveler ağ
+içerisindeki bir sonraki cihaza direkt bağlanmayı sağlar. Her cihaz ağ
+içerisindeki kendinden sonraki cihazın ihtiyacı olan çerçevelemeyi yapar.
+• Verinin iletim için bitlere dönüştürülmesi
+Çerçeve yapısı veriyi 1 ler ve 0 lara dönüştürürler. Daha sonra cihazların saat
+frekanslarının da yardımıyla gönderilmek istenen yere bu şekilde taşınır ve
+hedef bilgisayarın veya cihazın uygulama katmanında veri orijinal haline geri
+döner (1).
+A. Ağ Modelleri
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. OSI Referans Modeli Nasıl Çalışır?
+ Ağ temelleri, topolojiler hakkında daha fazla bilgi için aşağıdaki video izlenebilir.
+C. Ağ Temelleri Videosu
+Şekil 3. OSI Referans Modeli Katman ve Görevleri (3)
+Şekil 1. OSI Referans Modeli (1)
+Video 1. Network Eğitimi Ağ Nedir, Ağ Temelleri
+Şekil 2. OSI Modelinde Giydirme (Encapsulation) Adımları (1)
+Protocol (Protokol): Bir ağ üzerindeki cihazların aralarında nasıl iletişim
+kuracağını belirleyen kurallar dizisi.
+Segment: (Bölüm): Köprüler, router'lar veya anahtarlarla sınırlanmış olan ağın
+bir bölümü.
+Topology (Topoloji): Bir kurumsal ağda, ağ noktalarının ve ortamın fiziksel olarak
+düzenlenmiş hali.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+5. Parlar, T. Bilgisayar Donanımı Ders Notu, Donanım Kartları. Antakya MYO, 2012
+Referanslar
+İnternetin tarihsel ve teknik standartları TCP/IP [ Transmission Control
+Protocol (TCP)/ Internet Protocol (IP) ] referans modelidir. Bu model Birleşik
+Devletler savunma bölümü tarafından üretilmiş bir modeldir. Tasarlanışının
+nedeni ise nükleer savaş dahil her türlü şartta sürekli ayakta durabilen bir ağ
+yapısının istenmesiydi. Birleşik Devletler savunma bölümü dünya üzerinde
+bulunan bakır kablo, mikrodalga, optik kablo ve uydu hattı kullanan farklı
+iletişim medyaları ile her şartta haberleşmeyi sağlayabilmek istiyorlardı. Bu
+şarlar TCP/IP modelinin tasarısını oldukça güçleştirdi.
+TCP/IP açık standartları olan bir buluştu. Bunun anlamı isteyen herkes
+kullanmakta özgürdü. Buda TCP/IP standartlarının geliştirilmesini hızlandırdı.
+TCP/IP modeli aşağıdaki dört katmandan oluşur:
+• Uygulama (Application) katmanı
+• Taşıma (Transport) katmanı
+• İnternet (Internet) katmanı
+• Ağ erişim (Network Acess) katmanı
+Görüldüğü gibi TCP/IP modelindeki bazı katmanlarla OSI referans modelindeki
+bazı katmanların isimleri aynı. Ancak bu iki modelin katmanları kesinlikle
+birbirlerine uymazlar. Her iki modelde en çok dikkat çeken farklılıklara sahip
+olan katmanda uygulama yani “Application” katmanıdır.
+Tasarımcılar TCP/IP modelinin uygulama katmanın OSI modelinin oturum ve
+sunum katman ları gibi tasarladılar. Tasarlanan uygulama katmanı sunum,
+kodlama ve diyalog kontrol servislerini sağlayabilmekteydi.
+Transport katmanı ise akış güvenliğinin servis kalitesi, akış kontrolü ve hata
+düzeltme mekanizmalarını sağlıyor. Protokollerden biri, yani iletim kontrol
+protokolü (TCP), ağ haberleşmesinde mükemmel ve esnek güvenlik, iyi veri
+akışı ve düşük hata oranını sağlamakta.
+TCP bağlantı yönlü bir protokoldür. Bu protokol segment denen uygulama
+katman bilgilerini paketlerken kaynak ve hedef arasındaki diyalogu sürdürebilir.
+Bağlantı yönlü haberleşen bilgisayarlar arasında kapalı bir çevre bulunması
+anlamına gelmiyor. Bu iki bilgisayar arasında 4. katmanlarda herhangi bir
+zamanda bağlantı kurulabileceği anlamına geliyor.
+İnternetin amacı TCP segmentlere bölmek ve parçaları başka bir ağa
+göndermek. Hiçbir bozulmaya uğramadan hedefe ulaşan paketler IP denen
+özel bir protokolü kullanırlar. IP ve TCP arasındaki ilişki çok önemlidir. IP
+paketlerin yönünü gösterirken TCP paketlere güvenli bir yolculuk sağlar.
+Ağa erişim katmanı ise genel olarak çok karışık ve kafa karıştırıcı bir yapıya
+sahiptir. Kullanıcı - ağ katmanı olarak ta bilinir. Bu katman hem mantıksal hem
+de fiziksel tüm bileşenlerle ilişkilidir. Tüm ağ teknolojileri ayrıntıların ve OSI
+modelinin “physical” ve “data link” katmanlarını içerir (1).
+A. TCP / IP Modeli (Ağ Modelleri)
+Uygulama katmanında kullanılan bazı temel protokoller gösterilmektedir:
+• Dosya Transfer Protokolü (FTP-File Transfer Protocol)
+• Hiper Yazı Transfer Protokolü (HTTP-Hypertext Transfer Protocol)
+• Basit Posta Transfer Protokolü (SMTP-Simple Mail Transfer Protocol)
+• Alan İsim Sistemi (DNS-Domain Name System)
+• Sıradan Dosya Transfer Protokolü (TFTP)
+Temel transport katmanı protokolleri:
+• Taşıma Kontrol Protokolü (TCP-Transmission Control Protocol)
+• Kullanıcı Veri Protokolü (UDP-User Datagram Protocol)
+Birincil internet katmanı protokolü:
+• İnternet protokolü (IP-Internet Protocol)
+Ağa erişim katmanı özel ağlarda partiküler teknoloji kullanımını yönetir. Hangi ağ
+uygulaması veya hangi transfer protokolünün kullanıldığına bakmaz. Burada sadece bir
+tane internet protokolü vardır, IP. IP tüm dünyada kullanılan ve herhangi bir bilgisayarın
+herhangi bir zamanda internete erişmesini sağlar (1).
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. OSI Referans Modeli Nasıl Çalışır?
+ Ağ temelleri, topolojiler hakkında daha fazla bilgi için aşağıdaki video izlenebilir.
+C. Ağ Temelleri Videosu
+Şekil 1. TCP / IP Modeli (1)
+Video 1. Network Eğitimi Ağ Nedir, Ağ Temelleri
+Protocol (Protokol): Bir ağ üzerindeki cihazların aralarında nasıl iletişim
+kuracağını belirleyen kurallar dizisi.
+Segment: (Bölüm): Köprüler, router'lar veya anahtarlarla sınırlanmış olan ağın
+bir bölümü.
+Topology (Topoloji): Bir kurumsal ağda, ağ noktalarının ve ortamın fiziksel olarak
+düzenlenmiş hali.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+5. Parlar, T. Bilgisayar Donanımı Ders Notu, Donanım Kartları. Antakya MYO, 2012
+Referanslar
+OSI referans modeli ile TCP/IP referans modelini karşılaştırdığımızda bazı
+benzerlikler ve farklılıklar gözümüze çarpar :
+Benzerlikler:
+• Her ikisi de katanlı yapıda.
+• Her ikisinin de farklı görevleri olan uygulama katmanı var.
+• Her ikisi de iletim ve ağ katmanlarına sahip.
+• Her ikisi de ağ profesyonelleri tarafından bilinmelidir.
+• Her ikisi de paket anahtarlamalı yapıya sahiptir. Yani paketler aynı hedefe
+birden fazla yol kullanarak gidebilirler.
+Farklılıkları:
+• TCP/IP sunum ve oturum katmanlarını beraber uygulama katmanında
+bulundurur.
+• TCP/IP veri hattı ve fiziksel katmanlarını beraber ağ erişim katmanında
+bulundurur.
+• TCP/IP aynı gözükmesine rağmen daha az katmanı vardır (1).
+A. TCP / IP ile OSI Referans Modeli
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. TCP / IP Referans Modeli Katmanları
+ TCP / IP Referans Modeli hakkında daha fazla bilgi için aşağıdaki video izlenebilir.
+C. Ağ Temelleri Videosu
+Şekil 1. TCP / IP ile OSI Referans Modeli (1)
+Video 1. Genel Ağ Protokolleri TCP IP
+Şekil 4. TCP / IP Referans Modeli Katmanları (1)
+Şekil 3. TCP / IP ile OSI Referans Modeli
+Şekil 2. TCP / IP Referans Modeli ve Veri İletimi
+Protocol (Protokol): Bir ağ üzerindeki cihazların aralarında nasıl iletişim
+kuracağını belirleyen kurallar dizisi.
+Segment: (Bölüm): Köprüler, router'lar veya anahtarlarla sınırlanmış olan ağın
+bir bölümü.
+Topology (Topoloji): Bir kurumsal ağda, ağ noktalarının ve ortamın fiziksel olarak
+düzenlenmiş hali.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+5. Parlar T. Ağ Temelleri_1 Ders Notu, Topolojileri Antakya MYO, 2012
+Referanslar
+Genel olarak internet protokol ailesi olarak adlandırılır.
+Bağlantı Katmanı (Network Access) Protokolleri
+A.ARP-Adres Çözümleme Protokolü
+ ARP-Address Resolution Protocol
+Fiziksel katmanda, IP adresten fiziksel adrese dönüşüm işinin yapılması gerekir.
+Bunun için sistemlerde adres çözümleme protokolü olan ARP (Address
+Resolution Protocol ) ve ARP tabloları kullanılır. Bir paketin yerel ağda bir
+sisteme gönderilebilmesi için IP adresinin yanında donanım adresinin de
+bilinmesi gerekir. IP, bu fiziksel adresi öğrenebilmek için yerel ağdaki tüm
+bilgisayarlara özel bir sorgulama paketi yollar. ARP istek paketi ( ARP request
+packet) olarak anılan bu pakette alıcı sistemin IP adresi vardır ve bunun
+karşılığı olan fiziksel adresin gönderilmesi istenir. Ağ üzerindeki ARP’ leri etkin
+olan tüm düğümler bu istek paketlerini görürler. Kendilerini ilgilendiriyorsa
+istek paketini gönderen yere fiziksel adreslerini gönderirler.
+İnternet Katmanı (Internet ) Protokolleri
+A.ICMP-Internet Kontrol Mesajı İletişim Kuralı-Protokolü
+ ICMP-Internet Control Message Protokol
+ICMP-Internet Kontrol Mesajı İletişim Kuralı, hata mesajları ve TCP/IP
+yazılımının kendi mesaj trafiği amaçları için kullanılır. Kontrol amaçlı bir
+protokoldür. Genel olarak sistemler arası kontrol mesajları ICMP üzerinden
+aktarılır.ICMP TCP/IP' nin işlemesine yardımcı olan bir protokoldür.Her hostta
+mutlaka ICMP protokolü çalışır. Hata durumunda host tarafından geri
+bilgilendirmeyi sağlar. ICMP ağ hakkında bazı bilgileri toplamak amacı ile de
+kullanılır. ICMP paketleri ortamda bir geri besleme sağlarlar. Bu yolla ciddi
+sorunları, haberleşen birimlere bildirerek bir hata bildirim mekanizması
+oluştururlar. ICMP mesajı, IP paketinin veri bölümünde taşınır. Bu yüzden ICMP
+paketlerinin dağıtım güvenilirliği, IP paketlerinin dağıtım güvenilirliği ile sınırlı
+kalmaktadır. ICMP kullanan komutlara örnek olarak ping ve traceroute
+verilebilir.
+B.IGMP-Internet Grup Yönetim Protokolü
+ IGMP-Internet Group Management Protokol
+• TCP/IP'de çoklu dağıtım (multicast) üyelerini yönetmek için kullanılan bir
+iletişim protokolüdür.
+• Tekli dağıtım(unicast) bağlantılardaki ICMP ye benzerdir.
+• IGMP online streaming videolarda ve oyunlarda kullanılabilir.
+• Bu tip uygulamaları desteklerken kaynaklarının daha verimli şekilde
+kullanılmasını sağlar.
+IGMP Temel Mesajları
+• Yayın alma isteği
+• IGMP Subscribe: üyelik/ abonelik
+• Yayın almayı kesme isteği
+• IGMP Unsubscribe: üyelik/abonelik iptali (5).
+A. Ağ Protokolleri
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. Ağ Protokolleri
+ TCP / IP Referans Modeli hakkında daha fazla bilgi için aşağıdaki video izlenebilir.
+C. Ağ Temelleri Videosu
+Şekil 1. TCP / IP , OSI ve Ağ Protokolleri (1)
+Video 1. Genel Ağ Protokolleri TCP IP
+Şekil 2. TCP / IP ile OSI Referans Modeli 
+Protocol (Protokol): Bir ağ üzerindeki cihazların aralarında nasıl iletişim
+kuracağını belirleyen kurallar dizisi.
+Segment: (Bölüm): Köprüler, router'lar veya anahtarlarla sınırlanmış olan ağın
+bir bölümü.
+Topology (Topoloji): Bir kurumsal ağda, ağ noktalarının ve ortamın fiziksel olarak
+düzenlenmiş hali.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+5. Parlar T. Ağ Temelleri_1 Ders Notu, Topolojileri Antakya MYO, 2012
+Referanslar
+İletim-Aktarım (Transport ) Katmanı Protokolleri
+A.TCP- İletim Kontrol Protokolü
+ TCP-Transport Control Protocol
+Gelişmiş bilgisayar ağlarında paket anahtarlamalı bilgisayar iletişiminde
+kayıpsız veri gönderimi sağlayabilmek için TCP protokolü
+yazılmıştır.HTTP,HTTPS, POP3, SMTP ve FTP gibi internet'in kullanıcı açısından
+en popüler protokollerinin veri iletimi TCP vasıtasıyla yapılır.
+TCP, gönderilen veriler için özel bir TCP kabul ( TCP ACK ) paketi gönderir. Bu
+paket, gelmiş olan paketlerden hangi byte'a kadar olan kısmının doğru olarak
+alındığını gösterir. Gönderen taraf, kabul gelmediği sürece paketi arka arkaya
+birkaç kez yollar (belli bir süre sonra da pes eder).
+B.UDP - Kullanıcı Veri Bloğu İletişim Kuralları
+ UDP -User Datagram Protocol
+UDP (Kullanıcı Veribloğu İletişim Kuralları), TCP/IP protokol takımının iki
+aktarım katmanı protokolünden birisidir. Verileri bağlantı kurmadan yollar.
+Gelişmiş bilgisayar ağlarında paket anahtarlamalı bilgisayar iletişiminde bir
+datagram modu oluşturabilmek için UDP protokolü yazılmıştır. Bu protokol
+minimum protokol mekanizmasıyla bir uygulama programından diğerine mesaj
+göndermek için bir prosedür içerir. Ayrıca bu protokol 'transaction'
+yönlendirmelidir. Paketin teslim garantisini isteyen uygulamalar TCP
+protokolünü kullanır.
+Geniş alan ağlarında (WAN) ses ve görüntü aktarımı gibi gerçek zamanlı veri
+aktarımlarında UDP kullanılır. UDP bağlantı kurulum işlemlerini, akış kontrolü
+ve tekrar iletim işlemlerini yapmayarak veri iletim süresini en aza indirir. UDP
+ve TCP aynı iletişim yolunu kullandıklarında UDP ile yapılan geçek zamanlı veri
+transferinin servis kalitesi TCP'nin oluşturduğu yüksek veri trafiği nedeniyle
+azalır. UDP'yi kullanan protokollerden bazıları DNS, TFTP, ve SNMP
+protokolleridir. Uygulama programcıları birçok zaman UDP'yi TCP'ye tercih
+eder. UDP ağ üzerinde fazla bant genişliği kaplamaz. UDP güvenilir olmayan
+bir aktarım protokolüdür. Ağ üzerinden paketi gönderir ama gidip gitmediğini
+takip etmez ve paketin yerine ulaşıp ulaşmayacağına onay verme yetkisi
+yoktur. UDP üzerinden güvenilir şekilde veri göndermek isteyen bir uygulama
+bunu kendi yöntemleriyle yapmak zorundadır.
+Uygulama (Application) Katmanı Protokolleri
+A. Yönetim (management) Protokolleri
+• BOOTP, DNS, SNMP, NTP
+B. Uzak İletişim (remote communications) Protokolleri
+• Telnet, SSH
+C. Dosya (File) Transfer Protokolleri
+• FTP, TFTP
+D. İleti Uygulama (Mail Application) Protokolleri
+• SMTP, POP3, IMAP4
+E. Tarayıcı (Browser) Protokolleri
+• HTTP, HTTPS, TLS/SSL
+F. IP üzerinden Ses (Voice over IP) Protkolleri
+• SIP, RTP
+BOOTP- Bootstrap Protokolü
+BOOTP bir bilgisayar açılıyorken önyükleme işlemi esnasında kullanılır. BOOTP
+yapılandırma sunucusu bir adres havuzundan herbir istemciye bir IP adresi
+tahsis eder.DHCP aynı amaç için daha gelişmiş bir protokoldür ve BOOTP
+kullanımının yerini almıştır. Birçok DHCP sunucusu BOOTP desteği de
+sunmaktadır.
+DHCP-Dynamic Host Configuration Protocol
+DHCP, basit olarak sistemdeki bilgisayarlara IP adreslerini atamak için
+kullanılan servistir. DHCP’nin temel özelliği sistemi kuran kişilerin tek tek tüm
+makineleri gezip aynı veya benzer parametreleri defalarca eliyle girmesini
+engellemek, böylece zaman kazanmak ve sistem yöneticisinin işini
+kolaylaştırmaktır. DHCP protokolü ile TCP/IP ağında bulunan bilgisayarların IP,
+subnet, gateway, domanin, DNS sunucu adresleri gibi yapılandırmaları
+otomatik alınır. Çoğu zaman son kullanıcılardan statik olarak IP adresi
+girmelerini istemek sorunlara sebep olur, bunun yanında tüm kullanıcılara
+statik IP verilecek kadar bir IP adresi bloğunuz olmayabilir (5).
+A. Ağ Protokolleri
+DNS- Domain Name Server
+İnternet ağını oluşturan her birim sadece kendine ait bir IP adresine sahiptir. Bu IP
+adresleri kullanıcıların kullanımı için www.site_adı.com gibi kolay hatırlanır adreslere
+karşılık düşürülür. DNS sunucuları, internet adreslerinin IP adresi karşılığını kayıtlı
+tutmaktadır. Alan Adı Sistemi'nin yarattığı ilişkiler 1e1 olmak zorunda değildir. Bir alan
+adına birden fazla IP numarası atanabilir. Bu yoğun talep olan hallerde geçerlidir.
+Wikipedia.org, yahoo.com, google.com gibi adreslerde bu çok olur. Ama daha yaygını,
+birçok alan adı tek bir IP'ye atanabilir. Buna da "Sanal Evsahipliği" (Virtual Hosting) denir.
+NTP-Network Time Protocol
+Ağ Zaman Protokolü, NTP, değişken gecikmeye sahip paket anahtarlamalı ağlar üzerindeki
+bilgisayarların saatlerinin eş zamanlanmasının sağlanması için kullanılan bir protokoldür.
+NTP, 123 no'lu port üzerinden, Kullanıcı Datagram Protokolü (UDP)'nü kullanır. Otomatik
+olarak saati senkronize eder.
+Simple Network Management Protocol: "Basit Ağ Yönetimi Protokolü" adı verilen bu
+teknoloji, bilgisayar ağları büyüdükçe bu ağlar üzerindeki birimleri denetlemek amacıyla
+tasarlanmıştır. SNMP, ağ cihazlarında yönetimsel bilgi alışverişinin sağlanması için
+oluşturulmuş bir uygulama katmanı protokolüdür. Ağ aygıtlarından istatistiksel bilgiler
+toplar. Aygıta bağlı kullanıcılar, internet bağlantı hızı, sıcaklık, sistem çalışma süresi gibi
+çeşitli bilgiler SNMP'de tanımlanmış ağaç yapısı içinde tutulurlar. Üç adet sürümü vardır.
+SNMP v1, SNMP v2, SNMP v3. 3. sürüm SNMP'ye pek çok güvenlik özelliği getirmiştir.
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. Uygulama Katmanı Protokolleri
+ TCP / IP Referans Modeli hakkında daha fazla bilgi için aşağıdaki video izlenebilir.
+C. Ağ Temelleri Videosu
+Video 1. Genel Ağ Protokolleri TCP IP
+Protocol (Protokol): Bir ağ üzerindeki cihazların aralarında nasıl iletişim
+kuracağını belirleyen kurallar dizisi.
+Segment: (Bölüm): Köprüler, router'lar veya anahtarlarla sınırlanmış olan ağın
+bir bölümü.
+Topology (Topoloji): Bir kurumsal ağda, ağ noktalarının ve ortamın fiziksel olarak
+düzenlenmiş hali.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+5. Parlar T. Ağ Temelleri_1 Ders Notu, Topolojileri Antakya MYO, 2012
+Referanslar
+Uygulama (Aplication) Katmanı Protokolleri
+Remote Communication Protocols
+Telnet-Telecommunication Network
+Internet ağı üzerindeki çok kullanıcılı bir makineye uzaktaki başka bir
+makineden bağlanmak için geliştirilen bir TCP/IP protokolü ve bu işi yapan
+programlara verilen genel isimdir. Bağlanılan makineye girebilmek (login) için
+orada bir kullanıcı isminizin (username) ve bağlantının gerçekleşebilmesi için
+bir telnet erişim programınızın olması gereklidir.
+Telnet güvensiz bir protokoldür. Telnet protokolü kullanıcı adı (username) ve
+şifrenizi (password) bağlı bulunduğunuz ağda kolaylıkla görebilecek bir format
+olan PLAIN TEXT (düz metin) düzeninde göndermektedir. Bu kullanıcı isminizin
+ve şifrenizin ağı dinleyen herhangi biri tarafından kolaylıkla görülebileceği
+anlamına gelir.
+SSH(Secure Shell/Güvenli Kabuk)
+SSH ağ üzerinden başka bilgisayarlara erişim sağlamak, uzak bir bilgisayarda
+komutlar çalıştırmak ve bir bilgisayardan diğerine dosya transferi amaçlı
+geliştirilmiş bir protokoldür. Güvensiz kanallar (internet vs) üzerinden güvenli
+haberleşme olanağı sağlar. Bir iletişimde SSH aşağıda belirtilen temel unsurları
+sağlar.
+• Authentication /Kimlik denetimi
+• Encryption /Şifreleme
+• Integrity /Bütünlük.
+SSH, Telnet ve rlogin gibi ağ üzerindeki başka bir sunucuya uzakta bulunan bir
+başka makineden bağlantı sağlayan birprotokoldür. Telnet ve rlogin kullanıcı
+şifreleri dahil tüm iletişim şifrelenmeden gerçekleştirilirken, SSH iletişimi
+kriptografik yöntemle şifreler.
+File Transfer Protocol
+FTP, bir veri yığınının bir uç aygıttan diğerine iletimi için kullanılmaktadır. Bir
+dosyayı FTP kullanarak başka bir TCP/IP ağı üzerindeki kullanıcıya yollamak için
+o ağdaki bilgisayarda geçerli bir kullanıcı ismi ve şifresi gerekmektedir.Bir çok
+FTP sunucusu, kullanıcı ismi ve parola olmadan erişim için "anonim FTP"
+(anonymous FTP) desteği verir. http://filezilla-project.org/
+TFTP- Trivial File Transfer Protocol
+TFTP, 1980 yılında tanımlanmış, FTP' nin temel fonksiyonel şekli olarak ifade
+edilen basit dosya transfer protokolüdür. Basit yapısından dolayı kullanılması
+esnasında çok az bellek tüketilmektedir. Bu özelliğinden dolayı, yeterli yığın
+bellek cihazı (mass storage device) olmayan yönlendirici (router) bilgisayarların
+önyüklemesinde kullanılırdı. Halen ağ üzerinde bulunan host makineler
+arasında küçük dosyaların transferi için kullanılır.
+İleti Uygulama Protokolleri
+SMTP- Simple Mail Transfer Protocol
+SMTP, bir e-posta göndermek için sunucu ile istemci arasındaki iletişim şeklini
+belirleyen protokoldür. Sadece e-posta yollamak için kullanılan bu protokolde,
+basitçe, istemci bilgisayar SMTP sunucusuna bağlanarak gerekli kimlik
+bilgilerini gönderir, sunucunun onay vermesi halinde gerekli e-postayı
+sunucuya iletir ve bağlantıyı sonlandırır. E-posta almak için POP3 ya da IMAP
+protokolü kullanılır.
+POP ve IMAP (Internet Message Access Protocol - İnternet İleti Erişim
+Protokolü) günümüzde en çok kullanılan iki e-posta protokolüdür. Tüm güncel
+e-posta alıcıları ve sunucuları iki protokolü de destekler. POP3 (Post Office
+Protokol 3), OSI referans modelinin uygulama katmanında çalışan bir E-posta
+iletişim protokolüdür. POP protokolü birkaç versiyon olarak geliştirilmiştir ve şu
+anda standart olarak kullanılanı 3. versiyonudur. Bu yüzden POP3 adı kullanılır.
+Bu protokol yerel E-posta alıcıları tarafından uzak sunucudan E-postaları
+indirmek için kullanılır ve bu işlem TCP/IP bağlantısı üzerinden gerçekleştirilir.
+E-posta gönderilirken SMTP protokolü kullanılır. Söz konusu e-posta, e-posta
+sunucuları arasında aktarılırken de SMTP kullanılır. Alıcı e-postayı okumak
+istediğinde bilgisayarına indirmek için arka planda POP3 protokolü kullanılır.
+POP3, yalnızca e-postayı almak için ve son kullanıcılar tarafından kullanılır (5).
+A. Uygulama Katmanı Protokolleri
+IMAP4 (Internet Message Access Protocol)
+IMAP ( İnternet Mesaj Erişim Protokolü ), bir e-posta iletişim protokolüdür. IMAP ve
+POP3 kullanımı arasındaki temel fark IMAP ile E-Posta sunucusuna bağlantı kurulduğunda,
+kutuda birikmiş e-postaların sadece başlık bilgilerini istemciye getirir. POP3 ise bütün
+mesajları istemciye çeker. Genel prensip olarak kullanıcı ve e-posta sayısının çokluğuyla
+doğru orantılı olarak kullanılır. Uygulamada web postası kullanan neredeyse bütün
+sunucularda IMAP protokolü kullanılır.
+Tarayıcı Uygulama Protokolleri: HTTP, HTTPS
+HTTP (Hypertext Transfer Protocol; Hipermetin Aktarım İletişim Kuralı), ağ üzerinden
+web sayfalarının alışverişi ve görüntülenmesi için kullanılan iletişim kuralıdır.
+HTTPS-Güvenli Hiper Metin Aktarım İletişim Kuralı
+HTTPS- Secure Hypertext Transfer Protocol
+HTTP nin güvenli ağ protokolü ile birleştirilmiş olanıdır. Klasik HTTP protokolüne SSL
+protokolünün eklenmesi ile elde edilir. Bankacılık işlemleri için banka siteleriyle bağlantı
+kurulduğunda ya da kredi kartıyla ödeme yapılan sistemlerde kredi kartı bilgileriniz
+doğrulanırken, tarayıcınızdaki adres çubuğunun başında "http" yerine "https" yazdığını
+görürsünüz."https" yazılan adreslerle bağlantı kurduğunuzda, bilgiler sadece karşı taraf ve
+sizin tarafınızdan okunabilecek şekilde şifrelenir. https, bilgi güvenliği gereken zamanlarda
+uygulanan bir güvenli iletişim protokolüdür (5).
+• M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+• M.E.B. Açık Öğretim Okulları Bilgi ve İletişim Teknolojileri 1 Ders Notu (E-Kitap)
+• MEGEP İşlemciler (CPU) 481BB0009 Modülü (E-Kitap)
+• Bilgisayar Eğitim Videosu - Donanım Rehberi (Youtube Video)
+• Bilişim Teknolojileri-Temel Kavramlar (Youtube Video)
+• Microsoft Windows İşletim Sisteminde Bilgisayarınızın İşlemci Hızını Öğrenme (URL)
+D. Ek Kaynaklar
+B. Uygulama Katmanı Protokolleri
+ TCP / IP Referans Modeli hakkında daha fazla bilgi için aşağıdaki video izlenebilir.
+C. Ağ Temelleri Videosu
+Video 1. Genel Ağ Protokolleri TCP IP
+Hız aşımı (Overclock): işlemcinin üreticinin etikette belirlediği hız değerinden
+yüksek değerlerde çalıştırılması işlemidir. Anakartta ayar
+değişiklikleriyle işlemcinin hızı artırılabilir. Sistem hızı (FSB), çarpan ve
+voltaj değerlerinde yapılan değişikliklerle işlemci hızı artırılabilir (1).
+Program:İşlemciye gönderilen ve ona ne yapması gerektiğini söyleyen komutlara
+denir.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+Referanslar
+A. Bilgisayar Ağı
+Kablo özelikleri hakkında temel bilgilere erişmek için bilgilendirici video izlenebilir.
+C. Uygulama Video 2
+Video 1. Kablo Özelikleri
+Ağ Araçları hakkında temel bilgilere erişmek için bilgilendirici video izlenebilir.
+C. Uygulama Videosu 1
+Video 1. Ağ Araçları
+Hız aşımı (Overclock): işlemcinin üreticinin etikette belirlediği hız değerinden
+yüksek değerlerde çalıştırılması işlemidir. Anakartta ayar
+değişiklikleriyle işlemcinin hızı artırılabilir. Sistem hızı (FSB), çarpan ve
+voltaj değerlerinde yapılan değişikliklerle işlemci hızı artırılabilir (1).
+Program:İşlemciye gönderilen ve ona ne yapması gerektiğini söyleyen komutlara
+denir.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+Referanslar
+A. Bilgisayar Ağı
+Genel Ağ Aygıtları hakkında temel bilgilere erişmek için bilgilendirici video izlenebilir.
+B. Ağ Aygıtları Bilgilendirici Video
+Video 2. Genel Ağ Aygıtları
+İkili Sayı Sistemi hakkındaki bilgilere erişmek için bilgilendirici video izlenebilir.
+A. İkili Say Sistemi Videosu
+Video 1. İkili Sayı Sistemi
+Test: MEGEP Ağ Temelleri
+Hız aşımı (Overclock): işlemcinin üreticinin etikette belirlediği hız değerinden
+yüksek değerlerde çalıştırılması işlemidir. Anakartta ayar
+değişiklikleriyle işlemcinin hızı artırılabilir. Sistem hızı (FSB), çarpan ve
+voltaj değerlerinde yapılan değişikliklerle işlemci hızı artırılabilir (1).
+Program:İşlemciye gönderilen ve ona ne yapması gerektiğini söyleyen komutlara
+denir.
+Mini Sözlük
+1. Atay S. CISCO Ağ Akademisi Sömestr-1 Bitirme Ödevi. Fırat Üniversitesi, 2006
+2. M.E.B. MEGEP Ağ Temelleri 481BB0089 Modülü, 2011, Ankara (E-Kitap)
+3. MKÜ Antakya Meslek Yüksekokulu Ağ Temelleri Ders Notu
+4. Güler B. Bilgisayar Ağları Ders Notları - Fatih Üniversitesi
+Referanslar
+A. Bilgisayar Ağı
+Genel Ağ Aygıtları hakkında temel bilgilere erişmek için bilgilendirici video izlenebilir.
+D. OSI Referans Modeli Videosu
+Video 2. OSI Referans Modeli
+Ağ sorunlarını gidermek için bilgilendirici video izlenebilir.
+C. Ağ Sorunlarını Giderme Videosu
+Video 1. Ağ Sorunlarını Giderme
+Test: MEGEP Ağ Temelleri
  
  
 
