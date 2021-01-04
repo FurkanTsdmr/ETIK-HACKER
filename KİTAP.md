@@ -1087,7 +1087,21 @@ Internet  adreslemesinde  0  ve 255'in özel bir  kullanımı  vardır.  0 adres
 Bazı eski sürüm TCP/IP protokolüne sahip bilgisayarlarda yayın  adresi olarak  255  yerine  0 kullanılabilmektedir.  Ayrıca  yine  bazı  eski sürümler alt ağ  kavramına hiç sahip olmayabilmektedir.  
 Yukarıda  da  belirttiğimiz gibi 0 ve 255'in  özel  kullanım  alanları olduğu    için  ağa bağlı   bilgisayarlara   bu   adresler kesinlikle verilmemelidir. Ayrıca adresler asla 0 ve 127 ile ve 223'ün  üzerindeki  bir sayı ile başlamamalıdır. 
  
+***ZAMANIM OLURSA ELİMDE OLAN LİNUX'TE KULLANILAN ARAÇLARIN DETAYLI KULLANIMI VE NE İŞE YARADIKLARI İLE DE İLGİLİ BİLGİLERİ DEVAMINA EKLEYECEĞİM...
 
+****DEVAMINDA OLAN ŞEYLER CAN ABİNİN PAYLAŞTIĞI LİNKLERLE AYNI OLAN ŞEYLER ELİNİZDE YOKTUR DİYE BURAYADA EKLİYORUM RAHATLIKLA DEVAMI NİTELİKTE KULLANABİLİRSİNİZ:
+https://github.com/mdisec/mdisec-twitch-yayinlari
+https://www.firatboyan.com/ip-ve-subnetting-kavrami.aspx
+https://www.mobilhanem.com/python-egitimi/?__cf_chl_captcha_tk__=db498a1581d48fb91b5a960312c3f18017c5d1d5-1609303723-0-AU9PNbUZ8dAu75TQfgwwi5XWPnNVj2rVbWL4GqRJV_2IK_v9HAgyrbupDdUZIieg5Yhs33VXhKzTJz0Qp6lb82293vC5GgX2mwuTgFUOjtOq1L2jja1YKVgzHtCnUKZhbE3L-ZjwGeiAsG7m4hKKUlXGyviua0YgtdaFk8H3YwM3QxRbjIfLAvtL0iiUGDyf23djXjLX2B7XYLXpkV-Dl1W1bVLZaPbQW6Fcut68K067BiYY0KzoP4VsA7fBOE52-HICagKxa_7VbtOVyRpQpTaha1gwsnILUpSRio34_D9To6tPBTNj70iO36CqGIPqRBSoYvQpSTG7pdwb8__CHVUlzYKqhN0z3RPhyrhQdPtjFZe0bp9lFVDOU77iLcBmoCyGXAgLmRlPECLFV2zfAFEBQTNSqWX0_3F9RM9HjAA8Q390UegyO7Le1ubdAbeQW4a6RaGzYJCd-DsFc_NhC7ZAOXU6rtNUTCHFy1ROjSj2PniAzAkC2BCOPvgqPIiuk4eEOKP9cbTbMtaBFx56Chpg5osGlc4JMb0PSaDGwXbb7NBu5IAwrRDI9NhTBwuBguvCp_ryL8BYfqMDB8CJngw
+https://tr.khanacademy.org/computing/computer-programming/sql
+https://www.youtube.com/watch?v=nf0ZVcJaO-o
+https://www.youtube.com/watch?v=_Kc9ImFpqro&list=PLh9ECzBB8tJOnxXrUTOqXfurKOZkN4mEY
+https://www.youtube.com/watch?v=hOuIKC8LsB4
+https://www.youtube.com/playlist?list=PLwP4ObPL5GY940XhCtAykxLxLEOKCu0nT
+https://guzelkokar496.blogspot.com/2019/08/bug-bounty-nedir-nasl-calsabilirim.html
+https://sibertehdit.com/bug-bounty-nedir/
+https://www.youtube.com/watch?v=WnN6dbos5u8
 
+***SAĞLICAKLA VE SEVGİYLE KALIN...
 
 
