@@ -1,0 +1,201 @@
+Genel Terim ve Kavramlar
+Siber savaş(cyber warfare), siber tehditler,
+siber suç(cyber crime), cyber espionage,
+Cyber intelligence, siber sabotaj(cybersabotage),
+siber terörizm (Cyberterrorism),
+Siber casusluk (Cyber spying), siber silah
+(cyber oweapon), sızma testleri (penetrationtest),
+siber güvenlik yarışmaları (CTF -CaptureThe Flag)
+
+
+Siber Hayat
+• Siber tanımı: Altyapısı bilişim sistemleri olan
+ve gerçek hayatın gölgesi niteliğindeki yaşam.
+• Alışveriş, oyun, film, müzik, ticaret, yemek,
+komşuluk, istihbarı bilgi toplama vs gibi gerçek
+hayatın vazgeçilmez işleri siber hayatta da
+benzeri isimlerle yer almaktadır.
+• Halk içinde sanal dünya olarak da bilinir.
+
+
+Siber Dünya Tanımı
+• Henüz tanımlanamayacak kadar genç, dinamik
+ve ucu açık bir dünyadır
+– Sosyal dünyanın yaşı düşünüldüğünde siber dünya
+ve geleceği hakkında yapılacak yorumların
+doğruluk payı düşük olacaktır.
+• 2005 yılına kadar kimse Facebook gibi bir
+dünya devinin gelip de tüm dünyadaki kişisel
+bilgileri tek bir merkezde toplayacağını
+düşünmüyordu(hayal ediliyordu)
+
+Tarihçe
+• 2000’li yıllar
+– Bilgisayar kullanımında hızlı artış
+– Internet’in yaygınlaşmaya başlaması
+– Dialer problemleri
+• 2005~
+– Internet kullanımında hızlı artış
+– Güvenlik problemlerinin baş göstermesi
+– Net itibar tanımının öneminin artması
+• 2010~
+– Siber dünyaya bağımlı bir hayat
+– Güvenlik en son planda
+
+Siber Güvenlik
+• Siber hayatın güvenliği(gizlilik, bütünlük ve
+erişilebilirlik) sağlanması amacıyla gerçekleştirilen
+faaliyetlerin tümü.
+• Bilgi güvenliğinden farkı: daha soyut ve geniş bir alanı
+kapsaması
+– Bilgi güvenliği teknik, siber güvenlik sosyal bir tanımdır.
+• ~2015’li yıllarda en sık kullanılacak tanımlardan.
+
+
+
+Siber Güvenlik – Bilgi Güvenliği
+• Bilgi güvenliği biraz daha teknik ve yönetimsel bir tanımdır.
+• Siber güvenlik günümüz elektrikli sistemlerinin(+yazılım)
+gerçek hayatımıza olan etkisi ve bu etkinin sebep sonuçlarını
+inceler
+– Uçaklarda yüklü bilgi sistemleri
+– Gemilerdeki lokasyon tarama, bulma sistemlerinin uzaktan
+yönetimi
+– Hepimizde bulunan cep telefonları aracılığı ile takip
+edilmemiz vs..
+• Bilgi güvenliği resmin detayı, siber güvenlik tamamı denilebilir.
+
+Siber Güvenlik Gerçek Dünyayı Nasıl Etkiler?
+• Wikileaks...
+– Ortadoğuda devlet başkanlarının son durumu
+• Türkiye’de kaset mevzuları
+– Siber dünyanın sağladığı sınırsız özgürlük(?) sayesinde
+kişilerin özel yaşam kavramı kalmayacaktır
+• 22 Ağustos’da Türkiye internetinde gerçekleştirilecek
+kısıtlamalar
+• Artık tüm internet kullanıcıları belirli profil seçerek
+internete bağlanacak ve izlenebilecek!
+
+
+Siber Tehditler
+• Bilgi güvenliğini ihlal edecek tüm faaliyetler
+– DDoS saldırıları: internet üzerinden sistemlerin
+erişilebilir olmasını engelleme
+– Hacking aktiviteleri
+• Bilgi sızdırma faaliyetleri
+–RSA
+–Sony PS ağı üyelerinin bilgilerinin sızması
+• Prestij zarar verme faaliyetleri
+• Casus yazılımlar
+
+
+Siber Ordu
+• Ülkeyi, kurumu siber dünyadan gelebilecek
+tehlikelere karşı koruyacak ve gerektiğinde siber
+saldırılar gerçekleştirebilecek yetenekteki bilgi
+güvenliği uzmanlarının oluşturduğu ordudur.
+• Siber ordu mensubu tüm askerler hem saldırı hem de
+koruma yöntemlerini çok iyi bilmek zorundadırlar .
+• İki tür siber ordu bulunmaktadır:
+– Devlet eliyle yetiştirilen resmi birimler
+– Gönüllü fakat resmi ayağı olmayan birimler
+
+Dünyadaki Siber Ordular
+• İlk siber ordu Amerika Birleşik Devletleri
+tarafından gizli olarak kurulmuştur.
+• Bu konuda en önemli yatırımlardan biri
+K.Kore’dir.
+• Türkiye’de henüz “bilinen” düzenli bir siber
+ordu yoktur.
+• Bazı ülkelerde “gönüllü”, siber ordular
+bulunmaktadır.
+• 2010 yılında birçok ülke siber ordu konusunu
+gündemine almıştır.
+
+Siber Savaş
+• Bilişim sistemleri kullanılarak gerçekleştirilen ve
+amacı bir şirkete, bir ülkeye veya bir gruba yönelik
+maddi, manevi zararlar verme olan faaliyetler.
+• 2010 Türkiye örneği:
+– Yotube yasağını protesto eden bir grup Hacker
+Çeşitli bakanlık sitelerine yönelik DDoS saldırıları
+gerçekleştirdi.
+
+Siber Savaş Bileşenleri
+• Fiziksel & sosyal bileşenler
+– Hacker grupları
+– “Gönüllü zombi” orduları
+– Hükümetler ve askeri kurumlar
+– İstihbarat servisleri
+• Offensive & Defensive güvenlik yazılımları
+– Nmap, Metasploit, Nessus, Snort, Packet Filter, özel amaçla
+geliştirilmiş yazılımlar
+• Amaç & yöntem
+– İnternet erişimi durdurma(availability)
+– Bilgi sızdırma, ajan programlar yükleme
+
+
+SCADA
+• SCADA= Supervisory Control and Data Acquisition
+• Bir tesise veya işletmeye ait tüm ekipmanların
+kontrolünden üretim planlamasına, çevre kontrol
+ünitelerinden yardımcı işletmelere kadar tüm
+birimlerin otomatik kontrolü ve gözlenmesi
+sağlanabilir.
+• Anlık olay ve alarmları saklayarak gecmiste meydana
+gelen olaylarıda tekrar gunun tarihinde ve saatinde
+gözlemleyebilmemizide saglayan genis kapsamlı
+mükemmel bir sistemdir.
+
+
+Cyber terrorism
+• Siber terörizm kavramı üzerinde genellikle iki
+şekilde durulmaktadır:
+– Terör örgütlerinin bilişim sistemlerini araç olarak
+kullanıp saldırı yapması
+– Herhangi bir kişi/grubun gerçekleştireceği siber
+atak
+• Özellikle hedefin SCADA sistemler olması
+durumunda siber teröre karşı mücadele
+timlerinin bulunması şart olacaktır.
+
+
+Cyber spying
+• Çeşitli hacking yöntemleri kullanılarak hedef
+şirket/kurum/devletten bilgi sızdırmak
+– Özellikle istihbarat teşkilatlarının sık başvurduğu
+yöntemlerden biridir.
+– İstihbarat teşkilatları güvenlik sistemlerine
+yakalanmayacak malware, virüs geliştirme
+konusunda ciddi yatırımlar gerçekleştirmektedir.
+– Bunun en iyi örneği İran’da yaşanan Stuxnet adı
+verilen ve doğrudan SCADA sistemlere yönelik
+aksiyon alan kötücül yazılımdır.
+
+
+Penetration Test
+• Sistemlerin güvenliğini test ettirmek amacıyla
+gerçekleştirilen ve hackerların kullandıkları
+yöntemleri kullanan beyaz şapkalıların gözüyle
+sistem açıklıklarının aranması
+– Whitebox pentest
+– Blackbox pentest
+Olmak üzere temelde ikiye ayrılır. Ciddi teknik altyapı
+gerektiren bir prosestir.
+
+
+CTF -Capture The Flag
+• Bilgi güvenliği uzmanlarının offensive security
+konuları hakkında bilgi sahibi olmaları ve pratik
+yapmaları için geliştirilmiş bir oyun türüdür.
+• Genellikle red team(saldırgan) ve blue team olmak
+üzere ikiye ayrılırlar
+• Red team hedefleri ele geçirmeye, blue team de
+hedefleri savunmaya yönelik çabalar.
+• Ve oyun boyunca her iki taraf da pratik olarak
+bilgilerini kullanma ve test etme şansı yakamış olur.
+
+***KAYNAKÇA
+
+BGA AKADEMİSİ
+
