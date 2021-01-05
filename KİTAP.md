@@ -1099,4 +1099,14 @@ http://volkanaltintas.com/wp-content/uploads/2015/11/Ag_Temelleri14.04.2014.pdf
 
 ***SAĞLICAKLA VE SEVGİYLE KALIN...
 
+***KAYNAKÇALAR
+BİLGİ GÜVENLİĞİ AKADEMİSİ-www.bga.com
+AHMET BİRKAN
+ATIL SAMANCIOĞLU
+HUZEYFE ÖNAL-http://www.lifeoverip.net/
+YRD.DOÇ.DR.HİLMİ KUŞÇU
+MUSA ŞANA-MUSASANA.NET
+
+
+
 
